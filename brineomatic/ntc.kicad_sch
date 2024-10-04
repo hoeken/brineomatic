@@ -800,7 +800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07195044-0c06-4abf-a63b-9f89e7f60172")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 102.87 77.47 0)
 			(effects
 				(font
@@ -816,7 +816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
 			(at 102.87 83.82 0)
 			(effects
 				(font
@@ -852,7 +852,7 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a25af3cd-6e30-4758-861f-193b34fc4628"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -955,7 +955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fc4c9ff-b7f8-46bc-8e58-1d9742bcc939")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 118.11 113.03 0)
 			(effects
 				(font
@@ -1005,7 +1005,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a25af3cd-6e30-4758-861f-193b34fc4628"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -1021,7 +1021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c6a7c35-c41e-4652-a016-caae82fa3040")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 118.11 80.01 90)
 			(effects
 				(font
@@ -1082,7 +1082,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a25af3cd-6e30-4758-861f-193b34fc4628"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1098,7 +1098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca5b739-7551-4919-a21a-3222194261d3")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 114.3 93.98 0)
 			(effects
 				(font
@@ -1161,7 +1161,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a25af3cd-6e30-4758-861f-193b34fc4628"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1177,7 +1177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d91fbaf2-ad31-4e65-9fc3-b8dbb8e6fb7e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -1227,7 +1227,7 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a25af3cd-6e30-4758-861f-193b34fc4628"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

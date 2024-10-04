@@ -1249,7 +1249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123b2f16-a033-4a31-9d25-090c6a773992")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR010"
 			(at 105.41 120.65 0)
 			(effects
 				(font
@@ -1299,7 +1299,7 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "#PWR04")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -1315,7 +1315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34fd80b6-9074-4189-9adc-10d193db9951")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 105.41 97.79 0)
 			(effects
 				(font
@@ -1365,7 +1365,7 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1380,7 +1380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "498170f5-53ce-4b08-9bd1-69b0d5326616")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 135.89 99.06 90)
 			(effects
 				(font
@@ -1396,7 +1396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.89 104.14 0)
 			(effects
 				(font
@@ -1432,7 +1432,7 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1449,7 +1449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b9639ec-5645-47ae-b3bd-d8b743af6915")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 100.33 95.25 0)
 			(effects
 				(font
@@ -1466,7 +1466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
 			(at 100.33 104.14 0)
 			(effects
 				(font
@@ -1505,7 +1505,7 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1605,7 +1605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce592b42-799b-48b5-aaac-62864a737198")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 125.73 99.0599 0)
 			(effects
 				(font
@@ -1623,7 +1623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -1659,7 +1659,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1693,7 +1693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -1745,7 +1745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8758b22-7797-4824-84ee-167340d6c84d")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 125.73 106.6799 0)
 			(effects
 				(font
@@ -1763,7 +1763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 123.19 107.95 0)
 			(effects
 				(font
@@ -1799,7 +1799,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)

@@ -1295,7 +1295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a7cf649-8a93-4b83-8bf4-78e4a78bb78f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR023"
 			(at 113.03 124.46 0)
 			(effects
 				(font
@@ -1345,7 +1345,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/18169ffc-cda7-4dc7-9b81-ddd03f1eea23"
-					(reference "#PWR017")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1361,7 +1361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4439c007-ebc2-4ec8-8d6c-9cdea4277ac9")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 162.56 99.8981 0)
 			(effects
 				(font
@@ -1379,7 +1379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -1424,7 +1424,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/18169ffc-cda7-4dc7-9b81-ddd03f1eea23"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1439,7 +1439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "725fb00f-340a-4835-b410-a95bd7931e4e")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 149.86 100.3363 0)
 			(effects
 				(font
@@ -1511,7 +1511,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/18169ffc-cda7-4dc7-9b81-ddd03f1eea23"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1545,7 +1545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -1597,7 +1597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd21a298-963c-47c0-8d98-cca4bad9490c")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR022"
 			(at 113.03 87.63 0)
 			(effects
 				(font
@@ -1647,7 +1647,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/18169ffc-cda7-4dc7-9b81-ddd03f1eea23"
-					(reference "#PWR016")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1663,7 +1663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f421ee34-e559-40f5-b174-6bcce37b0d0e")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 128.27 107.9499 0)
 			(effects
 				(font
@@ -1726,7 +1726,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/18169ffc-cda7-4dc7-9b81-ddd03f1eea23"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1742,7 +1742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdc2362b-d80f-4232-966c-a5039904c648")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 115.2241 90.17 0)
 			(effects
 				(font
@@ -1817,7 +1817,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/18169ffc-cda7-4dc7-9b81-ddd03f1eea23"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)

@@ -446,7 +446,7 @@
 				)
 			)
 		)
-		(symbol "Diode:1N5403"
+		(symbol "Diode:MRA4004T3G"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -460,7 +460,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5403"
+			(property "Value" "MRA4004T3G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -468,7 +468,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -477,7 +477,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -486,7 +486,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "300V 3A General Purpose Rectifier Diode, DO-201AD"
+			(property "Description" "400V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -522,7 +522,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?201AD*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -531,7 +531,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5403_0_1"
+			(symbol "MRA4004T3G_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -569,7 +569,7 @@
 					)
 				)
 			)
-			(symbol "1N5403_1_1"
+			(symbol "MRA4004T3G_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1386,7 +1386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 138.43 73.66 0)
 			(effects
 				(font
@@ -1438,7 +1438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "190d9503-27c2-4b92-9edf-1160b5626efc")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 137.16 88.8999 0)
 			(effects
 				(font
@@ -1498,7 +1498,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a6757b0e-40d8-4e82-b032-ca35afe1b5b3"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1514,7 +1514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "730eb10f-8c50-4901-b40e-c41bf55123b0")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 110.49 83.82 90)
 			(effects
 				(font
@@ -1575,7 +1575,113 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a6757b0e-40d8-4e82-b032-ca35afe1b5b3"
-					(reference "R18")
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MRA4004T3G")
+		(at 120.65 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "943aaaf3-e4dc-4e09-ace4-32007a3bae22")
+		(property "Reference" "D11"
+			(at 123.19 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS54"
+			(at 123.19 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 116.205 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22452"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "753e9429-93a6-4570-aca0-7f4b9b2c4a42")
+		)
+		(pin "2"
+			(uuid "03b81aa1-ac05-4593-a45b-8465750fa799")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a6757b0e-40d8-4e82-b032-ca35afe1b5b3"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -1591,7 +1697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a587241d-a242-4601-b453-e59caabcf6a5")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR028"
 			(at 133.35 115.57 0)
 			(effects
 				(font
@@ -1641,7 +1747,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a6757b0e-40d8-4e82-b032-ca35afe1b5b3"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1675,7 +1781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -1727,7 +1833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d160b25a-51cd-4da3-aa67-d414cc27db5c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR027"
 			(at 133.35 69.85 0)
 			(effects
 				(font
@@ -1777,7 +1883,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a6757b0e-40d8-4e82-b032-ca35afe1b5b3"
-					(reference "#PWR010")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1793,7 +1899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d948c2cf-29c5-4d38-8533-cf3e8449ca6a")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 119.38 97.7899 0)
 			(effects
 				(font
@@ -1856,7 +1962,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a6757b0e-40d8-4e82-b032-ca35afe1b5b3"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1872,7 +1978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb8af00f-70ce-4629-a7b3-b65c2f6026f4")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 106.68 93.9799 0)
 			(effects
 				(font
@@ -1935,95 +2041,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a6757b0e-40d8-4e82-b032-ca35afe1b5b3"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5403")
-		(at 120.65 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f83dc91c-9d8f-4ab0-a77f-d1f0a9d46930")
-		(property "Reference" "D11"
-			(at 123.19 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5403"
-			(at 123.19 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 116.205 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 120.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 120.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 120.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9fea2ab1-98fa-4b6a-b9ff-d8d03e40ffad")
-		)
-		(pin "1"
-			(uuid "60a79fed-6466-462f-a12b-34cecd16c8c2")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/a6757b0e-40d8-4e82-b032-ca35afe1b5b3"
-					(reference "D11")
+					(reference "R19")
 					(unit 1)
 				)
 			)

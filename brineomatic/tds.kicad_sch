@@ -1182,7 +1182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2febe458-8ff9-449d-ae05-3d387ad9bed7")
-		(property "Reference" "J15"
+		(property "Reference" "J14"
 			(at 92.71 76.2 0)
 			(effects
 				(font
@@ -1198,7 +1198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
 			(at 92.71 85.09 0)
 			(effects
 				(font
@@ -1237,7 +1237,7 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4dde40bf-0b86-4621-acd9-eb6c6b71c357"
-					(reference "J15")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1253,7 +1253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1cfe48-fc92-4c94-acdc-ddb716b1dcd7")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR041"
 			(at 101.6 77.47 0)
 			(effects
 				(font
@@ -1303,7 +1303,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4dde40bf-0b86-4621-acd9-eb6c6b71c357"
-					(reference "#PWR044")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1319,7 +1319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1b1c08b-578d-4a81-b2ea-b3b22b0ba77d")
-		(property "Reference" "R38"
+		(property "Reference" "R35"
 			(at 124.46 78.74 90)
 			(effects
 				(font
@@ -1380,7 +1380,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4dde40bf-0b86-4621-acd9-eb6c6b71c357"
-					(reference "R38")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1396,7 +1396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f85463-7700-4e77-8aae-dceb2f1df2f5")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 101.6 104.14 0)
 			(effects
 				(font
@@ -1446,7 +1446,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4dde40bf-0b86-4621-acd9-eb6c6b71c357"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
