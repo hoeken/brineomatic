@@ -527,11 +527,53 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor",
+          "name": "Vendor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -581,15 +623,15 @@
     ],
     [
       "e7fd98b0-0753-4e9e-b57d-135c0c1a0b39",
-      "Pressure Sensor"
+      "High Pressure Sensor"
     ],
     [
       "afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b",
-      "Pulse Counter"
+      "Flowmeter"
     ],
     [
       "7dc38cc9-02c6-4108-8c2f-d0f758210cae",
-      "DS18B20"
+      "Temperature - DS18B20"
     ],
     [
       "a25af3cd-6e30-4758-861f-193b34fc4628",
@@ -597,11 +639,11 @@
     ],
     [
       "0442c100-f200-44e3-9806-ad19ad5a87d8",
-      "Servo Driver"
+      "Servo 1"
     ],
     [
       "91db2587-0f96-4292-982e-c9eb44a28398",
-      "Solenoid Driver"
+      "Solenoid Driver 1"
     ],
     [
       "64f85b9c-b5dc-4ec9-9075-ce977ed1cba6",
@@ -618,6 +660,30 @@
     [
       "a6757b0e-40d8-4e82-b032-ca35afe1b5b3",
       "Lift Pump Driver"
+    ],
+    [
+      "c855463c-7233-4758-aee4-aa81e2b08bc2",
+      "Solenoid Driver 2"
+    ],
+    [
+      "427089b2-03f8-442f-beb9-df87f2c31083",
+      "Solenoid Driver 3"
+    ],
+    [
+      "dbb171ac-9e75-41dd-9596-6fac72a797a4",
+      "Solenoid Driver 4"
+    ],
+    [
+      "c8ab4709-9ad5-4833-bb93-07e00d6a0170",
+      "Low Pressure Sensor"
+    ],
+    [
+      "5d080cc9-583a-4e08-83cf-e44eaa703d11",
+      "Servo 2"
+    ],
+    [
+      "4dde40bf-0b86-4621-acd9-eb6c6b71c357",
+      "TDS Sensor"
     ]
   ],
   "text_variables": {}

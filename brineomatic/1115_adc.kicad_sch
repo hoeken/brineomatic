@@ -5,7 +5,7 @@
 	(uuid "6535ab81-0c15-428e-af25-433576caab15")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Analog_ADC:ADS1015IDGS"
+		(symbol "Analog_ADC:ADS1115IDGS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" "ADS1015IDGS"
+			(property "Value" "ADS1115IDGS"
 				(at 7.62 11.43 0)
 				(effects
 					(font
@@ -34,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
 				(at -1.27 -22.86 0)
 				(effects
 					(font
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "12 bit 4 channel I2C ADC"
+			(property "ki_keywords" "16 bit 4 channel I2C ADC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ADS1015IDGS_0_1"
+			(symbol "ADS1115IDGS_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 7.62 -7.62)
@@ -83,7 +83,7 @@
 					)
 				)
 			)
-			(symbol "ADS1015IDGS_1_1"
+			(symbol "ADS1115IDGS_1_1"
 				(pin input line
 					(at 10.16 -5.08 180)
 					(length 2.54)
@@ -654,7 +654,7 @@
 				)
 			)
 		)
-		(symbol "power:GNDA"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -671,7 +671,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GNDA"
+			(property "Value" "GND"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -697,7 +697,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -715,7 +715,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GNDA_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -729,7 +729,7 @@
 					)
 				)
 			)
-			(symbol "GNDA_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -752,19 +752,25 @@
 		)
 	)
 	(junction
+		(at 165.1 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fc032fe-3ca4-45bf-8664-12e1b9d21f66")
+	)
+	(junction
 		(at 146.05 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42b48047-611a-409c-b484-bf4169fd5609")
 	)
 	(junction
-		(at 156.21 67.31)
+		(at 181.61 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52a9e0e7-ecb6-4320-8507-34303a753044")
 	)
 	(junction
-		(at 156.21 97.79)
+		(at 181.61 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e151dc-5da7-4456-a2be-0fe9301a1cc3")
@@ -776,14 +782,32 @@
 		(uuid "81ba838e-cdbf-4f45-b394-2b6aa8e8399b")
 	)
 	(junction
+		(at 154.94 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3d7548b-852a-4798-8d29-e0b7744b4c31")
+	)
+	(junction
 		(at 127 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad9aaebd-63ed-4b31-9db6-5067c240a079")
 	)
+	(junction
+		(at 165.1 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb563980-fb55-482c-a640-972b2a0eee8d")
+	)
+	(junction
+		(at 154.94 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc3de653-c544-43f9-a033-882061b42011")
+	)
 	(wire
 		(pts
-			(xy 172.72 97.79) (xy 156.21 97.79)
+			(xy 193.04 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -793,7 +817,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 83.82) (xy 172.72 97.79)
+			(xy 193.04 83.82) (xy 193.04 97.79)
 		)
 		(stroke
 			(width 0)
@@ -803,7 +827,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 67.31) (xy 172.72 78.74)
+			(xy 193.04 67.31) (xy 193.04 78.74)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +847,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 67.31) (xy 156.21 67.31)
+			(xy 146.05 67.31) (xy 154.94 67.31)
 		)
 		(stroke
 			(width 0)
@@ -853,13 +877,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 83.82) (xy 156.21 97.79)
+			(xy 181.61 83.82) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "945a9c89-da05-4628-b4fd-9bc80ce523fb")
+	)
+	(wire
+		(pts
+			(xy 154.94 83.82) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bb9f72-5cd8-4e08-bc74-aa1e08c43cbe")
 	)
 	(wire
 		(pts
@@ -883,7 +917,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 172.72 67.31)
+			(xy 154.94 86.36) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad57e347-2ffb-4130-87df-1900875f23dc")
+	)
+	(wire
+		(pts
+			(xy 181.61 67.31) (xy 193.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -893,7 +937,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 156.21 78.74)
+			(xy 181.61 67.31) (xy 181.61 78.74)
 		)
 		(stroke
 			(width 0)
@@ -933,13 +977,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 140.97 88.9)
+			(xy 137.16 88.9) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7e8be99-67a8-4e2b-8697-398d2a76dc52")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9801feb-aaae-4c55-8e3a-6d7d8ae9eabe")
 	)
 	(wire
 		(pts
@@ -953,7 +1007,37 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 127 97.79)
+			(xy 165.1 67.31) (xy 181.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbca33bb-35af-4fac-90ff-43ef5a862f68")
+	)
+	(wire
+		(pts
+			(xy 154.94 67.31) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda2d851-3d58-4b88-b7f0-a65887f9602e")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44061bb-504f-4994-99d8-39097d2afb01")
+	)
+	(wire
+		(pts
+			(xy 181.61 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 140.97 86.36)
+			(xy 137.16 86.36) (xy 154.94 86.36)
 		)
 		(stroke
 			(width 0)
@@ -980,6 +1064,16 @@
 			(type default)
 		)
 		(uuid "dfc0d260-bc40-4042-832a-bc9addb50e5c")
+	)
+	(wire
+		(pts
+			(xy 154.94 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea75a3f0-0888-4df1-a859-9816c5894db0")
 	)
 	(wire
 		(pts
@@ -1003,6 +1097,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 67.31) (xy 165.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87e59d7-b036-47f0-a61c-7a5906f25bbb")
+	)
+	(wire
+		(pts
 			(xy 137.16 81.28) (xy 146.05 81.28)
 		)
 		(stroke
@@ -1013,7 +1117,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 140.97 86.36 0)
+		(at 171.45 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1023,7 +1127,7 @@
 		)
 		(uuid "4cbf8460-4236-44ac-8cc3-7cc9f6b3a48f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4628 86.36 0)
+			(at 177.9428 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1139,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 140.97 88.9 0)
+		(at 171.45 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1045,7 +1149,7 @@
 		)
 		(uuid "85ff2dec-1f8e-4b6b-9920-2cdacda44609")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.5233 88.9 0)
+			(at 178.0033 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1221,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.21 81.28 0)
+		(at 181.61 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1125,7 +1229,7 @@
 		(dnp no)
 		(uuid "14955c95-1345-46ab-a5c0-3a66c0d7a045")
 		(property "Reference" "C4"
-			(at 158.75 80.0163 0)
+			(at 184.15 80.0163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1238,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 158.75 82.5563 0)
+			(at 184.15 82.5563 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1247,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 156.21 81.28 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +1256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 81.28 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,7 +1265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 81.28 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1274,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 156.21 81.28 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1283,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 156.21 81.28 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1308,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 172.72 81.28 0)
+		(at 193.04 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1212,7 +1316,7 @@
 		(dnp no)
 		(uuid "1fce07c1-b3c6-4013-8509-b9d2e975aef0")
 		(property "Reference" "C5"
-			(at 175.26 80.0163 0)
+			(at 195.58 80.0163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1325,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 175.26 82.5563 0)
+			(at 195.58 82.5563 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1334,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 172.72 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1361,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 172.72 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1370,7 @@
 			)
 		)
 		(property "LCSC" "C1952580"
-			(at 172.72 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,118 +1388,6 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_ADC:ADS1015IDGS")
-		(at 127 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d090be6-b5ea-4e28-95b9-7e225cbe1641")
-		(property "Reference" "U1"
-			(at 129.1941 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS1015IDGS"
-			(at 129.1941 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 127 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
-			(at 125.73 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C193969"
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" " 595-ADS1015IDGSR "
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afe0ad24-ca84-439c-98f5-7febd1c4bf1d")
-		)
-		(pin "4"
-			(uuid "5c81cdf9-5c8e-4898-8fa3-2877353a307a")
-		)
-		(pin "5"
-			(uuid "261024ee-c6f5-4e13-b065-e80fa3f6826a")
-		)
-		(pin "7"
-			(uuid "a87b4841-f9cf-4d1a-8527-98cea439fcb4")
-		)
-		(pin "8"
-			(uuid "272294b3-9712-430b-b5c1-453513022c1e")
-		)
-		(pin "2"
-			(uuid "25716aea-0a56-4cf2-8009-cdf7b88544b2")
-		)
-		(pin "10"
-			(uuid "2d0080ad-0558-4ef6-979f-59efc9018184")
-		)
-		(pin "6"
-			(uuid "0145440e-db34-4172-9e48-94a3704402a4")
-		)
-		(pin "3"
-			(uuid "7338571c-9756-4b4e-bd09-d035f9d24892")
-		)
-		(pin "9"
-			(uuid "f1e59bd6-7fad-42af-8196-1ef52f0f7841")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1547,14 +1539,197 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
+		(lib_id "Device:R_Small_US")
+		(at 154.94 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a296fde-327b-4ff2-9b1f-2b5fc851d40c")
+		(property "Reference" "R20"
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114561"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a885b301-b28a-44aa-a8dc-8aadb6fb1678")
+		)
+		(pin "2"
+			(uuid "2084ccdd-14b7-4e08-ba96-48c2d348bd4a")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1115IDGS")
+		(at 127 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6f02e01-3467-482d-b186-941e831aedf9")
+		(property "Reference" "U6"
+			(at 129.1941 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1115IDGS"
+			(at 129.1941 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C37593"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "938c6055-066b-438b-9422-56dee6e7e9b0")
+		)
+		(pin "10"
+			(uuid "678e0d25-b7cc-46a8-ad34-5a08492ad6be")
+		)
+		(pin "4"
+			(uuid "fc4b1dc1-ea15-4d63-9b02-58cb62dc95ec")
+		)
+		(pin "2"
+			(uuid "7d640a14-1ff9-4c66-b7d0-8562996f12c3")
+		)
+		(pin "3"
+			(uuid "ffc4b3cb-6dbe-4bdc-a7eb-6a3766645eaf")
+		)
+		(pin "7"
+			(uuid "68791257-99b0-49ce-9e16-7ea687150850")
+		)
+		(pin "1"
+			(uuid "c4ce2f3a-fe39-40c1-97d8-5572de6f3408")
+		)
+		(pin "5"
+			(uuid "c6f69be9-2588-444a-9779-bd94049048ee")
+		)
+		(pin "6"
+			(uuid "5692590f-1092-471d-b496-e47767dda80c")
+		)
+		(pin "8"
+			(uuid "1b9dc0bb-df72-414c-a28b-ea682a41008c")
+		)
+		(instances
+			(project ""
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 127 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a30bf54e-b4d5-480d-87b7-7059d1054669")
+		(fields_autoplaced yes)
+		(uuid "cf0830da-6f24-4bb3-9440-955ab7d35d2a")
 		(property "Reference" "#PWR015"
 			(at 127 105.41 0)
 			(effects
@@ -1564,8 +1739,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 127 102.87 0)
+		(property "Value" "GND"
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -1600,12 +1775,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "19bee029-fac7-4fbb-8896-aa028d97ced1")
+			(uuid "9347a44d-92c7-44c9-8176-7ef5a99d3418")
+		)
+		(instances
+			(project ""
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 165.1 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb6b47d1-1be3-46a8-815f-f32b95425e3d")
+		(property "Reference" "R21"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114561"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "107fe6e3-cb3b-44c7-851a-253158dcfe53")
+		)
+		(pin "2"
+			(uuid "0b92ea1d-01ae-491b-8745-edd2bb0cd6c0")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
-					(reference "#PWR015")
+					(reference "R21")
 					(unit 1)
 				)
 			)
