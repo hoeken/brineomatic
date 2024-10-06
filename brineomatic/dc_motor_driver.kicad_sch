@@ -1261,6 +1261,25 @@
 		)
 		(uuid "e40ad3a2-596f-4d5e-835b-c815dbdd9606")
 	)
+	(text_box "24v / 2A required"
+		(exclude_from_sim no)
+		(at 119.38 82.55 0)
+		(size 20.32 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f861cf66-0e3a-43ba-849c-038929cc5d63")
+	)
 	(hierarchical_label "IN2"
 		(shape input)
 		(at 99.06 100.33 180)
@@ -1340,7 +1359,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d4bd157-e25f-4bbd-8bce-0002fa50469e")
+			(uuid "808d00e8-4b76-4d75-940b-e3cc90c73314")
 		)
 		(instances
 			(project "brineomatic"
@@ -1370,7 +1389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF / 63v"
+		(property "Value" "22uF / 50v"
 			(at 162.56 102.4381 0)
 			(effects
 				(font
@@ -1379,7 +1398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -1406,7 +1425,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C267472"
+		(property "LCSC" "C72505"
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -1416,10 +1435,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4556a96-7dd5-4f0d-b03f-007e15e0863a")
+			(uuid "88097866-5ff0-4635-8614-584bd9318f8f")
 		)
 		(pin "2"
-			(uuid "4cb377e4-fcad-46dd-96e9-d0a75ccce5ae")
+			(uuid "047908bc-2273-4706-b770-7cee06ffd79f")
 		)
 		(instances
 			(project "brineomatic"
@@ -1503,10 +1522,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c771c5e-7af8-4d84-91df-bdc1e46d9dab")
+			(uuid "f5009866-17cb-40e1-a479-4dbeef8b7d4a")
 		)
 		(pin "2"
-			(uuid "5f9f26ad-745d-4704-b114-44aa1e94e5f9")
+			(uuid "4fffeebe-89ef-4e6f-99b8-d9fa00d5dcd4")
 		)
 		(instances
 			(project "brineomatic"
@@ -1545,7 +1564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -1573,10 +1592,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c66eb1f9-051e-4ead-abd2-a83ade4ab6d1")
+			(uuid "7ac2f1a9-d088-48ea-a22d-85fba1300d6f")
 		)
 		(pin "2"
-			(uuid "ad816169-1781-4b15-ae64-4d3563f379af")
+			(uuid "d95cf479-559f-435f-9218-ff2bfa7da1f8")
 		)
 		(instances
 			(project "brineomatic"
@@ -1642,7 +1661,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7249a61-c58c-458e-a7c8-a6c23cc0d4e4")
+			(uuid "7a703a48-223e-4c2f-a33e-d8e512163e73")
 		)
 		(instances
 			(project "brineomatic"
@@ -1718,10 +1737,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a28304a-6cd1-42a0-b7ac-1c490b97960f")
+			(uuid "5fb88aab-acd3-450c-be1d-6ff7de1e9bd6")
 		)
 		(pin "2"
-			(uuid "b53acea4-9787-42f7-a083-3969e6c1559b")
+			(uuid "0a24e0c6-d35d-4d50-9b58-5d2e63e99063")
 		)
 		(instances
 			(project "brineomatic"
@@ -1788,31 +1807,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "dcf5415b-5fbc-464f-8497-92bf0b627c32")
+			(uuid "6d6216f5-6797-40d7-8831-477c037eb04c")
 		)
 		(pin "1"
-			(uuid "7cb4d889-22de-4ca0-9230-c97725ef8241")
+			(uuid "b712153d-8c84-441f-9819-f2d4cc926a1d")
 		)
 		(pin "3"
-			(uuid "201eb414-e68d-4ce3-b7f9-974074fe5de1")
+			(uuid "f27b3db9-0336-471b-a9fc-b51945bcecf5")
 		)
 		(pin "4"
-			(uuid "a7becd0c-abb1-4033-b275-33f3de8fcc5d")
+			(uuid "7f038ea9-5998-4031-af7c-b8a495c17706")
 		)
 		(pin "5"
-			(uuid "6cf8e5c6-0ca6-4e22-a0cf-b6f436a0dc96")
+			(uuid "bff42810-3b3a-4094-b9c8-7de487a6eb7d")
 		)
 		(pin "6"
-			(uuid "1bcad734-0a26-4f25-bc2d-742e9833ed77")
+			(uuid "26129a4c-1e89-4819-89b5-92cba802cac0")
 		)
 		(pin "9"
-			(uuid "706ee6c8-51a9-4cd4-a9f8-bb63eb64bd52")
+			(uuid "2cb667cf-548e-4541-b04b-89f75ba6ca23")
 		)
 		(pin "7"
-			(uuid "eed95879-e2e1-4d83-83fe-e402f3105c6b")
+			(uuid "7174da45-34c4-4eb6-89d6-8bb8e72a3000")
 		)
 		(pin "8"
-			(uuid "7bfaef17-0476-46d6-bf2b-c9180e5beef3")
+			(uuid "8a7db057-d3d0-4b5a-a2bc-9ec425cc2836")
 		)
 		(instances
 			(project "brineomatic"

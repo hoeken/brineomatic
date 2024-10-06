@@ -1346,6 +1346,25 @@
 		)
 		(uuid "fd2e9629-5971-40c9-827e-ee1b79fe6c5a")
 	)
+	(text_box "24v / 8A Max"
+		(exclude_from_sim no)
+		(at 152.4 72.39 0)
+		(size 17.78 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c1ed324d-2309-4797-9bab-219e8a5f26a5")
+	)
 	(hierarchical_label "INPUT"
 		(shape input)
 		(at 97.79 90.17 180)
@@ -1377,7 +1396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Solenoid"
+		(property "Value" "PUMP"
 			(at 140.97 76.1999 0)
 			(effects
 				(font
@@ -1386,7 +1405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
 			(at 138.43 73.66 0)
 			(effects
 				(font
@@ -1405,6 +1424,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5188295 and C5188249"
 			(at 138.43 73.66 0)
 			(effects
 				(font

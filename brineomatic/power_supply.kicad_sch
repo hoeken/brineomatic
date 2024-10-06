@@ -2756,6 +2756,25 @@
 		)
 		(uuid 2a806adc-69e7-4fd0-81c8-b722109b9f7b)
 	)
+	(text_box "24v / 20A required"
+		(exclude_from_sim no)
+		(at 24.13 64.77 0)
+		(size 22.86 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "91ca2d06-93a2-460b-a767-a1a9d8130604")
+	)
 	(text "DC/DC Converter to 5V"
 		(exclude_from_sim no)
 		(at 21.336 19.558 0)
@@ -4307,7 +4326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal"
 			(at 25.4 55.88 0)
 			(effects
 				(font
@@ -4326,6 +4345,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3697 and C71370"
 			(at 25.4 55.88 0)
 			(effects
 				(font
