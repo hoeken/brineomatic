@@ -2089,7 +2089,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C75864"
+		(property "LCSC" ""
+			(at 113.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 595-DRV8871DDAR "
 			(at 113.03 100.33 0)
 			(effects
 				(font

@@ -3353,7 +3353,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C41364882"
+		(property "LCSC" "C2902368"
 			(at 177.8 46.99 0)
 			(effects
 				(font
@@ -4521,7 +4521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
 			(at 25.4 55.88 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2991173"
+		(property "LCSC" "C437557"
 			(at 138.43 48.26 0)
 			(effects
 				(font

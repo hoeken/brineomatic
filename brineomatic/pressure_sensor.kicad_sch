@@ -1202,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 87.63) (xy 130.81 95.25)
+			(xy 130.81 87.63) (xy 130.81 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1212,7 +1212,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 87.63) (xy 96.52 90.17)
+			(xy 96.52 87.63) (xy 96.52 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1222,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 100.33) (xy 130.81 102.87)
+			(xy 130.81 97.79) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1252,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 95.25) (xy 96.52 102.87)
+			(xy 96.52 97.79) (xy 96.52 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1735,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 96.52 92.71 180)
+		(at 96.52 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1744,15 +1744,6 @@
 		(fields_autoplaced yes)
 		(uuid "e166ac2e-2050-4528-aefa-516aa3547b6e")
 		(property "Reference" "R31"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "165 0.1%"
 			(at 99.06 93.98 0)
 			(effects
 				(font
@@ -1761,8 +1752,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "165 0.1%"
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 96.52 92.71 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +1771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 92.71 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 92.71 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1789,7 @@
 			)
 		)
 		(property "LCSC" "C870446"
-			(at 96.52 92.71 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1818,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 130.81 97.79 0)
+		(at 130.81 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1826,7 +1826,7 @@
 		(dnp no)
 		(uuid "e7297a3a-8451-4635-84c9-6864c038d3e8")
 		(property "Reference" "C17"
-			(at 133.35 96.5263 0)
+			(at 133.35 93.9863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1835,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 133.35 99.0663 0)
+			(at 133.35 96.5263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1844,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 130.81 97.79 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 97.79 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1862,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 97.79 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1871,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 130.81 97.79 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1880,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 130.81 97.79 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
