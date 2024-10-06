@@ -1589,7 +1589,7 @@
 				)
 			)
 		)
-		(property "Value" "PRESSURE"
+		(property "Value" "~"
 			(at 87.63 81.28 0)
 			(effects
 				(font
@@ -1616,6 +1616,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C173752"
 			(at 87.63 85.09 0)
 			(effects
 				(font

@@ -5,6 +5,193 @@
 	(uuid "6fc6243c-2348-4759-8842-378839ed36f7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -1044,7 +1231,7 @@
 		(uuid "3d200aa1-7790-4abe-8424-a71ac1b2a53d")
 	)
 	(junction
-		(at 147.32 114.3)
+		(at 165.1 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d99261d-38dc-47ca-a375-31473bb508ac")
@@ -1056,10 +1243,18 @@
 		(uuid "9c45d4e8-f566-436b-a7f0-4834d6a77f6d")
 	)
 	(junction
-		(at 147.32 88.9)
+		(at 165.1 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6962ba8-a1fc-4ad7-9e87-f9274f3dcb2f")
+	)
+	(no_connect
+		(at 142.24 100.33)
+		(uuid "1094ff34-9f3e-4688-8070-6017cfaec776")
+	)
+	(no_connect
+		(at 142.24 97.79)
+		(uuid "5841c355-863c-48d3-bf8b-7f519118c55c")
 	)
 	(wire
 		(pts
@@ -1073,7 +1268,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 114.3) (xy 147.32 114.3)
+			(xy 125.73 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 160.02 114.3)
+			(xy 177.8 104.14) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1288,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 160.02 99.06)
+			(xy 177.8 88.9) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 114.3) (xy 147.32 114.3)
+			(xy 177.8 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1318,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 147.32 88.9)
+			(xy 113.03 88.9) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 160.02 88.9)
+			(xy 165.1 88.9) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 114.3) (xy 147.32 104.14)
+			(xy 165.1 114.3) (xy 165.1 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 147.32 99.06)
+			(xy 165.1 88.9) (xy 165.1 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1372,7 +1567,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 160.02 101.6 0)
+		(at 177.8 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1381,7 +1576,7 @@
 		(fields_autoplaced yes)
 		(uuid "4439c007-ebc2-4ec8-8d6c-9cdea4277ac9")
 		(property "Reference" "C10"
-			(at 162.56 99.8981 0)
+			(at 180.34 99.8981 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1585,7 @@
 			)
 		)
 		(property "Value" "22uF / 50v"
-			(at 162.56 102.4381 0)
+			(at 180.34 102.4381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1594,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
-			(at 160.02 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1612,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 160.02 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1621,7 @@
 			)
 		)
 		(property "LCSC" "C72505"
-			(at 160.02 101.6 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1646,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 147.32 101.6 0)
+		(at 165.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1459,7 +1654,7 @@
 		(dnp no)
 		(uuid "725fb00f-340a-4835-b410-a95bd7931e4e")
 		(property "Reference" "C9"
-			(at 149.86 100.3363 0)
+			(at 167.64 100.3363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1663,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 149.86 102.8763 0)
+			(at 167.64 102.8763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1672,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 147.32 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1699,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 147.32 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1708,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 147.32 101.6 0)
+			(at 165.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOTOR"
+		(property "Value" "3.5MM"
 			(at 134.62 100.3299 0)
 			(effects
 				(font
@@ -1591,6 +1786,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5188295"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ac2f1a9-d088-48ea-a22d-85fba1300d6f")
 		)
@@ -1601,6 +1805,85 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/18169ffc-cda7-4dc7-9b81-ddd03f1eea23"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 147.32 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c59ed381-8c91-4368-8de6-a0cda44f1f2f")
+		(property "Reference" "J18"
+			(at 149.86 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.5MM"
+			(at 149.86 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5188249"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2e3bc89-8c13-48c0-aa98-bc70f82f35a0")
+		)
+		(pin "1"
+			(uuid "723bdd6a-1456-40ee-8de4-827730dcd5a0")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/18169ffc-cda7-4dc7-9b81-ddd03f1eea23"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -1691,7 +1974,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "30K"
 			(at 128.27 110.4899 0)
 			(effects
 				(font
@@ -1727,7 +2010,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C126352"
 			(at 125.73 109.22 0)
 			(effects
 				(font
@@ -1798,6 +2081,15 @@
 			)
 		)
 		(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"
+			(at 113.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75864"
 			(at 113.03 100.33 0)
 			(effects
 				(font

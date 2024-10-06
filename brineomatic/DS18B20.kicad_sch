@@ -748,7 +748,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C60816"
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -856,7 +856,7 @@
 				)
 			)
 		)
-		(property "Value" "DS18B20"
+		(property "Value" "~"
 			(at 113.03 90.17 0)
 			(effects
 				(font
@@ -884,6 +884,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 113.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C157929"
 			(at 113.03 96.52 0)
 			(effects
 				(font

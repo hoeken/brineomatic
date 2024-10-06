@@ -1190,7 +1190,7 @@
 				)
 			)
 		)
-		(property "Value" "TDS"
+		(property "Value" "~"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -1217,6 +1217,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C157929"
 			(at 92.71 85.09 0)
 			(effects
 				(font

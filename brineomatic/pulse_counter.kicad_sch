@@ -1388,7 +1388,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "4.7K"
 			(at 135.89 101.6 90)
 			(effects
 				(font
@@ -1415,6 +1415,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60816"
 			(at 135.89 104.14 0)
 			(effects
 				(font
@@ -1457,7 +1466,7 @@
 				)
 			)
 		)
-		(property "Value" "FLOWMETER"
+		(property "Value" "~"
 			(at 100.33 97.79 0)
 			(effects
 				(font
@@ -1493,7 +1502,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7470117"
+		(property "LCSC" "C157929"
 			(at 100.33 104.14 0)
 			(effects
 				(font
@@ -1659,6 +1668,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C114526"
+			(at 123.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e21f441f-d691-4a7f-bb71-7f93cb7985cd")
 		)
@@ -1729,6 +1747,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C107149"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e09ade3f-69d9-45bc-b91a-a6b0f4eb343c")
 		)
@@ -1791,6 +1818,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114561"
 			(at 123.19 107.95 0)
 			(effects
 				(font

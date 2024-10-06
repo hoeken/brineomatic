@@ -808,7 +808,7 @@
 				)
 			)
 		)
-		(property "Value" "THERMISTOR"
+		(property "Value" "~"
 			(at 102.87 80.01 0)
 			(effects
 				(font
@@ -835,6 +835,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C173752"
 			(at 102.87 83.82 0)
 			(effects
 				(font
@@ -1143,7 +1152,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C84376"
 			(at 111.76 95.25 0)
 			(effects
 				(font
