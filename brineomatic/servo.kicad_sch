@@ -1978,6 +1978,25 @@
 		)
 		(uuid "f57bc87f-4f02-49b5-bb21-cbc1dc619bac")
 	)
+	(text_box "Switch to XL4015 or TPS5450DDAR to get 5A output."
+		(exclude_from_sim no)
+		(at 90.17 91.44 0)
+		(size 38.1 16.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "419b69e1-af18-4495-8b8c-fabb01ada806")
+	)
 	(text_box "3A Max.\nStandard Pin Headers"
 		(exclude_from_sim no)
 		(at 163.83 110.49 0)
