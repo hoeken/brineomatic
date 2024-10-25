@@ -980,28 +980,28 @@
 		)
 	)
 	(junction
+		(at 114.3 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0be21a69-4c28-4e98-84f9-df7950df3f33")
+	)
+	(junction
+		(at 114.3 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23aacfa8-4743-44cb-97ae-abf736f0931d")
+	)
+	(junction
+		(at 121.92 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c4e1d44-c16e-420b-86a8-7ef712f5fb04")
+	)
+	(junction
 		(at 101.6 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "477ea1e1-3478-4ece-a11c-afcaab9b4839")
-	)
-	(junction
-		(at 129.54 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55b0b7b7-abbb-4ede-a5f5-7a3ac1fe9a12")
-	)
-	(junction
-		(at 110.49 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ea42fe8-e3b5-4301-afad-5e0f6b0469de")
-	)
-	(junction
-		(at 105.41 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d84bb67f-7632-4539-a889-f121ec21ece0")
 	)
 	(junction
 		(at 101.6 92.71)
@@ -1031,23 +1031,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 129.54 85.09)
+			(xy 110.49 85.09) (xy 114.3 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53f666f6-c99b-4d92-a36a-0628ee33534c")
-	)
-	(wire
-		(pts
-			(xy 129.54 85.09) (xy 134.62 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60de6bbf-3924-4ac7-86d9-c2d58fd77dc2")
+		(uuid "51209d0e-a4b7-4fad-ae67-bc9387707a08")
 	)
 	(wire
 		(pts
@@ -1061,17 +1051,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 85.09) (xy 105.41 85.09)
+			(xy 121.92 85.09) (xy 142.24 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "752bc414-893e-4152-95b5-e85932442bc8")
+		(uuid "72610dfc-5376-404c-bce7-ff291efeb35b")
 	)
 	(wire
 		(pts
-			(xy 101.6 77.47) (xy 110.49 77.47)
+			(xy 101.6 77.47) (xy 127 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1081,17 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 129.54 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ad037d8-52a5-4f39-a702-6c66ccfbf87a")
-	)
-	(wire
-		(pts
-			(xy 129.54 91.44) (xy 129.54 92.71)
+			(xy 114.3 91.44) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1101,13 +1081,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 92.71) (xy 129.54 92.71)
+			(xy 114.3 92.71) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "905e8871-28b7-43f7-907e-6c9cce5ec820")
+		(uuid "8b370141-f514-465b-9bdc-24c45a4aa868")
+	)
+	(wire
+		(pts
+			(xy 97.79 85.09) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7dd708-2093-480f-8793-2441b4173374")
 	)
 	(wire
 		(pts
@@ -1131,17 +1121,27 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 85.09) (xy 121.92 85.09)
+			(xy 114.3 85.09) (xy 114.3 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a971f55e-0a08-4394-8d55-4fa722bf9841")
+		(uuid "a6bad69c-fcf5-4c0c-9517-97bde28ce545")
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 110.49 92.71)
+			(xy 114.3 85.09) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d9ed2b-cfdf-4411-8c29-43a7f6c215b9")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1161,7 +1161,7 @@
 	)
 	(hierarchical_label "SIGNAL"
 		(shape input)
-		(at 134.62 85.09 0)
+		(at 142.24 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1320,16 +1320,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 124.46 85.09 90)
+		(at 107.95 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1b1c08b-578d-4a81-b2ea-b3b22b0ba77d")
 		(property "Reference" "R35"
-			(at 124.46 78.74 90)
+			(at 107.95 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1336,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 124.46 81.28 90)
+			(at 107.95 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1344,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 124.46 85.09 0)
+			(at 107.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 85.09 0)
+			(at 107.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1362,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 85.09 0)
+			(at 107.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1371,7 @@
 			)
 		)
 		(property "LCSC" "C95781"
-			(at 124.46 85.09 0)
+			(at 107.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1462,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 129.54 88.9 0)
+		(at 114.3 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1471,7 +1470,7 @@
 		(dnp no)
 		(uuid "e8848450-6817-4b1a-b7e9-8ce266d6512d")
 		(property "Reference" "C21"
-			(at 132.08 87.6363 0)
+			(at 116.84 87.6363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1479,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 132.08 90.1763 0)
+			(at 116.84 90.1763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1488,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 129.54 88.9 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1497,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 88.9 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 88.9 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1515,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 129.54 88.9 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1524,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 129.54 88.9 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1549,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT54S")
-		(at 110.49 85.09 270)
+		(at 127 85.09 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1560,7 +1559,7 @@
 		(fields_autoplaced yes)
 		(uuid "f665fb08-673e-41ee-ab3f-41e3890b93b2")
 		(property "Reference" "D20"
-			(at 113.03 83.82 90)
+			(at 129.54 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +1568,7 @@
 			)
 		)
 		(property "Value" "BAT54S"
-			(at 113.03 86.36 90)
+			(at 129.54 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1577,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 113.665 83.185 0)
+			(at 130.175 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1587,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 110.49 88.138 0)
+			(at 127 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,7 +1596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 85.09 0)
+			(at 127 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +1605,7 @@
 			)
 		)
 		(property "LCSC" "C727126"
-			(at 110.49 85.09 90)
+			(at 127 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
