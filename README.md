@@ -10,7 +10,6 @@ Open Source Watermaker Controller.
 * is 5v psu strong enough?
 * change tds input to match dfrobot tds sensor
 * add power LEDs
-* add alert/ready to esp32
 * fix bat54s - move to after the lowpass filter
   * tds
   * low pressure

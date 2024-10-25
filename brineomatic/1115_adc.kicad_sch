@@ -758,12 +758,6 @@
 		(uuid "3fc032fe-3ca4-45bf-8664-12e1b9d21f66")
 	)
 	(junction
-		(at 146.05 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42b48047-611a-409c-b484-bf4169fd5609")
-	)
-	(junction
 		(at 181.61 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -847,16 +841,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 67.31) (xy 154.94 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d59b20-0c96-4166-851a-22a2b82a28a1")
-	)
-	(wire
-		(pts
 			(xy 127 96.52) (xy 127 97.79)
 		)
 		(stroke
@@ -897,7 +881,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 146.05 67.31)
+			(xy 127 67.31) (xy 154.94 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1057,16 +1041,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 67.31) (xy 146.05 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc0d260-bc40-4042-832a-bc9addb50e5c")
-	)
-	(wire
-		(pts
 			(xy 154.94 67.31) (xy 165.1 67.31)
 		)
 		(stroke
@@ -1074,16 +1048,6 @@
 			(type default)
 		)
 		(uuid "ea75a3f0-0888-4df1-a859-9816c5894db0")
-	)
-	(wire
-		(pts
-			(xy 146.05 81.28) (xy 146.05 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5b9bda1-2e81-4e54-857e-73853273395d")
 	)
 	(wire
 		(pts
@@ -1107,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 146.05 81.28)
+			(xy 137.16 81.28) (xy 140.97 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1182,6 +1146,18 @@
 			(justify left)
 		)
 		(uuid "3af19c76-205b-4720-8d99-ca864eb7efa1")
+	)
+	(hierarchical_label "ALERT{slash}RDY"
+		(shape input)
+		(at 140.97 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a652ffe-291d-4fda-a4c0-c262d89c57fd")
 	)
 	(hierarchical_label "ADC0"
 		(shape input)
@@ -1454,85 +1430,6 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 146.05 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "667aee43-62f4-41f2-b29f-e51da66df058")
-		(property "Reference" "R14"
-			(at 148.59 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 148.59 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84376"
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "209403b8-07bc-4636-9e1a-17b3c171f28b")
-		)
-		(pin "2"
-			(uuid "31b85957-e02b-49c1-8cb4-34d2a8b05024")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
-					(reference "R14")
 					(unit 1)
 				)
 			)
