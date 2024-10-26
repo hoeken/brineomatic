@@ -1517,10 +1517,6 @@
 		(uuid "9b622f7e-d283-4da8-a30d-aae93a0c7e40")
 	)
 	(no_connect
-		(at 161.29 73.66)
-		(uuid "ac923631-e0d7-4422-9c29-29ea6ff02626")
-	)
-	(no_connect
 		(at 161.29 66.04)
 		(uuid "b5ef09a2-5320-4a99-94ba-bd9dad1ceac1")
 	)
@@ -1547,6 +1543,16 @@
 	(no_connect
 		(at 161.29 58.42)
 		(uuid "efbf31fc-fddf-41e9-9ecd-1f7d486284a1")
+	)
+	(wire
+		(pts
+			(xy 130.81 63.5) (xy 161.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08953d70-0c89-4d21-817b-6fa5f851c1b5")
 	)
 	(wire
 		(pts
@@ -1607,16 +1613,6 @@
 			(type default)
 		)
 		(uuid "1ee48bff-6486-429d-b67a-63b4168ebf61")
-	)
-	(wire
-		(pts
-			(xy 161.29 91.44) (xy 142.24 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20df50db-0f3b-412b-816a-4fee4bdd76b6")
 	)
 	(wire
 		(pts
@@ -1820,6 +1816,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 73.66) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a70195-52d1-4177-bf3f-220f9a0f4313")
+	)
+	(wire
+		(pts
 			(xy 180.34 118.11) (xy 180.34 114.3)
 		)
 		(stroke
@@ -1887,16 +1893,6 @@
 			(type default)
 		)
 		(uuid "a087b10b-6817-4d11-a91b-f5c064f3098c")
-	)
-	(wire
-		(pts
-			(xy 142.24 63.5) (xy 161.29 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a34aa7a2-8153-4f51-9516-5e3fc0fc2177")
 	)
 	(wire
 		(pts
@@ -2077,6 +2073,16 @@
 			(type default)
 		)
 		(uuid "c90a62eb-78c3-4ef2-bc4d-0b266d91475c")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caadedd1-8c0c-4892-82dc-94ecc90bcdb9")
 	)
 	(wire
 		(pts
@@ -3313,6 +3319,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Field2" ""
@@ -3380,6 +3387,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "IN2" input
@@ -3487,6 +3495,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "SIGNAL" input
@@ -3535,6 +3544,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "ADC0" input
@@ -3633,6 +3643,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -3645,7 +3656,7 @@
 	)
 	(sheet
 		(at 111.76 60.96)
-		(size 30.48 5.08)
+		(size 19.05 3.81)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3665,16 +3676,17 @@
 			)
 		)
 		(property "Sheetfile" "DS18B20.kicad_sch"
-			(at 111.76 66.6246 0)
+			(at 111.76 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "OUTPUT" input
-			(at 142.24 63.5 0)
+			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,6 +3699,55 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 71.12)
+		(size 19.05 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8bb47731-29fc-477e-bfb2-3ccc154aa914")
+		(property "Sheetname" "Piezo"
+			(at 111.76 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "piezo.kicad_sch"
+			(at 111.76 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PIEZO" input
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fdd39d6f-ec9b-4461-9656-223c643b0b73")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(page "16")
 				)
 			)
 		)
@@ -3768,6 +3829,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "SIGNAL" input
@@ -3790,7 +3852,7 @@
 	)
 	(sheet
 		(at 111.76 88.9)
-		(size 30.48 5.08)
+		(size 19.05 3.81)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3810,16 +3872,17 @@
 			)
 		)
 		(property "Sheetfile" "pulse_counter.kicad_sch"
-			(at 111.76 94.5646 0)
+			(at 111.76 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "OUTPUT" input
-			(at 142.24 91.44 0)
+			(at 130.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,6 +3976,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "SIGNAL" input
@@ -4010,6 +4074,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "SIGNAL" input
