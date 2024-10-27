@@ -12,10 +12,3 @@ Open Source Watermaker Controller.
 * change tds input to match dfrobot tds sensor
 * add power LEDs
 * add 3rd servo channel
-
-## Mechancial Todo:
-
-* expand case USB opening
-* add power connector notch cutout
-* add LED light guides
-* delete Brineomatic top text
