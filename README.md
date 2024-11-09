@@ -19,3 +19,4 @@ Open Source Watermaker Controller.
   * usb connector too
 * switch to 0603 components
 * switch to onboard esp32-s3
+* add ptc fuses on all outputs (solenoid, motor, 5v, 12/24v, etc)
