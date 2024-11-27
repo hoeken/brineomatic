@@ -4,7 +4,7 @@ An open hardware project to automate marine watermakers aka reverse osmosis syst
 
 * electronics design based on esp32 to read sensors and control the machine
 * watermaker plumbing + electronics reference design with part numbers
-* example 3d printable design for automating a [Rainman](https://www.rainmandesal.com/) watermaker
+* example 3d printable control panel for automating a [Rainman](https://www.rainmandesal.com/) watermaker
 * firmware with intuitive UI for controlling the watermaker from your phone, computer, MFD, etc.
 
 ## Electronics
@@ -48,7 +48,7 @@ You can find information on the reference implementation in the files in this re
 
 There is also a 3D model with a control panel layout and parts for automating a Rainman watermaker.  This is available as a STEP file that should be editable with FreeCAD.  The actual design was done in Fusion360 and I will try to figure out how to share that file on here.
 
-## Electronics Todo:
+## Electronics Todo (REV-B)
 
 * add TMC5160T / TMC2209 stepstick compatible header
 * add 2nd flowmeter input (brine)
@@ -64,3 +64,4 @@ There is also a 3D model with a control panel layout and parts for automating a 
 * switch to 0603 components
 * switch to onboard esp32-s3
 * add ptc fuses on all outputs (solenoid, motor, 5v, 12/24v, etc)
+* consolidate to single 5v power supply?
