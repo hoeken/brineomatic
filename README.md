@@ -44,6 +44,10 @@ The app handles all aspects of setting up, configuring, running, and controlling
 
 ## Reference Design
 
+This project was started in order to automate my Rainman watermaker on my own personal boat.  The goals were to have minimal modifications to the original equipment, and to allow for graceful failure where the watermaker can be switched to manual mode very easily.  All of the critical digital sensors (flowrate, pressure, salinity) have an analog backup, and all of the critical actuated outputs (high pressure valve, diverter valve, flush/pickle) can be disabled and swapped to manual mode by removing a few easy to access screws.
+
+![Image of Brine-o-matic 9000 Rev A Electronics](/assets/brineomatic-rev-a-annotated.jpg)
+
 You can find information on the reference implementation in the files in this repository as both PDF and Draw.io editable files. They contain example schematics for plumbing, sensors, wiring, AC contactor wiring, etc.
 
 There is also a 3D model with a control panel layout and parts for automating a Rainman watermaker.  This is available as a STEP file that should be editable with FreeCAD.  The actual design was done in Fusion360 and I will try to figure out how to share that file on here.
