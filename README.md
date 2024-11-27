@@ -37,6 +37,9 @@ There is also a 3D model with a control panel layout and parts for automating a 
 ## Electronics Todo:
 
 * add TMC5160T / TMC2209 stepstick compatible header
+* add 2nd flowmeter input (brine)
+* remove thermistor input
+* add extra 4-20ma sensor input
 * change tds input to match dfrobot tds sensor
 * add power LEDs
 * add motor leds
