@@ -48,9 +48,16 @@ This project was started in order to automate my Rainman watermaker on my own pe
 
 ![Image of Brine-o-matic 9000 Rev A Electronics](/assets/rainman-install.jpg)
 
-You can find information on the reference implementation in the files in this repository as both PDF and Draw.io editable files. They contain example schematics for plumbing, sensors, wiring, AC contactor wiring, etc.
+You can find information on the reference implementation in the files in this repository. They contain example schematics for plumbing, sensors, wiring, AC contactor wiring, etc.
 
-There is also a 3D model with a control panel layout and parts for automating a Rainman watermaker.  This is available as a STEP file that should be editable with FreeCAD.  The actual design was done in Fusion360 and I will try to figure out how to share that file on here.
+There is also a 3D model with a control panel layout and parts for automating a Rainman watermaker.  This is available as a STEP file that should be editable with FreeCAD.  The actual design was done in Fusion360 which is available through the link below.
+
+### Downloads:
+
+* [Plumbing and Wiring Schematics](/diagrams)
+* [Fusion 360 Model](https://a360.co/3zufXJO) 
+* [Rainman Control Panel STEP file](/models/Rainman%20Control%20Panel.step?raw=true)
+* [Brineomatic Rev A PCB Case](/models/Brineomatic%20Case%20Rev%20A.step?raw=true)
 
 ## Electronics Todo (REV-B)
 
