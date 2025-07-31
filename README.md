@@ -64,7 +64,7 @@ There is also a 3D model with a control panel layout and parts for automating a 
 * add TMC5160T / TMC2209 stepstick compatible header
 * add 2nd flowmeter input (brine)
 * remove thermistor input
-* add extra 4-20ma sensor input
+* add extra tds input (brine waste)
 * change tds input to match dfrobot tds sensor
 * add power LEDs
 * add motor leds
@@ -73,6 +73,6 @@ There is also a 3D model with a control panel layout and parts for automating a 
 * extend board fingers under connectors to support
   * usb connector too
 * switch to 0603 components
-* switch to onboard esp32-s3
 * add ptc fuses on all outputs (solenoid, motor, 5v, 12/24v, etc)
-* consolidate to single 5v power supply?
+* consolidate to single 5v power supply
+* remove dc motor driver
