@@ -675,19 +675,19 @@
     ],
     [
       "afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b",
-      "Flowmeter"
+      "Product Flowmeter"
     ],
     [
       "7dc38cc9-02c6-4108-8c2f-d0f758210cae",
       "Temperature - DS18B20"
     ],
     [
-      "a25af3cd-6e30-4758-861f-193b34fc4628",
-      "Temperature - NTC"
+      "be3403ab-9eef-436c-86e7-0de3f072ae30",
+      "Brine TDS"
     ],
     [
       "0442c100-f200-44e3-9806-ad19ad5a87d8",
-      "Servo 1"
+      "Servos"
     ],
     [
       "91db2587-0f96-4292-982e-c9eb44a28398",
@@ -698,12 +698,12 @@
       "ADC"
     ],
     [
-      "18169ffc-cda7-4dc7-9b81-ddd03f1eea23",
-      "DC Motor Driver"
-    ],
-    [
       "7cbb3b3c-cf93-4880-b816-c6df902b993c",
       "Power Supply"
+    ],
+    [
+      "c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b",
+      "Brine Flowmeter"
     ],
     [
       "c855463c-7233-4758-aee4-aa81e2b08bc2",
@@ -727,7 +727,11 @@
     ],
     [
       "4dde40bf-0b86-4621-acd9-eb6c6b71c357",
-      "TDS Sensor"
+      "Product TDS"
+    ],
+    [
+      "0f01c39f-0c25-414e-9ed3-1ba09e2af0c5",
+      "Stepper Driver"
     ]
   ],
   "text_variables": {}
