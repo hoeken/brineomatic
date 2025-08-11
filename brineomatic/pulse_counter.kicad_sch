@@ -1395,7 +1395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123b2f16-a033-4a31-9d25-090c6a773992")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0101"
 			(at 105.41 120.65 0)
 			(effects
 				(font
@@ -1444,6 +1444,10 @@
 		)
 		(instances
 			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
+					(reference "#PWR0101")
+					(unit 1)
+				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
 					(reference "#PWR040")
 					(unit 1)
@@ -1461,7 +1465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32f21d35-af78-4b0c-9a29-c284b24b0358")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0103"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -1510,6 +1514,10 @@
 		)
 		(instances
 			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
+					(reference "#PWR0103")
+					(unit 1)
+				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
 					(reference "#PWR043")
 					(unit 1)
@@ -1527,7 +1535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34fd80b6-9074-4189-9adc-10d193db9951")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0102"
 			(at 105.41 97.79 0)
 			(effects
 				(font
@@ -1576,6 +1584,10 @@
 		)
 		(instances
 			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
+					(reference "#PWR0102")
+					(unit 1)
+				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
 					(reference "#PWR039")
 					(unit 1)
@@ -1592,7 +1604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "498170f5-53ce-4b08-9bd1-69b0d5326616")
-		(property "Reference" "R"
+		(property "Reference" "R7"
 			(at 124.46 99.06 90)
 			(effects
 				(font
@@ -1608,7 +1620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 104.14 0)
 			(effects
 				(font
@@ -1652,6 +1664,10 @@
 		)
 		(instances
 			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
+					(reference "R7")
+					(unit 1)
+				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
 					(reference "R14")
 					(unit 1)
@@ -1670,7 +1686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b9639ec-5645-47ae-b3bd-d8b743af6915")
-		(property "Reference" "J"
+		(property "Reference" "J2"
 			(at 100.33 95.25 0)
 			(effects
 				(font
@@ -1734,6 +1750,10 @@
 		)
 		(instances
 			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
+					(reference "J2")
+					(unit 1)
+				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
 					(reference "J20")
 					(unit 1)
@@ -1857,7 +1877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.76 100.33 0)
 			(effects
 				(font
@@ -1922,7 +1942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbb727ce-f7df-4c0a-93a6-96094bad414a")
-		(property "Reference" "C"
+		(property "Reference" "C9"
 			(at 133.35 106.6862 0)
 			(effects
 				(font
@@ -1940,7 +1960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.81 107.95 0)
 			(effects
 				(font
@@ -1984,6 +2004,10 @@
 		)
 		(instances
 			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
+					(reference "C9")
+					(unit 1)
+				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
 					(reference "C18")
 					(unit 1)
@@ -2019,7 +2043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.76 107.95 0)
 			(effects
 				(font

@@ -1577,6 +1577,12 @@
 		)
 	)
 	(junction
+		(at 219.71 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00ec56bb-9bff-4c6a-8fa9-54430396e3e6")
+	)
+	(junction
 		(at 39.37 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1750,7 +1756,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 44.45) (xy 222.25 44.45)
+			(xy 209.55 43.18) (xy 222.25 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1810,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 73.66) (xy 222.25 73.66)
+			(xy 217.17 74.93) (xy 222.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1890,6 +1896,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 54.61) (xy 219.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f2b690-3c21-4894-b761-d86e50ecbdd5")
+	)
+	(wire
+		(pts
 			(xy 254 44.45) (xy 257.81 44.45)
 		)
 		(stroke
@@ -1900,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 71.12) (xy 222.25 71.12)
+			(xy 217.17 72.39) (xy 222.25 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1950,7 +1966,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 63.5) (xy 214.63 49.53)
+			(xy 214.63 63.5) (xy 214.63 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 49.53) (xy 222.25 49.53)
+			(xy 214.63 48.26) (xy 222.25 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 76.2) (xy 217.17 73.66)
+			(xy 217.17 76.2) (xy 217.17 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 46.99) (xy 222.25 46.99)
+			(xy 212.09 45.72) (xy 222.25 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2210,6 +2226,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 72.39) (xy 217.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a667de8a-4d1a-4855-9e08-e55b2153bb73")
+	)
+	(wire
+		(pts
 			(xy 209.55 93.98) (xy 209.55 110.49)
 		)
 		(stroke
@@ -2240,7 +2266,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 58.42) (xy 209.55 44.45)
+			(xy 217.17 52.07) (xy 222.25 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb2c4d9-16ef-4ed7-98fb-0ad023ecb453")
+	)
+	(wire
+		(pts
+			(xy 209.55 58.42) (xy 209.55 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2350,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 66.04) (xy 217.17 54.61)
+			(xy 217.17 52.07) (xy 217.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2367,16 +2403,6 @@
 			(type default)
 		)
 		(uuid "c70d383f-421f-4781-a8fb-a771587733e7")
-	)
-	(wire
-		(pts
-			(xy 217.17 54.61) (xy 222.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7427c2f-628d-4afb-8274-7fda9fc9f3f7")
 	)
 	(wire
 		(pts
@@ -2450,7 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 60.96) (xy 212.09 46.99)
+			(xy 212.09 60.96) (xy 212.09 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2530,6 +2556,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 71.12) (xy 199.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f131b712-33b0-4022-ad15-a4d88db91e02")
+	)
+	(wire
+		(pts
 			(xy 199.39 68.58) (xy 219.71 68.58)
 		)
 		(stroke
@@ -2567,6 +2603,16 @@
 			(type default)
 		)
 		(uuid "f8c4a694-53bf-4f96-9c3d-a544070b56f1")
+	)
+	(wire
+		(pts
+			(xy 219.71 54.61) (xy 219.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8d2f09-7d78-4874-aea2-ef11bb49978d")
 	)
 	(global_label "ADC_ALERT{slash}RDY"
 		(shape input)
@@ -3928,7 +3974,7 @@
 		)
 	)
 	(sheet
-		(at 222.25 68.58)
+		(at 222.25 69.85)
 		(size 31.75 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3944,7 +3990,7 @@
 		)
 		(uuid "0442c100-f200-44e3-9806-ad19ad5a87d8")
 		(property "Sheetname" "Servos"
-			(at 222.25 67.8684 0)
+			(at 222.25 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3999,7 @@
 			)
 		)
 		(property "Sheetfile" "servo.kicad_sch"
-			(at 222.25 76.7846 0)
+			(at 222.25 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +4009,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 222.25 68.58 0)
+			(at 222.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +4018,7 @@
 			)
 		)
 		(pin "SERVO1" input
-			(at 222.25 73.66 180)
+			(at 222.25 74.93 180)
 			(uuid "bc293068-ed2a-4a89-a8be-dc87bb09f164")
 			(effects
 				(font
@@ -3982,7 +4028,7 @@
 			)
 		)
 		(pin "SERVO2" input
-			(at 222.25 71.12 180)
+			(at 222.25 72.39 180)
 			(uuid "3b29b144-d7f8-470b-a35d-53d7ac624101")
 			(effects
 				(font
@@ -4035,7 +4081,7 @@
 			)
 		)
 		(pin "DIR" input
-			(at 222.25 46.99 180)
+			(at 222.25 45.72 180)
 			(uuid "dc333bfe-57e6-4422-8e10-c0e5e9ba4da9")
 			(effects
 				(font
@@ -4045,7 +4091,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 222.25 49.53 180)
+			(at 222.25 48.26 180)
 			(uuid "df097927-d2b5-4739-a0b9-228d500e6c11")
 			(effects
 				(font
@@ -4065,7 +4111,7 @@
 			)
 		)
 		(pin "STEP" input
-			(at 222.25 44.45 180)
+			(at 222.25 43.18 180)
 			(uuid "dffae0ac-706b-42be-aa73-31ad01b9d07a")
 			(effects
 				(font
@@ -4102,6 +4148,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DIAG" input
+			(at 222.25 52.07 180)
+			(uuid "a9a4627f-3c40-4040-bd3f-be21904b9421")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

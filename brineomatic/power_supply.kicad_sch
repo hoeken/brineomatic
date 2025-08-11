@@ -1092,6 +1092,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2375,6 +2511,12 @@
 		(uuid "b4872bde-8cd8-49e7-8b4e-d017c04663fd")
 	)
 	(junction
+		(at 31.75 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c18dfcbe-ef8c-4dd2-9676-073b17cdc05c")
+	)
+	(junction
 		(at 31.75 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2411,11 +2553,11 @@
 		(uuid "fd7df3c7-9c3a-41f4-8959-bb74d55e6cfd")
 	)
 	(no_connect
-		(at 35.56 55.88)
+		(at 20.32 58.42)
 		(uuid "4ce1ec1a-5daf-4c72-9ab7-fa7b26d148e5")
 	)
 	(no_connect
-		(at 35.56 58.42)
+		(at 20.32 60.96)
 		(uuid "832c37e8-f191-4f4d-91f2-d04e7d22138f")
 	)
 	(wire
@@ -2437,6 +2579,16 @@
 			(type default)
 		)
 		(uuid "0c40112a-dc69-4711-bae8-d55524979563")
+	)
+	(wire
+		(pts
+			(xy 31.75 54.61) (xy 31.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177855ac-57f7-48a1-a8e9-f61bb25ecf33")
 	)
 	(wire
 		(pts
@@ -2510,6 +2662,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 35.56) (xy 31.75 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42285218-cfbc-4c3e-bb02-58b7ff028abb")
+	)
+	(wire
+		(pts
 			(xy 257.81 44.45) (xy 262.89 44.45)
 		)
 		(stroke
@@ -2550,7 +2712,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 55.88) (xy 30.48 55.88)
+			(xy 31.75 58.42) (xy 30.48 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2700,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 44.45) (xy 31.75 55.88)
+			(xy 31.75 44.45) (xy 31.75 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2750,7 +2912,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 30.48) (xy 31.75 44.45)
+			(xy 31.75 30.48) (xy 31.75 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2767,16 +2929,6 @@
 			(type default)
 		)
 		(uuid "900e4480-d705-482a-9dc8-6fffa22a4d57")
-	)
-	(wire
-		(pts
-			(xy 31.75 58.42) (xy 31.75 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b0cb4b-ae3e-4564-8fa4-8257f8dcb612")
 	)
 	(wire
 		(pts
@@ -2890,23 +3042,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 58.42) (xy 31.75 58.42)
+			(xy 30.48 60.96) (xy 69.85 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc384e9d-f768-400e-850c-082e5141a69f")
-	)
-	(wire
-		(pts
-			(xy 31.75 60.96) (xy 69.85 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be336087-2c20-42e1-8b7d-95bee4505446")
 	)
 	(wire
 		(pts
@@ -3701,7 +3843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.43 55.88 0)
 			(effects
 				(font
@@ -3932,7 +4074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 52.07 0)
 			(effects
 				(font
@@ -4202,6 +4344,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 31.75 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df804bb-9084-4982-8363-8f4041f50cf7")
+		(property "Reference" "F4"
+			(at 34.29 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20A"
+			(at 34.29 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "yarrboard:FUSE-TH_XF-508P-A-B"
+			(at 29.972 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19727304"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec6f1c9a-11fe-4512-939b-ac91e3b94923")
+		)
+		(pin "2"
+			(uuid "51b9548c-4c23-494d-bb4d-0d67055beb4a")
+		)
+		(instances
+			(project ""
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 60.96 44.45 90)
 		(unit 1)
@@ -4412,7 +4633,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 31.75 44.45 0)
+		(at 31.75 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4420,7 +4641,7 @@
 		(dnp no)
 		(uuid "97666ff9-6e13-4aab-b485-a482e8d9cb45")
 		(property "Reference" "#FLG04"
-			(at 31.75 42.545 0)
+			(at 31.75 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4650,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 31.75 46.99 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 44.45 0)
+			(at 31.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 44.45 0)
+			(at 31.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4676,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 44.45 0)
+			(at 31.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4784,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 25.4 55.88 0)
+		(at 25.4 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4573,14 +4794,6 @@
 		(fields_autoplaced yes)
 		(uuid "b4555cc6-5136-42bc-b24c-dea7ed7df11c")
 		(property "Reference" "J15"
-			(at 25.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.08MM"
 			(at 25.4 52.07 0)
 			(effects
 				(font
@@ -4588,8 +4801,16 @@
 				)
 			)
 		)
+		(property "Value" "5.08MM"
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
-			(at 25.4 55.88 0)
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 55.88 0)
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4828,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 25.4 55.88 0)
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4837,7 @@
 			)
 		)
 		(property "LCSC" "C3697"
-			(at 25.4 55.88 0)
+			(at 25.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 48.26 0)
 			(effects
 				(font
@@ -4805,7 +5026,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 40.64 55.88 0)
+		(at 15.24 58.42 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4813,7 +5035,7 @@
 		(dnp no)
 		(uuid "d91409e8-651c-4aa6-a68a-9bdd6f760c15")
 		(property "Reference" "J19"
-			(at 40.64 49.53 0)
+			(at 15.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +5043,7 @@
 			)
 		)
 		(property "Value" "5.08MM"
-			(at 40.64 52.07 0)
+			(at 15.24 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +5051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 55.88 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 55.88 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +5069,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 40.64 55.88 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +5078,7 @@
 			)
 		)
 		(property "LCSC" "C71370"
-			(at 40.64 55.88 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5087,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 40.64 55.88 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 52.07 0)
 			(effects
 				(font
@@ -5159,7 +5381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.14 52.07 0)
 			(effects
 				(font
