@@ -5,6 +5,155 @@
 	(uuid "96477ae2-ef08-48f3-8dd4-fe4478541f68")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1589,6 +1738,12 @@
 		(uuid "2dc30a17-d861-4021-8db8-2682e50b40a7")
 	)
 	(junction
+		(at 158.75 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c641153-7c8a-4abf-ba83-79f388a020ed")
+	)
+	(junction
 		(at 201.93 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1607,7 +1762,7 @@
 		(uuid "b5acfb6b-0ede-4270-92cd-254358573c88")
 	)
 	(junction
-		(at 157.48 50.8)
+		(at 143.51 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c631d6-0857-4ed6-8258-ac4e41d3b72d")
@@ -1728,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 50.8) (xy 157.48 50.8)
+			(xy 137.16 50.8) (xy 143.51 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1918,16 +2073,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 53.34) (xy 157.48 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "463eb191-2234-4e23-a75b-7dcf8fbaf7ca")
-	)
-	(wire
-		(pts
 			(xy 62.23 73.66) (xy 62.23 59.69)
 		)
 		(stroke
@@ -1945,6 +2090,16 @@
 			(type default)
 		)
 		(uuid "48112ace-bf0b-4e89-9e1e-ec6d2c9e3a45")
+	)
+	(wire
+		(pts
+			(xy 156.21 50.8) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3d7182-678b-4a74-93ec-e5762aa5e5bd")
 	)
 	(wire
 		(pts
@@ -2018,6 +2173,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 53.34) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622a4c8f-d454-4132-af4c-d42abbe13892")
+	)
+	(wire
+		(pts
 			(xy 257.81 53.34) (xy 261.62 53.34)
 		)
 		(stroke
@@ -2035,6 +2200,16 @@
 			(type default)
 		)
 		(uuid "64b0c299-6df6-4cab-b7ab-11254d600426")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 161.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6923fc88-ade9-49a9-b6bc-8b10e65b8067")
 	)
 	(wire
 		(pts
@@ -2195,16 +2370,6 @@
 			(type default)
 		)
 		(uuid "a087b10b-6817-4d11-a91b-f5c064f3098c")
-	)
-	(wire
-		(pts
-			(xy 157.48 50.8) (xy 157.48 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a36c49c2-8916-4b41-83d2-daf7d3217514")
 	)
 	(wire
 		(pts
@@ -2458,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 46.99) (xy 157.48 50.8)
+			(xy 143.51 46.99) (xy 143.51 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 50.8) (xy 161.29 50.8)
+			(xy 143.51 50.8) (xy 151.13 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2585,6 +2750,16 @@
 			(type default)
 		)
 		(uuid "f4c57135-b471-4c47-ae37-f18216607dbe")
+	)
+	(wire
+		(pts
+			(xy 161.29 53.34) (xy 158.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5865d6a-a58c-4086-a984-2f14284727e4")
 	)
 	(wire
 		(pts
@@ -3370,7 +3545,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 157.48 46.99 0)
+		(at 143.51 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3379,7 +3554,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cc80d53-f429-4654-9ac2-c73f1f37019c")
 		(property "Reference" "#PWR03"
-			(at 157.48 50.8 0)
+			(at 143.51 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3563,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 157.48 41.91 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 46.99 0)
+			(at 143.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 46.99 0)
+			(at 143.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3589,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 46.99 0)
+			(at 143.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,6 +3668,84 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 153.67 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99f46a2e-d4e8-47c0-bccd-90226685b7c2")
+		(property "Reference" "F1"
+			(at 153.67 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA / 3.3v"
+			(at 153.67 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 148.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 153.67 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c97220-fc9b-4fd7-aa04-a851b6a4c1a3")
+		)
+		(pin "2"
+			(uuid "18862113-58ed-4fdd-94c1-159a58494a16")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -3631,7 +3884,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 151.13 50.8 0)
+		(at 137.16 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3640,7 +3893,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3fb5ba7-b0c3-4748-8088-79e4d3d1a7b9")
 		(property "Reference" "#FLG01"
-			(at 151.13 48.895 0)
+			(at 137.16 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3902,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 151.13 45.72 0)
+			(at 137.16 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 50.8 0)
+			(at 137.16 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3919,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 50.8 0)
+			(at 137.16 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3928,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 151.13 50.8 0)
+			(at 137.16 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
