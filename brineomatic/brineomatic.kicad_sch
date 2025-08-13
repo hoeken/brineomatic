@@ -1595,6 +1595,12 @@
 		(uuid "53c0ffe7-f641-4476-b986-653b43636826")
 	)
 	(junction
+		(at 270.51 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a35d13e2-41e8-4966-b24c-46e1fa5ec065")
+	)
+	(junction
 		(at 180.34 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1615,10 +1621,6 @@
 	(no_connect
 		(at 199.39 73.66)
 		(uuid "00f1c4c7-f9ae-4dec-8428-7bac87cb8609")
-	)
-	(no_connect
-		(at 161.29 99.06)
-		(uuid "0a013641-20f3-4955-9add-6caf0c46e554")
 	)
 	(no_connect
 		(at 161.29 88.9)
@@ -1675,6 +1677,10 @@
 	(no_connect
 		(at 199.39 99.06)
 		(uuid "e1c81ad2-8c10-4540-a245-1fe44954ba58")
+	)
+	(no_connect
+		(at 161.29 76.2)
+		(uuid "e99e1dcf-eb05-4cde-b20c-ab8c42b5b980")
 	)
 	(no_connect
 		(at 161.29 58.42)
@@ -1742,13 +1748,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 43.18) (xy 237.49 43.18)
+			(xy 214.63 48.26) (xy 237.49 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19e0442c-7945-4e0a-9bda-3f4bd3e8248f")
+		(uuid "1b5ee0a3-c0fe-4bd9-a388-aaa974a7f2f4")
 	)
 	(wire
 		(pts
@@ -1972,6 +1978,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 105.41) (xy 130.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540830c8-dec5-4747-922c-52b2578a426a")
+	)
+	(wire
+		(pts
 			(xy 59.69 78.74) (xy 64.77 78.74)
 		)
 		(stroke
@@ -2022,16 +2038,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 48.26) (xy 237.49 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65dd96ea-7223-420e-80be-b09ff93c4b4b")
-	)
-	(wire
-		(pts
 			(xy 93.98 74.93) (xy 93.98 68.58)
 		)
 		(stroke
@@ -2069,16 +2075,6 @@
 			(type default)
 		)
 		(uuid "7fe83b8f-9c0e-4ce0-a02e-1c87a28ffa2c")
-	)
-	(wire
-		(pts
-			(xy 130.81 73.66) (xy 161.29 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83a70195-52d1-4177-bf3f-220f9a0f4313")
 	)
 	(wire
 		(pts
@@ -2122,6 +2118,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 99.06) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a94f40a-ab92-4aab-be4f-1814e715915f")
+	)
+	(wire
+		(pts
 			(xy 132.08 91.44) (xy 161.29 91.44)
 		)
 		(stroke
@@ -2129,16 +2135,6 @@
 			(type default)
 		)
 		(uuid "8f0f2323-cffe-4ac2-8f01-4129ace60986")
-	)
-	(wire
-		(pts
-			(xy 212.09 45.72) (xy 237.49 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92b2c989-e2fd-4e98-a716-d6ff0d41b466")
 	)
 	(wire
 		(pts
@@ -2159,6 +2155,16 @@
 			(type default)
 		)
 		(uuid "965b315d-7408-420a-a5da-b45d7f59ef94")
+	)
+	(wire
+		(pts
+			(xy 212.09 45.72) (xy 237.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5cfecb-1b23-4593-b2b0-50b296f350ad")
 	)
 	(wire
 		(pts
@@ -2239,16 +2245,6 @@
 			(type default)
 		)
 		(uuid "abed30a5-ef87-4338-99da-83c75cb9b4a6")
-	)
-	(wire
-		(pts
-			(xy 217.17 52.07) (xy 237.49 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeb2c4d9-16ef-4ed7-98fb-0ad023ecb453")
 	)
 	(wire
 		(pts
@@ -2362,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 52.07) (xy 217.17 66.04)
+			(xy 217.17 50.8) (xy 217.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2402,6 +2398,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 50.8) (xy 237.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9dc6d8d-6842-4bb8-8428-07114361c62d")
+	)
+	(wire
+		(pts
 			(xy 130.81 97.79) (xy 132.08 97.79)
 		)
 		(stroke
@@ -2432,16 +2438,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 41.91) (xy 270.51 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2eb7d13-f81d-4aab-be4c-e6d6880d53d4")
-	)
-	(wire
-		(pts
 			(xy 62.23 81.28) (xy 64.77 81.28)
 		)
 		(stroke
@@ -2469,6 +2465,26 @@
 			(type default)
 		)
 		(uuid "d74eac50-f760-40bb-8930-712fb3486cdd")
+	)
+	(wire
+		(pts
+			(xy 209.55 43.18) (xy 237.49 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf10337-3b3e-4e3b-867a-90ada4d908ac")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 135.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e522e099-df14-4bb0-8173-2dff562f23f1")
 	)
 	(wire
 		(pts
@@ -2599,6 +2615,16 @@
 			(type default)
 		)
 		(uuid "fa8d2f09-7d78-4874-aea2-ef11bb49978d")
+	)
+	(wire
+		(pts
+			(xy 270.51 44.45) (xy 270.51 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba01f1b-e196-443d-8f86-9e73b2325407")
 	)
 	(global_label "ADC_ALERT{slash}RDY"
 		(shape input)
@@ -3270,73 +3296,6 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 270.51 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80f3e98b-eaef-400a-92e7-c1cc1f685a79")
-		(property "Reference" "#PWR046"
-			(at 270.51 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 273.05 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 270.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f1b8ea6-d1a1-4637-ac67-f9c2d4b74239")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4048,7 +4007,7 @@
 			)
 		)
 		(pin "SERVO1" input
-			(at 222.25 74.93 180)
+			(at 222.25 72.39 180)
 			(uuid "bc293068-ed2a-4a89-a8be-dc87bb09f164")
 			(effects
 				(font
@@ -4058,7 +4017,7 @@
 			)
 		)
 		(pin "SERVO2" input
-			(at 222.25 72.39 180)
+			(at 222.25 74.93 180)
 			(uuid "3b29b144-d7f8-470b-a35d-53d7ac624101")
 			(effects
 				(font
@@ -4111,7 +4070,7 @@
 			)
 		)
 		(pin "DIR" input
-			(at 237.49 45.72 180)
+			(at 237.49 43.18 180)
 			(uuid "dc333bfe-57e6-4422-8e10-c0e5e9ba4da9")
 			(effects
 				(font
@@ -4121,7 +4080,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 237.49 48.26 180)
+			(at 237.49 50.8 180)
 			(uuid "df097927-d2b5-4739-a0b9-228d500e6c11")
 			(effects
 				(font
@@ -4141,7 +4100,7 @@
 			)
 		)
 		(pin "STEP" input
-			(at 237.49 43.18 180)
+			(at 237.49 45.72 180)
 			(uuid "dffae0ac-706b-42be-aa73-31ad01b9d07a")
 			(effects
 				(font
@@ -4181,7 +4140,7 @@
 			)
 		)
 		(pin "DIAG" input
-			(at 237.49 52.07 180)
+			(at 237.49 48.26 180)
 			(uuid "a9a4627f-3c40-4040-bd3f-be21904b9421")
 			(effects
 				(font
@@ -4504,59 +4463,6 @@
 		)
 	)
 	(sheet
-		(at 111.76 71.12)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8bb47731-29fc-477e-bfb2-3ccc154aa914")
-		(property "Sheetname" "Piezo"
-			(at 111.76 70.4084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "piezo.kicad_sch"
-			(at 111.76 75.5146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "PIEZO" input
-			(at 130.81 73.66 0)
-			(uuid "fdd39d6f-ec9b-4461-9656-223c643b0b73")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
-					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 222.25 107.95)
 		(size 31.75 5.08)
 		(exclude_from_sim no)
@@ -4870,6 +4776,59 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 102.87)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9651726-ebc8-4cdb-a521-a43a3039a77a")
+		(property "Sheetname" "Piezo"
+			(at 111.76 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "piezo.kicad_sch"
+			(at 111.76 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PIEZO" input
+			(at 130.81 105.41 0)
+			(uuid "caffa578-bd42-485b-9451-4e04700c8983")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(page "9")
 				)
 			)
 		)

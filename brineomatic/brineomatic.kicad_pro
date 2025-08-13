@@ -704,6 +704,10 @@
       "ADC"
     ],
     [
+      "d9651726-ebc8-4cdb-a521-a43a3039a77a",
+      "Piezo"
+    ],
+    [
       "7cbb3b3c-cf93-4880-b816-c6df902b993c",
       "Power Supply"
     ],
@@ -726,10 +730,6 @@
     [
       "c8ab4709-9ad5-4833-bb93-07e00d6a0170",
       "Low Pressure Sensor"
-    ],
-    [
-      "8bb47731-29fc-477e-bfb2-3ccc154aa914",
-      "Piezo"
     ],
     [
       "4dde40bf-0b86-4621-acd9-eb6c6b71c357",
