@@ -873,7 +873,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "THERM"
 			(at 113.03 90.17 0)
 			(effects
 				(font
