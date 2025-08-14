@@ -1247,6 +1247,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "2 * 2x08 Female Header: LCSC C27438\n1 * 2x02 Female Header: LCSC C49661"
+		(exclude_from_sim no)
+		(at 146.05 118.11 0)
+		(size 45.72 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8d08dff1-b509-4d92-a1ad-1a1b7c4da54c")
+	)
 	(junction
 		(at 182.88 91.44)
 		(diameter 0)

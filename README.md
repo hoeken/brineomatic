@@ -17,10 +17,10 @@ Brineomatic is based around an ESP32-S3 chip with loads of features including Wi
 * 2 x 5v servo headers
 * DC motor driver - 2A
 * DS18B20 temperature sensor connector
-* Connector for [DF Robot TDS sensor board](https://www.dfrobot.com/product-1662.html)
+* 2 x connectors for [DF Robot TDS sensor board](https://www.dfrobot.com/product-1662.html) (product + brine)
 * Low Pressure sensor (4-20ma style)
 * High Pressure sensor (4-20ma style)
-* Flowmeter connector (pulse style)
+* 2 x flowmeter connector (pulse style) (product+brine)
 
 ![Image of Brine-o-matic 9000 Rev A Electronics](/assets/brineomatic-rev-a-annotated.jpg)
 
@@ -64,8 +64,7 @@ There is also a 3D model with a control panel layout and parts for automating a 
 * test consolidated 5v psu
 * test stepper driver wiring
 
+* switch to wiring / plug of dfrobot tds board
 * drill holes on plug in terminal blocks are too big
-* double check drill holes on stepper driver pin headers
-* update stepper driver mount silk with pin header silks
-* extend board fingers under connectors to support
+* extend board fingers under connectors to support - measure on REV A board
   * usb connector too
