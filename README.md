@@ -64,7 +64,6 @@ There is also a 3D model with a control panel layout and parts for automating a 
 * test consolidated 5v psu
 * test stepper driver wiring
 
-* switch to wiring / plug of dfrobot tds board
 * drill holes on plug in terminal blocks are too big
 * extend board fingers under connectors to support - measure on REV A board
   * usb connector too

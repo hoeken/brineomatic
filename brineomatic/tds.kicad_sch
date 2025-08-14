@@ -1039,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 77.47) (xy 101.6 82.55)
+			(xy 101.6 77.47) (xy 101.6 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1049,13 +1049,33 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 87.63) (xy 101.6 92.71)
+			(xy 101.6 87.63) (xy 97.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1784d9c0-09e3-484d-876d-f319cd02f70c")
+	)
+	(wire
+		(pts
+			(xy 101.6 90.17) (xy 101.6 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "26cd5fb5-a7d6-436e-93a1-15dfa6951065")
+	)
+	(wire
+		(pts
+			(xy 97.79 85.09) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452c1ba4-fd1d-4b1a-a866-fd682fdce8e5")
 	)
 	(wire
 		(pts
@@ -1066,16 +1086,6 @@
 			(type default)
 		)
 		(uuid "51209d0e-a4b7-4fad-ae67-bc9387707a08")
-	)
-	(wire
-		(pts
-			(xy 97.79 82.55) (xy 101.6 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "610da0ff-e77e-4356-a648-49b65a18d48c")
 	)
 	(wire
 		(pts
@@ -1119,16 +1129,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 85.09) (xy 105.41 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f7dd708-2093-480f-8793-2441b4173374")
-	)
-	(wire
-		(pts
 			(xy 101.6 73.66) (xy 101.6 77.47)
 		)
 		(stroke
@@ -1139,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 87.63) (xy 101.6 87.63)
+			(xy 97.79 90.17) (xy 101.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +1200,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 92.71 85.09 0)
+		(at 92.71 87.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1210,14 +1210,6 @@
 		(fields_autoplaced yes)
 		(uuid "2febe458-8ff9-449d-ae05-3d387ad9bed7")
 		(property "Reference" "J4"
-			(at 92.71 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -1225,8 +1217,16 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
-			(at 92.71 85.09 0)
+		(property "Value" "~"
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1235,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 85.09 0)
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1244,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 85.09 0)
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,8 +1252,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C157929"
-			(at 92.71 85.09 0)
+		(property "LCSC" ""
+			(at 92.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
