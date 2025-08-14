@@ -64,10 +64,6 @@ There is also a 3D model with a control panel layout and parts for automating a 
 * test consolidated 5v psu
 * test stepper driver wiring
 
-* add reverse polarity protection - verify schematic
-* double check esd diodes wrt RP chip
-* power led resistor values
-* 24v and 5v fuse values + footprints + p/n
 * drill holes on plug in terminal blocks are too big
 * double check drill holes on stepper driver pin headers
 * update stepper driver mount silk with pin header silks
