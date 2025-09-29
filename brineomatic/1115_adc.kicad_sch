@@ -1461,7 +1461,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a296fde-327b-4ff2-9b1f-2b5fc851d40c")
 		(property "Reference" "R15"
-			(at 157.48 80.01 0)
+			(at 157.48 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1470,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 157.48 82.55 0)
+			(at 157.48 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -1718,7 +1718,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb6b47d1-1be3-46a8-815f-f32b95425e3d")
 		(property "Reference" "R16"
-			(at 167.64 80.01 0)
+			(at 167.64 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1727,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 167.64 82.55 0)
+			(at 167.64 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 165.1 81.28 0)
 			(effects
 				(font

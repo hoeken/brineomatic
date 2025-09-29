@@ -498,7 +498,35 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ESP32-S3/HUB_D+": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/HUB_D-": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/UART_D+": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/UART_D-": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/USB_D+": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/USB_D-": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/VBUS": [
+        "VBUS"
+      ],
+      "/ESP_USB+": [
+        "DP_90R"
+      ],
+      "/ESP_USB-": [
+        "DP_90R"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -730,6 +758,10 @@
     [
       "c8ab4709-9ad5-4833-bb93-07e00d6a0170",
       "Low Pressure Sensor"
+    ],
+    [
+      "602af921-0504-453c-a784-e82800e98f4c",
+      "ESP32-S3"
     ],
     [
       "4dde40bf-0b86-4621-acd9-eb6c6b71c357",

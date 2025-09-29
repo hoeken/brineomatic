@@ -1396,7 +1396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 107.95 85.09 0)
 			(effects
 				(font

@@ -5011,7 +5011,7 @@
 		(fields_autoplaced yes)
 		(uuid "59911f47-d4bb-4f76-a7cd-e284dcbd5578")
 		(property "Reference" "R18"
-			(at 130.175 130.81 0)
+			(at 130.81 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5020,7 @@
 			)
 		)
 		(property "Value" "4.7R"
-			(at 130.175 133.35 0)
+			(at 130.81 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 128.27 132.08 0)
 			(effects
 				(font
@@ -5611,7 +5611,7 @@
 				)
 			)
 		)
-		(property "Value" "GZ2012D601TF"
+		(property "Value" "BLM18EG101TN1D"
 			(at 63.4619 116.84 90)
 			(effects
 				(font
@@ -5619,7 +5619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 63.5 122.428 90)
 			(effects
 				(font
@@ -5646,7 +5646,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1017"
+		(property "LCSC" "C76893"
 			(at 63.5 120.65 90)
 			(effects
 				(font

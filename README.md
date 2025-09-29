@@ -61,8 +61,9 @@ There is also a 3D model with a control panel layout and parts for automating a 
 
 ## Electronics Todo (REV-B)
 
-* convert to esp32-s3-pico
 * test consolidated 5v psu
 * test stepper driver wiring
+* add stepper driver directly to board
 * extend board fingers under connectors to support - measure on REV A board
   * usb connector too
+* redesign case to use m3x16 plastic screws and no standoffs

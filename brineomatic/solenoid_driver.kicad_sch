@@ -1939,7 +1939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 109.22 93.98 0)
 			(effects
 				(font
@@ -2028,7 +2028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 115.57 88.9 0)
 			(effects
 				(font
@@ -2210,7 +2210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 121.92 97.79 0)
 			(effects
 				(font

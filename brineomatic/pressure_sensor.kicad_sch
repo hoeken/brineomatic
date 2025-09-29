@@ -1728,7 +1728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -1776,7 +1776,7 @@
 		(fields_autoplaced yes)
 		(uuid "e166ac2e-2050-4528-aefa-516aa3547b6e")
 		(property "Reference" "R1"
-			(at 99.06 93.98 0)
+			(at 99.06 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1785,7 @@
 			)
 		)
 		(property "Value" "165 0.1%"
-			(at 99.06 96.52 0)
+			(at 99.06 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 96.52 95.25 0)
 			(effects
 				(font
