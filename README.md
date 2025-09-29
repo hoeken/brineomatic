@@ -61,7 +61,6 @@ There is also a 3D model with a control panel layout and parts for automating a 
 
 ## Electronics Todo (REV-B)
 
-* test consolidated 5v psu
 * test stepper driver wiring
 * extend board fingers under connectors to support - measure on REV A board
   * usb connector too
