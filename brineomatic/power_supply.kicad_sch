@@ -5259,7 +5259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "yarrboard:Fuse_1812_4532Metric"
 			(at 204.47 121.92 0)
 			(effects
 				(font
