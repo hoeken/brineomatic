@@ -44,7 +44,7 @@ The app handles all aspects of setting up, configuring, running, and controlling
 
 ## Reference Design
 
-This project was started in order to automate my Rainman watermaker on my own personal boat.  The goals were to have minimal modifications to the original equipment, and to allow for graceful failure where the watermaker can be switched to manual mode very easily.  All of the critical digital sensors (flowrate, pressure, salinity) have an analog backup, and all of the critical actuated outputs (high pressure valve, diverter valve, flush/pickle) can be disabled and swapped to manual mode by removing a few easy to access screws.
+This project was started in order to automate my Rainman watermaker on my own personal boat.  The goals were to have minimal modifications to the original equipment, and to allow for graceful failure where the watermaker can be switched to manual mode very easily.  All of the critical digital sensors (flowrate, pressure, salinity) have an analog backup, and all of the critical actuated outputs (high pressure valve, diverter valve, flush, and boost pump) can be bypassed to manual mode by removing a few easy to access screws.
 
 ![Image of Brine-o-matic 9000 Rev A Electronics](/assets/rainman-install.jpg)
 
@@ -61,7 +61,8 @@ There is also a 3D model with a control panel layout and parts for automating a 
 
 ## Electronics Todo (REV-B)
 
-* test stepper driver wiring
-* extend board fingers under connectors to support - measure on REV A board
-  * usb connector too
+* final connector placement check - 3d model + prototype measure
+* 3d model for fuse holder + fuse
+* re-route board
+* double check all parts
 * redesign case to use m3x16 plastic screws and no standoffs
