@@ -61,7 +61,6 @@ There is also a 3D model with a control panel layout and parts for automating a 
 
 ## Electronics Todo (REV-B)
 
-* final connector placement check - 3d model + prototype measure
 * re-route board
 * double check all parts
 * redesign case to use m3x16 plastic screws and no standoffs

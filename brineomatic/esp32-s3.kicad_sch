@@ -5599,8 +5599,8 @@
 		(uuid bf75d399-3732-4f5e-b8aa-3e5141125c33)
 	)
 	(rectangle
-		(start 157.48 163.83)
-		(end 204.47 177.8)
+		(start 144.78 99.06)
+		(end 130.81 146.05)
 		(stroke
 			(width 0)
 			(type default)
@@ -5658,9 +5658,9 @@
 		)
 		(uuid "335855d7-4496-478f-9d71-cf210b22b1e3")
 	)
-	(text "POWER LED"
+	(text "POWER"
 		(exclude_from_sim no)
-		(at 157.988 166.624 0)
+		(at 132.334 101.854 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6223,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 175.26) (xy 173.99 175.26)
+			(xy 133.35 111.76) (xy 133.35 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7013,7 +7013,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 175.26) (xy 182.88 175.26)
+			(xy 133.35 123.19) (xy 133.35 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7383,7 +7383,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 175.26) (xy 191.77 175.26)
+			(xy 133.35 129.54) (xy 133.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8209,12 +8209,12 @@
 	)
 	(hierarchical_label "ESP_GND"
 		(shape input)
-		(at 191.77 175.26 0)
+		(at 133.35 133.35 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "182e0da9-92ec-45d5-bd30-e6b8131bafb9")
 	)
@@ -9016,12 +9016,12 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 170.18 175.26 180)
+		(at 133.35 111.76 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fed140d8-4d30-43e9-9e25-0e9d60580851")
 	)
@@ -9539,7 +9539,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 177.8 175.26 180)
+		(at 133.35 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9547,7 +9547,7 @@
 		(dnp no)
 		(uuid "346080d3-eb5c-4d2e-929e-c016c513fb49")
 		(property "Reference" "D22"
-			(at 177.292 170.18 0)
+			(at 138.43 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9555,7 +9555,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 177.292 172.72 0)
+			(at 135.89 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +9563,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 177.8 175.26 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9572,7 +9572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 175.26 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9581,7 +9581,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 177.8 175.26 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,7 +9590,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 175.26 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9599,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 177.8 175.26 0)
+			(at 133.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9693,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 185.42 175.26 90)
+		(at 133.35 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9701,7 +9701,7 @@
 		(dnp no)
 		(uuid "46ede41d-5e67-4cdd-8faa-a96e1134918a")
 		(property "Reference" "R41"
-			(at 184.912 170.18 90)
+			(at 138.43 126.492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9709,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 184.912 172.72 90)
+			(at 135.89 126.492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,7 +9717,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 185.42 175.26 0)
+			(at 133.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9726,7 +9726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 175.26 0)
+			(at 133.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,7 +9735,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 185.42 175.26 0)
+			(at 133.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
