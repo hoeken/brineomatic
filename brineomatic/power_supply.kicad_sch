@@ -942,6 +942,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -3057,7 +3193,7 @@
 	)
 	(text "Male"
 		(exclude_from_sim no)
-		(at 42.926 44.45 0)
+		(at 36.576 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3079,7 +3215,7 @@
 	)
 	(text "Female"
 		(exclude_from_sim no)
-		(at 53.34 44.45 0)
+		(at 46.99 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3263,11 +3399,11 @@
 		(uuid "eef2371c-ed29-4cf7-bdc3-fe4acfb932af")
 	)
 	(no_connect
-		(at 48.26 52.07)
+		(at 41.91 52.07)
 		(uuid "4ce1ec1a-5daf-4c72-9ab7-fa7b26d148e5")
 	)
 	(no_connect
-		(at 48.26 54.61)
+		(at 41.91 54.61)
 		(uuid "832c37e8-f191-4f4d-91f2-d04e7d22138f")
 	)
 	(wire
@@ -3342,6 +3478,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 54.61) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c4f569-e24d-4c33-a0b9-15af4d4cebe1")
+	)
+	(wire
+		(pts
 			(xy 118.11 134.62) (xy 118.11 137.16)
 		)
 		(stroke
@@ -3392,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 72.39) (xy 58.42 54.61)
+			(xy 55.88 72.39) (xy 55.88 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3618,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 52.07) (xy 74.93 52.07)
+			(xy 52.07 52.07) (xy 59.69 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3519,6 +3665,16 @@
 			(type default)
 		)
 		(uuid "5c1b8303-5d83-4406-8f9f-39206aa4fafb")
+	)
+	(wire
+		(pts
+			(xy 67.31 52.07) (xy 74.93 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c726b5d-9f85-4425-ba89-8a62cdbfe859")
 	)
 	(wire
 		(pts
@@ -3812,7 +3968,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 72.39) (xy 74.93 72.39)
+			(xy 55.88 72.39) (xy 74.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5000,6 +5156,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 63.5 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64eb7c9c-682b-4ee3-a3ef-d71376f94062")
+		(property "Reference" "F1"
+			(at 63.5 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3A / 5x20mm"
+			(at 63.5 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "yarrboard:Fuseholder_Cylinder-5x20mm_LittelFuse_646"
+			(at 63.5 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C206887"
+			(at 63.5 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 63.5 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92f4d340-26ba-4ed6-91fb-9ff252d8ec22")
+		)
+		(pin "2"
+			(uuid "faf4acad-e669-4056-af06-c4f2655f2099")
+		)
+		(instances
+			(project ""
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 148.59 128.27 0)
 		(unit 1)
@@ -5824,7 +6066,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 53.34 52.07 0)
+		(at 46.99 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5834,7 +6076,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4555cc6-5136-42bc-b24c-dea7ed7df11c")
 		(property "Reference" "J9"
-			(at 53.34 45.72 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +6084,7 @@
 			)
 		)
 		(property "Value" "5.08MM"
-			(at 53.34 48.26 0)
+			(at 46.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +6092,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
-			(at 53.34 52.07 0)
+			(at 46.99 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +6101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 52.07 0)
+			(at 46.99 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +6110,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 52.07 0)
+			(at 46.99 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +6119,7 @@
 			)
 		)
 		(property "LCSC" "C3697"
-			(at 53.34 52.07 0)
+			(at 46.99 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6514,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 43.18 52.07 0)
+		(at 36.83 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6281,7 +6523,7 @@
 		(dnp no)
 		(uuid "d91409e8-651c-4aa6-a68a-9bdd6f760c15")
 		(property "Reference" "J8"
-			(at 43.18 45.72 0)
+			(at 36.83 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,7 +6531,7 @@
 			)
 		)
 		(property "Value" "5.08MM"
-			(at 43.18 48.26 0)
+			(at 36.83 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +6539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 52.07 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,7 +6548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 52.07 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +6557,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 52.07 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +6566,7 @@
 			)
 		)
 		(property "LCSC" "C71370"
-			(at 43.18 52.07 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6575,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 43.18 52.07 0)
+			(at 36.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
