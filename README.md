@@ -61,6 +61,6 @@ There is also a 3D model with a control panel layout and parts for automating a 
 
 ## Electronics Todo (REV-B)
 
-* re-route board
+* fix up silkscreen
 * double check all parts
 * redesign case to use m3x16 plastic screws and no standoffs

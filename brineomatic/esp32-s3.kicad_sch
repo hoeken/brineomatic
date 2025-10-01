@@ -7793,7 +7793,6 @@
 	)
 	(label "USB_D+"
 		(at 68.58 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7801,21 +7800,9 @@
 			(justify right bottom)
 		)
 		(uuid "0e2ceb74-84ef-45b8-a3dc-dcf1a8239679")
-		(property "Netclass" "DP_90R"
-			(at 68.58 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(label "USB_D-"
 		(at 68.58 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7823,21 +7810,9 @@
 			(justify right bottom)
 		)
 		(uuid "1f761f33-9843-4df7-b52e-be12814c0d1e")
-		(property "Netclass" "DP_90R"
-			(at 68.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(label "UART_D-"
 		(at 242.57 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7845,17 +7820,6 @@
 			(justify right bottom)
 		)
 		(uuid "4bbf8096-93a0-4f43-9c18-ecd9852ab2a6")
-		(property "Netclass" "DP_90R"
-			(at 242.57 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(label "RTS"
 		(at 213.36 140.97 180)
@@ -7876,21 +7840,9 @@
 			(justify right bottom)
 		)
 		(uuid "55eb0f45-7988-41a4-a4ca-865db94f48aa")
-		(property "Netclass" "DP_90R"
-			(at 146.304 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(label "UART_D+"
 		(at 242.57 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7898,17 +7850,6 @@
 			(justify right bottom)
 		)
 		(uuid "5a68e9df-bd6f-4104-a0e7-096ed2b55d94")
-		(property "Netclass" "DP_90R"
-			(at 242.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(label "DTR"
 		(at 213.36 118.11 180)
@@ -7922,7 +7863,6 @@
 	)
 	(label "HUB_D+"
 		(at 78.74 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7930,17 +7870,6 @@
 			(justify left bottom)
 		)
 		(uuid "65ddaff5-48cb-4777-bd28-3d35c047ef79")
-		(property "Netclass" "DP_90R"
-			(at 78.74 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "CC2_1"
 		(at 44.45 40.64 0)
@@ -7954,7 +7883,6 @@
 	)
 	(label "VBUS"
 		(at 44.45 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7962,20 +7890,9 @@
 			(justify left bottom)
 		)
 		(uuid "6e0effb3-fa72-4562-82f9-96be7e38d8c8")
-		(property "Netclass" "VBUS"
-			(at 44.45 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(label "UART_D+"
 		(at 193.04 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7983,21 +7900,9 @@
 			(justify left bottom)
 		)
 		(uuid "8bbbcaef-313f-4067-8d62-1a44a528c4ac")
-		(property "Netclass" "DP_90R"
-			(at 193.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "HUB_D-"
 		(at 78.74 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8005,17 +7910,6 @@
 			(justify left bottom)
 		)
 		(uuid "8d5c8e0c-429b-4684-aa26-916cab8a5ce3")
-		(property "Netclass" "DP_90R"
-			(at 78.74 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "RTS"
 		(at 266.7 60.96 0)
@@ -8036,21 +7930,9 @@
 			(justify right bottom)
 		)
 		(uuid "9a1c3c2d-0724-4d71-a975-a36c68e8ce0f")
-		(property "Netclass" "DP_90R"
-			(at 146.304 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(label "USB_D+"
 		(at 45.72 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8058,16 +7940,6 @@
 			(justify left bottom)
 		)
 		(uuid "a1d84912-efc7-4fbc-9381-865d13d347ee")
-		(property "Netclass" "DP_90R"
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(label "VBUS"
 		(at 73.66 59.69 0)
@@ -8081,7 +7953,6 @@
 	)
 	(label "UART_D-"
 		(at 193.04 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8089,17 +7960,6 @@
 			(justify left bottom)
 		)
 		(uuid "bda4f829-7ee5-4651-a6ec-7593466290e0")
-		(property "Netclass" "DP_90R"
-			(at 193.04 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "DTR"
 		(at 266.7 58.42 0)
@@ -8123,7 +7983,6 @@
 	)
 	(label "USB_D-"
 		(at 45.72 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8131,16 +7990,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1a5fa39-cc9e-4ebd-9b1c-c17c6d011943")
-		(property "Netclass" "DP_90R"
-			(at 45.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(label "VBUS"
 		(at 245.11 45.72 180)
@@ -8331,7 +8180,6 @@
 	(hierarchical_label "ESP_USB-"
 		(shape input)
 		(at 191.77 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8339,17 +8187,6 @@
 			(justify left)
 		)
 		(uuid "31250584-0c14-40e6-88ad-54f1a13f11c1")
-		(property "Netclass" "DP_90R"
-			(at 191.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -8420,7 +8257,6 @@
 	(hierarchical_label "ESP_USB-"
 		(shape input)
 		(at 82.55 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8428,17 +8264,6 @@
 			(justify left)
 		)
 		(uuid "42be7a34-8c91-4dc3-9398-38317e1bd189")
-		(property "Netclass" "DP_90R"
-			(at 82.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "GPIO45"
 		(shape input)
@@ -8685,7 +8510,6 @@
 	(hierarchical_label "ESP_USB+"
 		(shape input)
 		(at 191.77 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8693,17 +8517,6 @@
 			(justify left)
 		)
 		(uuid "a2a922ce-ddf4-4536-8f2e-5b086a97054d")
-		(property "Netclass" "DP_90R"
-			(at 191.77 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "GPIO38"
 		(shape input)
@@ -8851,7 +8664,6 @@
 	(hierarchical_label "ESP_USB+"
 		(shape input)
 		(at 82.55 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8859,17 +8671,6 @@
 			(justify left)
 		)
 		(uuid "cdab0b40-6e69-4005-a055-1be9a68ebd91")
-		(property "Netclass" "DP_90R"
-			(at 82.55 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "ESP_GND"
 		(shape input)
@@ -9199,7 +9000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+		(property "Footprint" "yarrboard:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
 			(at 172.72 45.72 0)
 			(effects
 				(font
@@ -10339,7 +10140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
+		(property "Footprint" "yarrboard:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias"
 			(at 260.35 66.04 0)
 			(effects
 				(font
@@ -11854,7 +11655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+		(property "Footprint" "yarrboard:ESP32-S3-WROOM-1"
 			(at 67.31 121.92 0)
 			(effects
 				(font
