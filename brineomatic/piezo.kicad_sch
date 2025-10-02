@@ -1097,15 +1097,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 133.35 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "197cb2c5-112a-4e46-97a4-13fff02abedb")
 		)
@@ -1250,24 +1241,6 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT" ""
 			(at 129.54 93.98 0)
 			(effects
 				(font
