@@ -1046,15 +1046,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "17a7fb89-1390-4a7b-b7f3-803ddf095138")
 		)
@@ -1281,6 +1272,15 @@
 			)
 		)
 		(property "LCSC" "C391033"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 146.05 78.74 0)
 			(effects
 				(font

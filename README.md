@@ -61,7 +61,6 @@ There is also a 3D model with a control panel layout and parts for automating a 
 
 ## Electronics Todo (REV-B)
 
-* double check all parts
 * place order
 
 * redesign case:

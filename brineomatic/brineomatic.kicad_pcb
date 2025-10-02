@@ -1377,7 +1377,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50v"
+		(property "Value" "100nF / 50v"
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(uuid "6b6a4b5c-c356-4232-929b-f6f06d4af825")
@@ -1632,6 +1632,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "91ec88bf-0e96-4dc7-8413-db9f6da13a1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5f3f4c5-660e-4406-8876-3c01801c92fc")
 			(effects
 				(font
 					(size 1 1)
@@ -2973,7 +2986,7 @@
 		(path "/7cbb3b3c-cf93-4880-b816-c6df902b993c/59911f47-d4bb-4f76-a7cd-e284dcbd5578")
 		(sheetname "/Power Supply/")
 		(sheetfile "power_supply.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -5340,6 +5353,19 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "90"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f2075f9-c24b-4d2c-968f-d789f8df86e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*Buzzer*")
 		(path "/d9651726-ebc8-4cdb-a521-a43a3039a77a/bf7d00d8-a46b-4270-96c6-0aecf5b1b6db")
 		(sheetname "/Piezo/")
@@ -7258,6 +7284,19 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db03d131-9ae1-4eef-807b-4ec937ebe2c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/0f01c39f-0c25-414e-9ed3-1ba09e2af0c5/e8c6dc3e-e0f1-4c7a-abea-f02c36ce9db8")
 		(sheetname "/Stepper Driver/")
@@ -7565,6 +7604,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9779837e-80c8-4d38-845e-58ea8cd84e54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77c91dd8-3e03-498e-ac03-91598d22cd54")
 			(effects
 				(font
 					(size 1 1)
@@ -8360,6 +8412,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43383b86-e41e-4ac6-906a-5a1d8d11b4b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c23ad45a-de6e-4afc-a129-b1dea6641299")
 			(effects
 				(font
 					(size 1 1)
@@ -9345,6 +9410,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "35456cd5-3730-42f1-a466-815e4a629a21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Position Offset" "0,-3.6195"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "998bc921-39a8-4d3d-a90e-2e8de80b484d")
 			(effects
 				(font
 					(size 1 1)
@@ -10855,6 +10933,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41ab90e1-1f0d-4c81-bfd6-c504bccd65a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae59c94a-86e4-4748-9adc-b4eba45a559e")
 			(effects
 				(font
 					(size 1 1)
@@ -12555,6 +12646,32 @@
 				)
 			)
 		)
+		(property "Position Offset" "-1.778,0.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50e33d78-a370-473f-a61a-a121eb091dca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d096116-420e-4577-9e5e-be6642ad223c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/7cbb3b3c-cf93-4880-b816-c6df902b993c/84b87f79-6a7f-463d-970e-2908e84a898b")
 		(sheetname "/Power Supply/")
@@ -13288,12 +13405,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C843684"
+		(property "LCSC" "C557599"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "649fd3d6-2859-437d-9727-f53e85161c63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d6cc6bd-58b6-4446-aee1-fe6d8c113f7f")
 			(effects
 				(font
 					(size 1 1)
@@ -13664,7 +13794,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF/6.3v"
+		(property "Value" "4.7uF / 6.3v"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b9c91d91-3ec5-4db6-b30d-0b3706611dfe")
@@ -14714,7 +14844,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/35v"
+		(property "Value" "10uF / 35v"
 			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "5c7fc28e-6eac-40ef-b892-e6ceae135aa5")
@@ -15552,12 +15682,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C843684"
+		(property "LCSC" "C557599"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c862e696-65eb-4e07-b9c7-92fb36572a3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f37f5b3-2a73-4668-8463-cad6c0a6a3fa")
 			(effects
 				(font
 					(size 1 1)
@@ -18835,6 +18978,19 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "90"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81cd427f-0ce4-4fce-a5a2-d0820cd0ee6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/7cbb3b3c-cf93-4880-b816-c6df902b993c/401d60d0-7342-41a3-b2c4-530fcb650916")
 		(sheetname "/Power Supply/")
@@ -20356,7 +20512,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50v"
+		(property "Value" "100nF / 50v"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "2690509a-d5f0-4729-8145-756599f96ab6")
@@ -21913,6 +22069,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24f14946-279d-4651-be89-5087d7896ca0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "270"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd2d385c-f54f-444e-88aa-104705ce43cd")
 			(effects
 				(font
 					(size 1 1)
@@ -23953,7 +24122,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50v"
+		(property "Value" "100nF / 50v"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "21b4ce1d-a797-4513-8bc6-fdad2c97e9e1")
@@ -24413,7 +24582,7 @@
 				)
 			)
 		)
-		(property "Value" "22nF/50v"
+		(property "Value" "22nF / 50v"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b3a49829-c36f-447a-b500-e7f2dec8eefa")
@@ -24448,7 +24617,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4967"
+		(property "LCSC" "C21122"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26008,6 +26177,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f0d99d9-0f6f-4078-b678-c607cea799f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d88cc858-8e69-487a-854b-5e0279a90418")
 			(effects
 				(font
 					(size 1 1)
@@ -28556,6 +28738,19 @@
 				)
 			)
 		)
+		(property "Position Offset" "0.0,1.27"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7df98460-882c-4e87-a870-ec9439723717")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/602af921-0504-453c-a784-e82800e98f4c/cafa538a-9fc5-463f-867d-6e5ef0dc8380")
 		(sheetname "/ESP32-S3/")
@@ -28930,19 +29125,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a12fbd00-04f3-4905-a581-3622935820f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "ALT" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57d3116a-94b5-4f85-b7ce-d5ea416b2230")
 			(effects
 				(font
 					(size 1 1)
@@ -29850,6 +30032,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a6deab2-ede5-4097-be37-6ba8b2008e4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "270"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b25f831e-a9d9-4727-a5b7-a01afa7d7fa0")
 			(effects
 				(font
 					(size 1 1)
@@ -31938,6 +32133,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8532b3f8-b2bd-4966-9004-b6ff40e2185c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "270"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08532231-9600-41ee-8342-9a8cc2386fc9")
 			(effects
 				(font
 					(size 1 1)
@@ -34587,7 +34795,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/35v"
+		(property "Value" "10uF / 35v"
 			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "c7df0af1-5000-42c8-adf7-839e3c99736c")
@@ -36140,7 +36348,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF 35v"
+		(property "Value" "100uF / 35v"
 			(at 0 4.35 0)
 			(layer "F.Fab")
 			(uuid "2101e80b-eda0-4730-b87a-201f6bb58441")
@@ -36175,12 +36383,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C239256"
+		(property "LCSC" "C2836442"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34dc0746-8ffa-46d2-98a8-0ab52fd6d3c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b64aa5b1-d41e-4af1-b45d-f475f9befed1")
 			(effects
 				(font
 					(size 1 1)
@@ -38219,7 +38440,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF/50v"
+		(property "Value" "4.7uF / 50v"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "1f66a0d4-2a59-46f2-8b02-e403f659737f")
@@ -38284,7 +38505,7 @@
 		(path "/7cbb3b3c-cf93-4880-b816-c6df902b993c/cbff86bf-6736-4302-9286-ee7b93fdd047")
 		(sheetname "/Power Supply/")
 		(sheetfile "power_supply.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -38687,6 +38908,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aeb3724a-736b-41a4-b8d4-78ae8f7fbd76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43669a50-8239-44c7-b73a-5784b1b50f9e")
 			(effects
 				(font
 					(size 1 1)
@@ -41310,7 +41544,7 @@
 				)
 			)
 		)
-		(property "Value" "470nF/50v"
+		(property "Value" "470nF / 50v"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "21993ccd-9917-4ba6-8fb2-8a9611fccd8e")
@@ -41864,6 +42098,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45e2da88-127a-4c77-88db-3581657770ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82786a3d-7d16-47d6-b83f-37e75f38bcb0")
 			(effects
 				(font
 					(size 1 1)
@@ -44023,6 +44270,19 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d268e731-8483-478b-8cc9-14ca59bf59e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b/4b9639ec-5645-47ae-b3bd-d8b743af6915")
 		(sheetname "/Brine Flowmeter/")
@@ -44503,7 +44763,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/35v"
+		(property "Value" "10uF / 35v"
 			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "0aefa8d4-6148-494b-9f88-41e38be9e37d")
@@ -45386,6 +45646,19 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "90"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27def290-daf5-4c5c-83fe-f1e5c722aaeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/602af921-0504-453c-a784-e82800e98f4c/84c5c53f-1368-467f-a5c6-46186e21416d")
 		(sheetname "/ESP32-S3/")
@@ -45913,7 +46186,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF/50v"
+		(property "Value" "100nF / 50v"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9bab58ab-be78-4ad3-a909-cc18b850db84")

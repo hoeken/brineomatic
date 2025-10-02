@@ -4605,6 +4605,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fcf3272-618c-4271-9731-2d2dd9e3473e")
 		)
@@ -4993,6 +5002,15 @@
 			)
 		)
 		(property "LCSC" "C2941042"
+			(at 115.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -5613,6 +5631,24 @@
 			)
 		)
 		(property "LCSC" "C36499181"
+			(at 115.57 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 115.57 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Position Offset" "-1.778,0.0"
 			(at 115.57 46.99 90)
 			(effects
 				(font
