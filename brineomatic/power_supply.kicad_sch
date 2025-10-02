@@ -4657,7 +4657,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "RED"
 			(at 143.51 57.4674 90)
 			(effects
 				(font
@@ -4695,6 +4695,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
+			(at 139.7 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,6 +4992,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2941042"
+			(at 115.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "578a2d67-ab31-4154-9888-ea379060cd44")
 		)
@@ -5017,7 +5035,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "59911f47-d4bb-4f76-a7cd-e284dcbd5578")
 		(property "Reference" "R18"
@@ -5065,7 +5083,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C137513"
+		(property "LCSC" ""
 			(at 118.11 132.08 0)
 			(effects
 				(font
@@ -5305,7 +5323,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" ""
 			(at 148.59 128.27 0)
 			(effects
 				(font
@@ -5587,6 +5605,15 @@
 		)
 		(property "Description" ""
 			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C36499181"
+			(at 115.57 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,6 +5988,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C148225"
+			(at 74.93 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18c5a39e-9e38-40d0-86c9-601afda998f4")
 		)
@@ -6040,7 +6076,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" ""
 			(at 96.52 58.42 0)
 			(effects
 				(font
@@ -6291,7 +6327,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cbff86bf-6736-4302-9286-ee7b93fdd047")
 		(property "Reference" "C10"
@@ -6303,7 +6339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF/50v"
+		(property "Value" "4.7uF / 50v"
 			(at 120.65 125.7363 0)
 			(effects
 				(font
@@ -6348,7 +6384,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C437557"
+		(property "LCSC" ""
 			(at 118.11 124.46 0)
 			(effects
 				(font
@@ -6420,6 +6456,15 @@
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 58.0Vr, SMA(DO-214AC)"
 			(at 74.93 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C151246"
+			(at 74.93 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6732,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "RED"
 			(at 234.95 127.3174 90)
 			(effects
 				(font
@@ -6725,6 +6770,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 231.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
+			(at 231.14 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +6864,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C83170"
+		(property "LCSC" ""
 			(at 72.39 128.27 0)
 			(effects
 				(font
@@ -6853,7 +6907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/35v"
+		(property "Value" "10uF / 35v"
 			(at 134.62 129.5463 0)
 			(effects
 				(font
@@ -7074,7 +7128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF/50v"
+		(property "Value" "470nF / 50v"
 			(at 95.25 129.5463 0)
 			(effects
 				(font
@@ -7119,7 +7173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C106843"
+		(property "LCSC" ""
 			(at 92.71 128.27 0)
 			(effects
 				(font

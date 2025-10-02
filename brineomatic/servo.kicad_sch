@@ -708,7 +708,7 @@
 				)
 			)
 		)
-		(property "Value" "SERVOS"
+		(property "Value" "~"
 			(at 175.26 120.65 0)
 			(effects
 				(font

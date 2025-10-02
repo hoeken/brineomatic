@@ -1958,7 +1958,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95781"
+		(property "LCSC" ""
 			(at 109.22 93.98 0)
 			(effects
 				(font
@@ -2047,7 +2047,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105577"
+		(property "LCSC" ""
 			(at 115.57 88.9 0)
 			(effects
 				(font
@@ -2229,7 +2229,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C96346"
+		(property "LCSC" ""
 			(at 121.92 97.79 0)
 			(effects
 				(font
@@ -2459,7 +2459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 113.03 104.4574 90)
 			(effects
 				(font
@@ -2495,7 +2495,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C98224"
+		(property "LCSC" "C965799"
 			(at 109.22 101.6 0)
 			(effects
 				(font

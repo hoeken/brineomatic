@@ -9027,6 +9027,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5187527"
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "32e96a6b-53c4-49c0-89c1-d32cfd32b6e3")
 		)
@@ -9355,7 +9364,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 135.89 118.872 0)
 			(effects
 				(font
@@ -9399,7 +9408,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C965799"
 			(at 133.35 119.38 0)
 			(effects
 				(font
@@ -9858,7 +9867,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 25.4 182.88 90)
 			(effects
 				(font
@@ -9960,6 +9969,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" ""
+			(at 229.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10169,6 +10187,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2846043"
+			(at 255.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7f6131dd-2b51-4c2c-86b4-43e93bd17ba4")
 		)
@@ -10274,6 +10301,15 @@
 			)
 		)
 		(property "Description" "700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 110.49 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C424705"
 			(at 110.49 177.8 0)
 			(effects
 				(font
@@ -10591,6 +10627,15 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 31.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15ff2f76-011f-40f9-8eab-b01c7592f05d")
 		)
@@ -10813,6 +10858,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C112086"
+			(at 46.99 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c266ab99-b3cb-4b00-9012-634d3f9710fe")
 		)
@@ -10892,7 +10946,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C843684"
+		(property "LCSC" "C557599"
 			(at 269.24 110.49 0)
 			(effects
 				(font
@@ -10967,6 +11021,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" ""
+			(at 218.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11183,6 +11246,15 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 72.39 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "433a3941-5570-40ce-a3dd-7b7845ef8cf6")
 		)
@@ -11320,7 +11392,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C843684"
+		(property "LCSC" "C557599"
 			(at 269.24 148.59 0)
 			(effects
 				(font
@@ -11396,6 +11468,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" ""
+			(at 241.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11543,6 +11624,15 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ae36ab2-acd5-4e25-a27e-4807862a9995")
 		)
@@ -11612,6 +11702,15 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 161.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8720bdd-040d-4a88-8f13-3f45a0bc1745")
 		)
@@ -11674,6 +11773,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2913202"
 			(at 67.31 124.46 0)
 			(effects
 				(font
@@ -12135,6 +12243,15 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 231.14 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f36a23ef-2024-4fe4-9009-54d594761705")
 		)
@@ -12270,6 +12387,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

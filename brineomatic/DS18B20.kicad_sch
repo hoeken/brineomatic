@@ -765,7 +765,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60816"
+		(property "LCSC" ""
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -873,7 +873,7 @@
 				)
 			)
 		)
-		(property "Value" "THERM"
+		(property "Value" "~"
 			(at 113.03 90.17 0)
 			(effects
 				(font
