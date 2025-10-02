@@ -5599,8 +5599,8 @@
 		(uuid bf75d399-3732-4f5e-b8aa-3e5141125c33)
 	)
 	(rectangle
-		(start 144.78 99.06)
-		(end 130.81 146.05)
+		(start 176.53 163.83)
+		(end 223.52 177.8)
 		(stroke
 			(width 0)
 			(type default)
@@ -5660,7 +5660,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 132.334 101.854 0)
+		(at 179.324 176.276 90)
 		(effects
 			(font
 				(size 2 2)
@@ -5779,8 +5779,8 @@
 	)
 	(text_box "Originally forked from: github.com/eggsampler/ESP32-S3-Breakout\nUpdates based on www.waveshare.com/wiki/ESP32-S3-DEV-KIT-N8R8\n\nDesign by Zach Hoeken"
 		(exclude_from_sim no)
-		(at 205.74 163.83 0)
-		(size 77.47 13.97)
+		(at 229.235 163.83 0)
+		(size 53.975 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -6223,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 111.76) (xy 133.35 115.57)
+			(xy 189.23 175.26) (xy 193.04 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7013,7 +7013,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 123.19) (xy 133.35 124.46)
+			(xy 200.66 175.26) (xy 201.93 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7383,7 +7383,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 129.54) (xy 133.35 133.35)
+			(xy 207.01 175.26) (xy 210.82 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8058,12 +8058,12 @@
 	)
 	(hierarchical_label "ESP_GND"
 		(shape input)
-		(at 133.35 133.35 270)
+		(at 210.82 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "182e0da9-92ec-45d5-bd30-e6b8131bafb9")
 	)
@@ -8817,12 +8817,12 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 133.35 111.76 90)
+		(at 189.23 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fed140d8-4d30-43e9-9e25-0e9d60580851")
 	)
@@ -8837,7 +8837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1135644a-d6ca-4a97-9d3c-f49a428933ea")
-		(property "Reference" "Q9"
+		(property "Reference" "Q3"
 			(at 236.22 139.6999 0)
 			(effects
 				(font
@@ -8901,6 +8901,12 @@
 			(uuid "24c95769-14f1-406a-b3cf-5e290ae519af")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "Q9")
@@ -8919,7 +8925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20e0aea9-7920-486d-878c-1fe84bffc814")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG03"
 			(at 77.47 34.925 0)
 			(effects
 				(font
@@ -8966,6 +8972,12 @@
 			(uuid "98059e52-7d2f-4036-92f4-f6a3ca72474e")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "#FLG011")
@@ -8984,7 +8996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23ede33a-88f9-4216-9275-6de1c3597d85")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 172.72 16.51 0)
 			(effects
 				(font
@@ -9121,6 +9133,12 @@
 			(uuid "8a521707-610e-4dea-a838-e5ff91aab78d")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "U7")
@@ -9138,7 +9156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30dc939a-5559-4c76-a207-51474b247582")
-		(property "Reference" "R39"
+		(property "Reference" "R5"
 			(at 57.15 43.18 90)
 			(effects
 				(font
@@ -9197,6 +9215,12 @@
 			(uuid "a0f6601b-6d61-4635-8bc6-1a2f9f773100")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R39")
@@ -9279,6 +9303,12 @@
 			(uuid "9da10214-cf70-4835-ba32-d6ce850e0b67")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "Y1")
@@ -9297,7 +9327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32029bd6-a69b-4623-9899-4d60b87c2ca5")
-		(property "Reference" "C18"
+		(property "Reference" "C4"
 			(at 87.63 180.3462 0)
 			(effects
 				(font
@@ -9348,6 +9378,12 @@
 			(uuid "fb4608da-138c-41fb-b269-9bbfe98faeea")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C18")
@@ -9358,15 +9394,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 133.35 119.38 90)
+		(at 196.85 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "346080d3-eb5c-4d2e-929e-c016c513fb49")
-		(property "Reference" "D22"
-			(at 138.43 118.872 0)
+		(property "Reference" "D2"
+			(at 196.342 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +9410,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 135.89 118.872 0)
+			(at 196.342 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,7 +9418,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 133.35 119.38 0)
+			(at 196.85 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +9427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 119.38 0)
+			(at 196.85 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +9436,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 133.35 119.38 0)
+			(at 196.85 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9409,7 +9445,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 119.38 0)
+			(at 196.85 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9454,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 133.35 119.38 0)
+			(at 196.85 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9433,6 +9469,12 @@
 			(uuid "37287c80-b3ab-4b75-9052-228752bad5bb")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "D22")
@@ -9451,7 +9493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35feb72d-26ee-48e0-b093-e6d59182e8ba")
-		(property "Reference" "C15"
+		(property "Reference" "C1"
 			(at 21.59 124.4662 0)
 			(effects
 				(font
@@ -9502,6 +9544,12 @@
 			(uuid "283c6a5b-6e01-409c-b926-13f783f0f0f9")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C15")
@@ -9512,15 +9560,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 133.35 127 0)
+		(at 204.47 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "46ede41d-5e67-4cdd-8faa-a96e1134918a")
-		(property "Reference" "R41"
-			(at 138.43 126.492 90)
+		(property "Reference" "R6"
+			(at 203.962 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +9576,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 135.89 126.492 90)
+			(at 203.962 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +9584,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.35 127 0)
+			(at 204.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +9593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 127 0)
+			(at 204.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,7 +9602,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 133.35 127 0)
+			(at 204.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,6 +9617,12 @@
 			(uuid "ca458115-fbc0-4b68-95a3-695a154e6364")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R41")
@@ -9587,7 +9641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ad83729-6c88-457f-874a-3efbcac378d1")
-		(property "Reference" "C27"
+		(property "Reference" "C13"
 			(at 187.96 116.8462 0)
 			(effects
 				(font
@@ -9638,6 +9692,12 @@
 			(uuid "f6594329-02d4-4fd6-b790-7a5e487b4aa7")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C27")
@@ -9714,6 +9774,12 @@
 			(uuid "469fc143-c88f-4c22-8d40-a659327b5b21")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "Y2")
@@ -9731,7 +9797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5327501b-5167-4d59-b38e-50b74e85fb59")
-		(property "Reference" "C23"
+		(property "Reference" "C9"
 			(at 148.59 69.8562 0)
 			(effects
 				(font
@@ -9782,6 +9848,12 @@
 			(uuid "5a85b6bc-eda5-46b8-a79a-0ec93026859d")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C23")
@@ -9800,7 +9872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61b64222-692a-49d7-9c04-b0b3d640ee5a")
-		(property "Reference" "R42"
+		(property "Reference" "R8"
 			(at 222.25 111.76 90)
 			(effects
 				(font
@@ -9850,6 +9922,12 @@
 			(uuid "d8871ea0-bbe0-475c-a3e7-d96bb52feacf")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R42")
@@ -9868,7 +9946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64932ff9-29ff-4ec0-9626-dcca54a330b3")
-		(property "Reference" "R35"
+		(property "Reference" "R1"
 			(at 25.4 180.34 90)
 			(effects
 				(font
@@ -9918,6 +9996,12 @@
 			(uuid "48aaea69-77ce-42a0-a40a-3a58122d4db7")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R35")
@@ -9936,7 +10020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68be46b8-082a-4c1e-9373-ec80edd701d8")
-		(property "Reference" "C29"
+		(property "Reference" "C15"
 			(at 232.41 31.7562 0)
 			(effects
 				(font
@@ -9996,6 +10080,12 @@
 			(uuid "650801ac-a7b4-460d-9c42-f9a3c1c395cf")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C29")
@@ -10014,7 +10104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69bad118-8291-41d0-823c-1f6486bbe063")
-		(property "Reference" "C32"
+		(property "Reference" "C18"
 			(at 247.65 116.8462 0)
 			(effects
 				(font
@@ -10065,6 +10155,12 @@
 			(uuid "b6104e2b-116d-418e-ad95-2450515122e8")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C32")
@@ -10082,7 +10178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ce463ec-88c9-4aa3-a9ba-ccbfade8c738")
-		(property "Reference" "C20"
+		(property "Reference" "C6"
 			(at 135.8836 20.32 90)
 			(effects
 				(font
@@ -10131,6 +10227,12 @@
 			(uuid "0bb732b1-64a9-4290-8523-370375f5bcca")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C20")
@@ -10149,7 +10251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e30d1d5-11e4-47ea-a6ea-3811d27cc2ac")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 257.4133 66.04 0)
 			(effects
 				(font
@@ -10266,6 +10368,12 @@
 			(uuid "1571b248-b5cb-49e7-abe7-30a8bf0b4f4d")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "U8")
@@ -10284,7 +10392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e571e7-b5f0-4425-ae54-6b4f7b88b0ff")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 110.49 167.64 0)
 			(effects
 				(font
@@ -10352,6 +10460,12 @@
 			(uuid "43307510-60be-40a5-8bb1-a5afb3ab8c5f")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "U6")
@@ -10372,7 +10486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84c5c53f-1368-467f-a5c6-46186e21416d")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 72.0089 59.69 0)
 			(effects
 				(font
@@ -10457,6 +10571,12 @@
 			(uuid "a71272ae-808b-4ce9-9d6a-4a5a05420cd9")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "U5")
@@ -10475,7 +10595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99c62adf-c1f2-4eae-8b07-9d4c958e07eb")
-		(property "Reference" "C33"
+		(property "Reference" "C19"
 			(at 247.65 135.8962 0)
 			(effects
 				(font
@@ -10526,6 +10646,12 @@
 			(uuid "d8c165dd-bea1-4841-8f67-78a62c84ab42")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C33")
@@ -10543,7 +10669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bab2103-e047-4032-9ea2-f330a09aeba4")
-		(property "Reference" "C21"
+		(property "Reference" "C7"
 			(at 135.89 35.306 90)
 			(effects
 				(font
@@ -10592,6 +10718,12 @@
 			(uuid "0eb1c7c0-3fa4-429e-baba-60160422d1ef")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C21")
@@ -10610,7 +10742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ed40451-1ca9-434e-84f5-08fe472acee7")
-		(property "Reference" "C16"
+		(property "Reference" "C2"
 			(at 34.29 124.4662 0)
 			(effects
 				(font
@@ -10670,6 +10802,12 @@
 			(uuid "256c80da-9359-4e5a-b9c3-595a8dd43173")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C16")
@@ -10688,7 +10826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ee00a90-271d-4eb6-9420-fd7d8e31e23b")
-		(property "Reference" "R43"
+		(property "Reference" "R9"
 			(at 222.25 134.62 90)
 			(effects
 				(font
@@ -10738,6 +10876,12 @@
 			(uuid "554bb064-c21f-49c8-98a9-1feea2ee5963")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R43")
@@ -10755,7 +10899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f586938-4d08-4790-acce-27f495766fcf")
-		(property "Reference" "D21"
+		(property "Reference" "D3"
 			(at 193.802 138.43 0)
 			(effects
 				(font
@@ -10822,6 +10966,12 @@
 			(uuid "9b40834d-f67c-44ff-a47f-7e3a3d6df4f1")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "D21")
@@ -10840,7 +10990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a684487e-d6d2-4196-8bc9-36cb63347b4e")
-		(property "Reference" "Q7"
+		(property "Reference" "Q1"
 			(at 46.5455 170.18 0)
 			(effects
 				(font
@@ -10913,6 +11063,12 @@
 			(uuid "6d935291-e383-43f5-bc6d-f2c4c234a18a")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "Q7")
@@ -10998,6 +11154,12 @@
 			(uuid "d23a8f56-598b-4acf-9054-852f1a21a6df")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "SW1")
@@ -11015,7 +11177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a987984e-eab5-4440-8519-cf100cc810fe")
-		(property "Reference" "C28"
+		(property "Reference" "C14"
 			(at 220.98 31.7562 0)
 			(effects
 				(font
@@ -11075,6 +11237,12 @@
 			(uuid "459bf531-fddb-4407-a3a3-8df843e0926a")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C28")
@@ -11092,7 +11260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab25f245-d36f-4514-9c9d-d69f08bef1b6")
-		(property "Reference" "R40"
+		(property "Reference" "R7"
 			(at 143.51 66.04 90)
 			(effects
 				(font
@@ -11151,6 +11319,12 @@
 			(uuid "da232869-e0d1-46bf-87c0-f9e037c763a4")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R40")
@@ -11169,7 +11343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acb47d5f-843a-4544-ac65-f3e89fe963e7")
-		(property "Reference" "C19"
+		(property "Reference" "C5"
 			(at 125.73 69.8562 0)
 			(effects
 				(font
@@ -11220,6 +11394,12 @@
 			(uuid "2e8bfb4d-fa71-4003-a4b5-89ebadab375f")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C19")
@@ -11238,7 +11418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1e028b5-95f9-4c73-b3e2-b16b7b107b90")
-		(property "Reference" "C17"
+		(property "Reference" "C3"
 			(at 74.93 180.3462 0)
 			(effects
 				(font
@@ -11298,6 +11478,12 @@
 			(uuid "de3b2177-dbc9-42ef-9029-a807f43a8c5f")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C17")
@@ -11316,7 +11502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b44ce11e-6677-4ca7-ab5b-9184fe82288e")
-		(property "Reference" "R37"
+		(property "Reference" "R3"
 			(at 34.29 187.9599 0)
 			(effects
 				(font
@@ -11368,6 +11554,12 @@
 			(uuid "ddd540c8-ca4c-4e61-b94a-eec51e2c25bd")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R37")
@@ -11453,6 +11645,12 @@
 			(uuid "37c2d993-3561-4dea-afa6-b36d517a4586")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "SW2")
@@ -11471,7 +11669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6e517ac-6dda-4943-bc30-ac1011609fd4")
-		(property "Reference" "C31"
+		(property "Reference" "C17"
 			(at 243.84 31.7562 0)
 			(effects
 				(font
@@ -11531,6 +11729,12 @@
 			(uuid "26829bb2-a818-46ce-b4bf-764e5f013b7b")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C31")
@@ -11549,7 +11753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bde8e82e-7cf8-4485-ba29-073b3b1fd96d")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 69.8119 26.67 90)
 			(effects
 				(font
@@ -11607,6 +11811,12 @@
 			(uuid "eedf753b-496a-4d97-af0c-20c9c13c5127")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "FB2")
@@ -11625,7 +11835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2c147e-8919-430d-84dc-76303b2c54c8")
-		(property "Reference" "C24"
+		(property "Reference" "C10"
 			(at 148.59 180.3462 0)
 			(effects
 				(font
@@ -11685,6 +11895,12 @@
 			(uuid "6c8f3582-ad82-4ea4-a4c5-b0c196e758b7")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C24")
@@ -11703,7 +11919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5b1ab64-ebe4-4e83-9944-35fae8d491d7")
-		(property "Reference" "C25"
+		(property "Reference" "C11"
 			(at 162.052 141.478 0)
 			(effects
 				(font
@@ -11763,6 +11979,12 @@
 			(uuid "d5305551-9cee-4683-8150-c69b1c77e784")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C25")
@@ -11781,7 +12003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c77a5dae-7aab-4c5e-938e-20ad343837bd")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 69.4533 93.98 0)
 			(effects
 				(font
@@ -11968,6 +12190,12 @@
 			(uuid "cfa3aa16-8bb6-426e-82f8-d410e8b81e99")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "U4")
@@ -11986,7 +12214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafa538a-9fc5-463f-867d-6e5ef0dc8380")
-		(property "Reference" "J18"
+		(property "Reference" "J3"
 			(at 29.21 25.4 0)
 			(effects
 				(font
@@ -12099,6 +12327,12 @@
 			(uuid "ee52ef8b-68d8-45f5-a3cd-3b275e5bfbe1")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "J18")
@@ -12117,7 +12351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce956ba9-f18e-4f27-a38b-7edb7e0ba398")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG02"
 			(at 52.07 28.575 0)
 			(effects
 				(font
@@ -12164,6 +12398,12 @@
 			(uuid "166a5022-544b-4eb0-ac1c-f408019925e8")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "#FLG010")
@@ -12182,7 +12422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1448427-6986-4efa-b22e-84a8be96da43")
-		(property "Reference" "Q8"
+		(property "Reference" "Q2"
 			(at 236.22 116.8399 0)
 			(effects
 				(font
@@ -12246,6 +12486,12 @@
 			(uuid "54bb4aa0-4df4-44d4-ad34-8ae7f07cb6c2")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "Q8")
@@ -12264,7 +12510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5c5881d-2495-4611-9015-649dcccb604a")
-		(property "Reference" "C30"
+		(property "Reference" "C16"
 			(at 231.1463 39.37 90)
 			(effects
 				(font
@@ -12322,6 +12568,12 @@
 			(uuid "583f8c65-05b3-45c0-9571-5efcb8cb4f4e")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C30")
@@ -12340,7 +12592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e74a8e04-e99c-4cce-bf0b-fa886836f2eb")
-		(property "Reference" "R45"
+		(property "Reference" "R11"
 			(at 259.08 142.2399 0)
 			(effects
 				(font
@@ -12392,6 +12644,12 @@
 			(uuid "4a5028d1-b936-4ad8-82e3-101c5344bf4c")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R45")
@@ -12410,7 +12668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e912b213-5a91-418d-bcc0-5b1570ea5cdc")
-		(property "Reference" "D20"
+		(property "Reference" "D1"
 			(at 60.0075 26.67 0)
 			(effects
 				(font
@@ -12468,6 +12726,12 @@
 			(uuid "046ad5ee-13ae-4d81-bbf1-3ddccdea4e18")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "D20")
@@ -12485,7 +12749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea87ef47-bc4e-417f-98ca-2fe414aafbf9")
-		(property "Reference" "R38"
+		(property "Reference" "R4"
 			(at 57.15 35.56 90)
 			(effects
 				(font
@@ -12544,6 +12808,12 @@
 			(uuid "69fb2834-e653-40ba-b860-e3f486e246e6")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R38")
@@ -12562,7 +12832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5144cb5-76ef-44e1-bf55-2902c023fb13")
-		(property "Reference" "R36"
+		(property "Reference" "R2"
 			(at 34.29 177.7999 0)
 			(effects
 				(font
@@ -12614,6 +12884,12 @@
 			(uuid "74adc762-ffc1-41ea-a736-546911688301")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R36")
@@ -12632,7 +12908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66ae977-fc70-443d-9f9a-50e88ec9f57f")
-		(property "Reference" "C22"
+		(property "Reference" "C8"
 			(at 138.43 180.3462 0)
 			(effects
 				(font
@@ -12683,6 +12959,12 @@
 			(uuid "88407a34-b191-4e81-ab4c-2e4ff0a97483")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C22")
@@ -12701,7 +12983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f67b2648-4dd9-4500-a092-a482c7488e8f")
-		(property "Reference" "C26"
+		(property "Reference" "C12"
 			(at 175.26 116.8335 0)
 			(effects
 				(font
@@ -12752,6 +13034,12 @@
 			(uuid "be477a7e-9672-4a2a-9d37-6d09b3e4ea73")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "C26")
@@ -12770,7 +13058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb33cef8-6775-46ee-b331-0bccd6f27bc9")
-		(property "Reference" "R44"
+		(property "Reference" "R10"
 			(at 259.08 105.4099 0)
 			(effects
 				(font
@@ -12822,6 +13110,12 @@
 			(uuid "25ee0a49-286f-4bf6-9dd2-9fc0f7aed4f4")
 		)
 		(instances
+			(project "ESP32-S3-Template"
+				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R44")
