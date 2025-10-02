@@ -2111,7 +2111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "yarrboard:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
 			(at 143.51 72.39 0)
 			(effects
 				(font
