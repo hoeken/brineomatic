@@ -853,15 +853,57 @@
 		)
 		(uuid "633b0d61-4c72-4214-ad5c-e2158025f003")
 	)
+	(junction
+		(at 143.51 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eff5c95-447f-429a-a1dc-67a66cb24b91")
+	)
+	(junction
+		(at 133.35 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff4f3fba-4a3a-451f-a40b-1a18a502d08a")
+	)
 	(wire
 		(pts
-			(xy 143.51 99.06) (xy 143.51 102.87)
+			(xy 133.35 93.98) (xy 135.89 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28bc4ea1-5547-4bf6-8229-c88b1aab246c")
+		(uuid "0b455834-4ab7-421c-a5de-a93d8eb8541d")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3596b00d-5196-4e64-a419-16cc33c29f21")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47be8d6b-0fa8-4048-bd58-7d0b1860cd0f")
+	)
+	(wire
+		(pts
+			(xy 143.51 99.06) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc36e34-6b1e-4a5e-837d-27dfd5d5ac36")
 	)
 	(wire
 		(pts
@@ -875,13 +917,33 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 93.98) (xy 135.89 93.98)
+			(xy 133.35 101.6) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f997d63-44be-4d30-a081-0da6eadf2322")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80c38fc1-30bd-410d-b848-e27fa7da2f85")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922fee02-8dd2-4e71-99c7-3340373b1f5b")
 	)
 	(wire
 		(pts
@@ -975,6 +1037,85 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/d9651726-ebc8-4cdb-a521-a43a3039a77a"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 133.35 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f4db555-6392-4ce0-a406-db348717f75b")
+		(property "Reference" "R3"
+			(at 135.89 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 135.89 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "197cb2c5-112a-4e46-97a4-13fff02abedb")
+		)
+		(pin "2"
+			(uuid "c6e41177-5b7a-4464-b265-aaa8e5aaa598")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/d9651726-ebc8-4cdb-a521-a43a3039a77a"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1082,7 +1223,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100R"
 			(at 129.54 90.17 90)
 			(effects
 				(font
