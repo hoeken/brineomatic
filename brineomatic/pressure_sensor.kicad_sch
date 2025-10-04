@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "3b9df4d1-d11d-4392-9546-431fdf379ab0")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/brineomatic")
+		(date "2025-08-28")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -1102,6 +1107,51 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 82.55 56.515)
+		(end 158.75 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14bdf44c-da8d-4787-859f-7b8379a407c6)
+	)
+	(text "4-20mA Sensor"
+		(exclude_from_sim no)
+		(at 85.344 60.198 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2122d648-3b7e-43e0-a1cd-288f6d3a0f46")
+	)
+	(text_box "Designed for 4-20mA pressure sensors powered by 12-24v\n\n* 165ohm shunt for 3.3v output\n* Noise filtering RC filter\n* BAT54S for ESD / overvoltage protection"
+		(exclude_from_sim no)
+		(at 82.55 118.11 0)
+		(size 76.2 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1a42e70a-284a-40c6-877b-7ed3865063bb")
 	)
 	(junction
 		(at 118.11 87.63)

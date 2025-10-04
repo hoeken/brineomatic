@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "6535ab81-0c15-428e-af25-433576caab15")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/brineomatic")
+		(date "2025-08-28")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1115IDGS"
 			(exclude_from_sim no)
@@ -771,6 +776,31 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 96.52 51.435)
+		(end 207.645 109.855)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4094fec0-83cf-461f-a52d-cff0f6e9b092)
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 99.314 55.118 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a6dd423d-96d5-4822-b876-48ae6933e276")
 	)
 	(junction
 		(at 165.1 67.31)

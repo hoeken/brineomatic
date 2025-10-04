@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "daff1e2f-4315-4ce5-83c2-917000023515")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/brineomatic")
+		(date "2025-08-28")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -1974,7 +1979,7 @@
 	)
 	(text "Configuration"
 		(exclude_from_sim no)
-		(at 184.912 38.1 0)
+		(at 184.404 37.084 0)
 		(effects
 			(font
 				(size 3 3)

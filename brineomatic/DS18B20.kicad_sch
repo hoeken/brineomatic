@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "f45957af-f0dd-4c72-81f6-382c83d1ca59")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/brineomatic")
+		(date "2025-08-28")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -540,6 +545,51 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 87.63 67.31)
+		(end 163.83 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d974b3b9-2505-4fbb-9006-571ca88b9a10)
+	)
+	(text "Temperature Connection"
+		(exclude_from_sim no)
+		(at 90.424 70.993 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "aa0e0927-2651-4274-9571-e02dcea7ac9a")
+	)
+	(text_box "Simple connector for a DS18B20 temperature sensor."
+		(exclude_from_sim no)
+		(at 87.63 118.11 0)
+		(size 76.2 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "792f17a1-6c5e-4652-a51c-3fe0feb80939")
 	)
 	(junction
 		(at 121.92 91.44)

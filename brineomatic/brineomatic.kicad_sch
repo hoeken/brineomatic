@@ -4,7 +4,251 @@
 	(generator_version "9.0")
 	(uuid "96477ae2-ef08-48f3-8dd4-fe4478541f68")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/brineomatic")
+		(date "2025-08-28")
+		(rev "B")
+	)
 	(lib_symbols
+		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_MountingPin"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_MountingPin_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -662,6 +906,18 @@
 		(uuid 32efb7ee-103a-4f3e-8a88-0506a5af3fb2)
 	)
 	(rectangle
+		(start 71.12 147.32)
+		(end 99.06 175.895)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 61178f34-b43d-4291-97ad-a45466f2d435)
+	)
+	(rectangle
 		(start 128.905 26.67)
 		(end 274.32 144.78)
 		(stroke
@@ -852,6 +1108,19 @@
 		)
 		(uuid "b02a9e13-f80d-4497-8c94-cfe384f23744")
 	)
+	(text "I2C / QWIIC"
+		(exclude_from_sim no)
+		(at 73.406 151.638 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b6dce645-f86d-4a79-9f14-37b72df19418")
+	)
 	(text "JTAG"
 		(exclude_from_sim no)
 		(at 210.312 124.714 90)
@@ -883,13 +1152,13 @@
 		(uuid "ec1ac324-643a-412b-8307-3f9e5723c284")
 	)
 	(junction
-		(at 41.91 166.37)
+		(at 121.92 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25a24955-1f5b-4ef0-b20a-f4dbd2abe91e")
 	)
 	(junction
-		(at 41.91 186.69)
+		(at 121.92 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dc30a17-d861-4021-8db8-2682e50b40a7")
@@ -901,7 +1170,7 @@
 		(uuid "a35d13e2-41e8-4966-b24c-46e1fa5ec065")
 	)
 	(junction
-		(at 41.91 176.53)
+		(at 121.92 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f439d6b1-718f-4d2e-bd0a-9ef70e4a9cee")
@@ -1004,7 +1273,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 186.69) (xy 41.91 187.96)
+			(xy 121.92 185.42) (xy 121.92 186.69)
 		)
 		(stroke
 			(width 0)
@@ -1164,6 +1433,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 161.29) (xy 85.09 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437f9c22-1f31-4740-b4f7-0da0c55725d3")
+	)
+	(wire
+		(pts
 			(xy 85.09 49.53) (xy 83.82 49.53)
 		)
 		(stroke
@@ -1214,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 166.37) (xy 41.91 166.37)
+			(xy 115.57 165.1) (xy 121.92 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1503,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 176.53) (xy 41.91 176.53)
+			(xy 115.57 175.26) (xy 121.92 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1244,13 +1523,33 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 186.69) (xy 41.91 186.69)
+			(xy 115.57 185.42) (xy 121.92 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "546df13f-b1d2-4559-b126-2861e30d5158")
+	)
+	(wire
+		(pts
+			(xy 85.09 158.75) (xy 82.55 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6033db11-6590-4869-b616-99169def965d")
+	)
+	(wire
+		(pts
+			(xy 82.55 163.83) (xy 85.09 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b28412-7936-4716-b024-d8b08d83093b")
 	)
 	(wire
 		(pts
@@ -1334,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 176.53) (xy 41.91 186.69)
+			(xy 121.92 175.26) (xy 121.92 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1414,6 +1713,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 156.21) (xy 82.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b57bc2-5bed-4ead-92f8-63ac6c8f65df")
+	)
+	(wire
+		(pts
 			(xy 99.06 118.11) (xy 101.6 118.11)
 		)
 		(stroke
@@ -1484,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 156.21) (xy 41.91 156.21)
+			(xy 115.57 154.94) (xy 121.92 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +1813,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 166.37) (xy 41.91 176.53)
+			(xy 121.92 165.1) (xy 121.92 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 156.21) (xy 41.91 166.37)
+			(xy 121.92 154.94) (xy 121.92 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1781,6 +2090,28 @@
 		(uuid "185686d1-5749-4ac9-a3e8-37f957a6ca74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.5362 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 82.55 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "292582e1-5278-4489-825b-455f9ac4b03a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.9967 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,6 +2473,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 82.55 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aebf28b1-4fb3-4bf1-b690-75e15044db74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.0572 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TMC2209_DIR"
 		(shape input)
 		(at 85.09 46.99 0)
@@ -2344,7 +2697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Symbol:OSHW-Logo_11.4x12mm_SilkScreen"
+		(property "Footprint" "Symbol:OSHW-Logo_5.7x6mm_SilkScreen"
 			(at 185.42 173.99 0)
 			(effects
 				(font
@@ -2452,7 +2805,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 33.02 156.21 90)
+		(at 113.03 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2461,7 +2814,7 @@
 		(fields_autoplaced yes)
 		(uuid "56111d24-a26d-413a-95de-404f097ea6d6")
 		(property "Reference" "H1"
-			(at 31.75 149.86 90)
+			(at 111.76 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2822,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 31.75 152.4 90)
+			(at 111.76 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2830,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 33.02 156.21 0)
+			(at 113.03 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 156.21 0)
+			(at 113.03 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 156.21 0)
+			(at 113.03 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,6 +2863,161 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 90.17 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "585dd99c-5f1b-4812-8a80-f63a6610101c")
+		(property "Reference" "J21"
+			(at 92.71 159.1055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_MountingPin"
+			(at 92.71 161.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "yarrboard:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160390"
+			(at 90.17 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7543aa4a-b60e-44f2-99c1-119be30db6de")
+		)
+		(pin "MP"
+			(uuid "e34f03f9-615f-4e8c-9c90-6a77fe2a4f57")
+		)
+		(pin "2"
+			(uuid "278245cf-cfa9-4f77-a237-2a753801d57b")
+		)
+		(pin "3"
+			(uuid "daa76670-4db3-4d78-9e85-e4db0dff954b")
+		)
+		(pin "1"
+			(uuid "87b04080-0854-4288-bef8-0f298fb07b08")
+		)
+		(instances
+			(project ""
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 82.55 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "645d4d49-9f05-48c8-bbe9-b167761bc7bc")
+		(property "Reference" "#PWR047"
+			(at 86.36 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 78.74 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2087651-93f3-47f3-b523-538a7d6e8f91")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2585,7 +3093,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 33.02 176.53 90)
+		(at 113.03 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2593,7 +3101,7 @@
 		(dnp no)
 		(uuid "94f94423-5ba6-422e-992b-f344a743a026")
 		(property "Reference" "H3"
-			(at 31.75 170.18 90)
+			(at 111.76 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +3109,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 31.75 172.72 90)
+			(at 111.76 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +3117,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 33.02 176.53 0)
+			(at 113.03 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +3126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 176.53 0)
+			(at 113.03 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +3135,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 176.53 0)
+			(at 113.03 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +3292,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 33.02 166.37 90)
+		(at 113.03 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2793,7 +3301,7 @@
 		(fields_autoplaced yes)
 		(uuid "a71b8faa-7a8f-4e53-a90c-42e3c613447a")
 		(property "Reference" "H2"
-			(at 31.75 160.02 90)
+			(at 111.76 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +3309,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 31.75 162.56 90)
+			(at 111.76 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +3317,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 33.02 166.37 0)
+			(at 113.03 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +3326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 166.37 0)
+			(at 113.03 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +3335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 166.37 0)
+			(at 113.03 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +3357,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 187.96 0)
+		(at 121.92 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2857,7 +3365,7 @@
 		(dnp no)
 		(uuid "aef1aaeb-28b9-479b-a30f-8912dc5e6c07")
 		(property "Reference" "#PWR01"
-			(at 41.91 194.31 0)
+			(at 121.92 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +3374,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 192.024 0)
+			(at 121.92 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +3382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 187.96 0)
+			(at 121.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +3391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 187.96 0)
+			(at 121.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +3400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 187.96 0)
+			(at 121.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,6 +3415,72 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf3842d-fa28-4f11-98b7-5b2c77490f46")
+		(property "Reference" "#PWR048"
+			(at 90.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "986f35f6-17f0-46d2-bfe3-fe2dc5955492")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2980,8 +3554,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 82.55 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8b7673c-be96-4c28-b98b-db431e060479")
+		(property "Reference" "#PWR04"
+			(at 76.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23ed3dec-89f2-4c29-b534-23f0893c1b20")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 33.02 186.69 90)
+		(at 113.03 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2990,7 +3631,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea7e5ba3-6ebe-4e06-8169-98c758420648")
 		(property "Reference" "H4"
-			(at 31.75 180.34 90)
+			(at 111.76 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3639,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 31.75 182.88 90)
+			(at 111.76 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3647,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 33.02 186.69 0)
+			(at 113.03 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 186.69 0)
+			(at 113.03 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 186.69 0)
+			(at 113.03 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,8 +4663,8 @@
 		)
 	)
 	(sheet
-		(at 54.61 160.02)
-		(size 49.53 15.24)
+		(at 30.48 154.305)
+		(size 33.655 6.985)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4038,7 +4679,7 @@
 		)
 		(uuid "7cbb3b3c-cf93-4880-b816-c6df902b993c")
 		(property "Sheetname" "Power Supply"
-			(at 54.61 159.3084 0)
+			(at 30.48 153.5934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +4688,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 54.61 175.8446 0)
+			(at 30.48 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

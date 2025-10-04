@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "a4da656d-4df5-40e1-932b-ea09fa2b173a")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/brineomatic")
+		(date "2025-08-28")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -1351,14 +1356,39 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "24v / 3A MAX"
-		(exclude_from_sim no)
-		(at 153.67 87.63 0)
-		(size 20.32 3.81)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+	(rectangle
+		(start 92.71 51.435)
+		(end 186.055 120.65)
 		(stroke
 			(width 0)
 			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid caeae9d1-0946-4b3c-b7a7-1ed220053341)
+	)
+	(text "Solenoid / Relay Driver"
+		(exclude_from_sim no)
+		(at 95.504 55.118 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2dec89fb-27b0-4a09-a770-9b12d1084023")
+	)
+	(text_box "Designed to control small solenoids, relays, fans, and other small DC loads.\nMax 3A per channel, total based on fuse installed."
+		(exclude_from_sim no)
+		(at 92.71 120.65 0)
+		(size 93.345 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -1369,7 +1399,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "6f9468d8-1563-407a-ae7d-7b103058c574")
+		(uuid "92fdfe2a-c2fa-4596-a3be-eac7a0a85e58")
 	)
 	(junction
 		(at 109.22 88.9)

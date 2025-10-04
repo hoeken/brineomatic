@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "dad77f86-77cf-4d57-b5e8-7fc46e08bf44")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/brineomatic")
+		(date "2025-08-28")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Device:Buzzer"
 			(pin_names

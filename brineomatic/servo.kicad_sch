@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "af2f8eca-988f-4f5c-aba0-d07a86438ae3")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/brineomatic")
+		(date "2025-08-28")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
@@ -490,14 +495,39 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "3A Max.\nStandard Pin Headers"
-		(exclude_from_sim no)
-		(at 163.83 110.49 0)
-		(size 24.13 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+	(rectangle
+		(start 98.425 64.135)
+		(end 174.625 125.73)
 		(stroke
 			(width 0)
 			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6e7939fe-feef-44ac-8631-ef46153fbd6a)
+	)
+	(text "Servo Connectors"
+		(exclude_from_sim no)
+		(at 101.219 67.818 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9faeb654-4477-488c-b732-8d7576e27b43")
+	)
+	(text_box "Standard 3 pin servo motor connector\nMax 2A total output."
+		(exclude_from_sim no)
+		(at 98.425 125.73 0)
+		(size 76.2 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -508,23 +538,23 @@
 			)
 			(justify left top)
 		)
-		(uuid "b0127261-4878-4284-a2e1-44a8b61aaa3a")
+		(uuid "fbd09808-6096-4432-8850-7ac7810132d4")
 	)
 	(junction
-		(at 175.26 129.54)
+		(at 137.16 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "264f03cd-6d3e-4b3d-b03a-a004131a0b6b")
 	)
 	(junction
-		(at 168.91 127)
+		(at 130.81 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf3c216f-9e8b-402a-87f3-7b1998489d50")
 	)
 	(wire
 		(pts
-			(xy 168.91 127) (xy 149.86 127)
+			(xy 130.81 96.52) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -534,7 +564,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 129.54) (xy 175.26 134.62)
+			(xy 137.16 99.06) (xy 137.16 104.14)
 		)
 		(stroke
 			(width 0)
@@ -544,7 +574,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 124.46) (xy 166.37 124.46)
+			(xy 130.81 93.98) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
@@ -554,7 +584,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 129.54) (xy 181.61 129.54)
+			(xy 137.16 99.06) (xy 143.51 99.06)
 		)
 		(stroke
 			(width 0)
@@ -564,7 +594,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 127) (xy 181.61 127)
+			(xy 130.81 96.52) (xy 143.51 96.52)
 		)
 		(stroke
 			(width 0)
@@ -574,7 +604,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 129.54) (xy 168.91 129.54)
+			(xy 137.16 99.06) (xy 130.81 99.06)
 		)
 		(stroke
 			(width 0)
@@ -584,7 +614,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 124.46) (xy 184.15 124.46)
+			(xy 143.51 93.98) (xy 146.05 93.98)
 		)
 		(stroke
 			(width 0)
@@ -594,7 +624,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 149.86 125.73)
+			(xy 111.76 96.52) (xy 111.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -604,7 +634,7 @@
 	)
 	(hierarchical_label "SERVO1"
 		(shape input)
-		(at 166.37 124.46 180)
+		(at 128.27 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -615,7 +645,7 @@
 	)
 	(hierarchical_label "SERVO2"
 		(shape input)
-		(at 184.15 124.46 0)
+		(at 146.05 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -626,7 +656,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 149.86 125.73 0)
+		(at 111.76 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -635,7 +665,7 @@
 		(fields_autoplaced yes)
 		(uuid "208f90f8-8131-4dc8-b6f7-2624bd065ea4")
 		(property "Reference" "#PWR017"
-			(at 149.86 129.54 0)
+			(at 111.76 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +674,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 149.86 120.65 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,7 +682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 125.73 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 125.73 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 149.86 125.73 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +722,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 173.99 127 0)
+		(at 135.89 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -701,7 +731,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c3f30a7-deff-49ff-ba22-b34a191e46a6")
 		(property "Reference" "J5"
-			(at 175.26 118.11 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,7 +739,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 175.26 120.65 0)
+			(at 137.16 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +747,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
-			(at 173.99 127 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 127 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +765,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 173.99 127 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +774,7 @@
 			)
 		)
 		(property "LCSC" "C239334"
-			(at 173.99 127 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +783,7 @@
 			)
 		)
 		(property "Rotation Offset" "270"
-			(at 173.99 127 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +820,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 134.62 0)
+		(at 137.16 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -800,7 +830,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4c68d4d-5c90-437d-a2dc-812d9e90b4a0")
 		(property "Reference" "#PWR018"
-			(at 175.26 140.97 0)
+			(at 137.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,7 +839,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 139.7 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 134.62 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 134.62 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +865,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 134.62 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
