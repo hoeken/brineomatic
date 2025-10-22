@@ -1,0 +1,51 @@
+Qty,Name,Part Number,Manufacturer
+1,Bracer Left,,3DP
+1,Bracer Center,,3DP
+1,Bracer Right,,3DP
+1,HP Valve Adapter,,3DP
+1,HP Adapter Plate,,3DP
+1,HP Servo Base,,3DP
+1,HP Servo Top,,3DP
+1,HP Servo Middle,,3DP
+8,Control Panel Foot,,3DP
+2,Bulkhead Mount,,3DP
+1,Diverter Valve Mount,,3DP
+1,Divert Valve Servo Mount,,3DP
+1,Divert Valve Servo Adapter,,3DP
+2,TDS Tee Mount,,3DP
+1,Rainman Gauge Spacer,,3DP
+1,Flowmeter Mount,,3DP
+1,Regular Tee Mount,,3DP
+1,Brineomatic Mount,,3DP
+1,Mount Plate Left,,3DP or CNC/Lasercut
+1,Mount Plate Right,,3DP or CNC/Lasercut
+1,Bottom Right,,3DP or CNC/Lasercut
+1,Bottom Left,,3DP or CNC/Lasercut
+1,TDS Meter,B005IV6ZW8,Amazon
+4,M3 x 10mm Hex Standoff,B06Y5TJXY1,Amazon
+1,TDS Sensor,SEN0244,DFRobot
+1,Transducer 0-1000psi,2000361-1000Hx-1,DataQ
+2,Servo Hub,1908-0024-0032,GoBilda
+2,HSR-1425CR,HSR-1425CR,Hitec
+1,"1/4"" NPT Tee FFM Stainless",48805K571,McMaster
+1,"1/4"" to 1/8"" NPT Reducer Stainless",4443K731,McMaster
+1,FR4-2RS Ball Bearing,57155K305,McMaster
+99,M4 x 12 Thread Forming Screw,99461A966,McMaster
+1,"3-Way 3/8"" Push Fit Valve",2570N12,McMaster
+8,M3 x 10 Flat head screw,92125A130,McMaster
+2,M5 Nut,91828A241,McMaster
+2,M5 x 20 Button head screw,92095A214,McMaster
+4,M3 x 8 Thread forming screw,99461A941,McMaster
+1,Flowmeter,BV2000TRN075B,Omega
+1,Rainman HP Assembly,,Rainman
+1,Rainman Flowmeter,,Rainman
+1,"3/8"" Push Fit Check Valve",60940,USP
+1,"3/8"" Push Fit Tee x 1/4"" NPTM Branch",68270,USP
+2,"3/8"" Push Fit Tee x 1/4"" Push Fit Branch",58226,USP
+2,"3/8"" Push Fit x 3/8"" NPTF",62889,USP
+2,"3/8"" Push Fit Bulkhead Union",58175,USP
+4,"3/8"" Stem Elbow",58178,USP
+1,"3/8"" Push Fit Tee",58172,USP
+1,"5/16"" Push Fit 3/8"" Stem Adapter",58286,USP
+1,"3/8"" Stem to 1/2"" Hose Barb",58242,USP
+1,"3/8"" Shutoff Valve",58357,USP

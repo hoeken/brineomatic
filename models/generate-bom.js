@@ -32,7 +32,7 @@ const replaceQuotesStream = new Transform({
 
 fs.createReadStream(inputFile)
   .pipe(replaceQuotesStream) // Apply the replace transform before parsing
-  .pipe(csv({ separator: '\t', relax_quotes: false}))
+  .pipe(csv({ separator: ',', relax_quotes: false}))
   .on('data', (data) => {
     console.log(data);
     lineCount++;
@@ -88,10 +88,16 @@ fs.createReadStream(inputFile)
     rows.forEach(row => {
       const key = row.Label;
       console.log(key);
-      if (!rolledUpData[key]) {
-        rolledUpData[key] = { Qty: 1, Name: key, "Part Number": row['Part Number'], Manufacturer: row.Manufacturer};
+      let part_number = row["Part Number"].trim();
+      let manufacturer = row["Manufacturer"].trim();
+      if (part_number || manufacturer) {
+        if (!rolledUpData[key]) {
+          rolledUpData[key] = { Qty: 1, Name: key, "Part Number": part_number, Manufacturer: manufacturer};
+        } else {
+          rolledUpData[key].Qty++;
+        }        
       } else {
-        rolledUpData[key].Qty++;
+        console.log(`skipping ${key}`);
       }
     });
 

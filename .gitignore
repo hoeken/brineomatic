@@ -33,7 +33,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
 ~*
 *.log
@@ -44,7 +43,6 @@ frothfet-12ch/output/
 \#*
 *.zip
 *.wrl
-*.csv
 *.FCStd1
 *.stl
 *.dxf
