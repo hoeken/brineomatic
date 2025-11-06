@@ -59,6 +59,20 @@ There is also a 3D model with a control panel layout and parts for automating a 
 * [Rainman Control Panel STEP file](/models/Rainman%20Control%20Panel.step?raw=true)
 * [Brineomatic Rev A PCB Case](/models/Brineomatic%20Case%20Rev%20A.step?raw=true)
 
-## Electronics Todo (REV-B)
+## Electronics Todo (REV-C)
 
-* place order
+* add two holes somewhere mid board to mount board to bottom case
+* move 5v led to ESP32_5V
+* move piezo off GPIO39 + switch to passive + add diode
+* move buttons to smt switch inside, add holes in case top to poke
+* move bottom connectors left 1-2mm
+* add extra relay/solenoid output
+* add extra temperature output
+* change buzzer to Huaneng QMB-09B-03 + diode
+* add test points for 3.3v, 5.0v, 24v, gnd, sda, scl
+* all test points -> 1.5x0.7
+* add pin headers for any extra IO + i2c
+
+
+Rev B disable buzzer jtag pins:
+~/.platformio/penv/bin/python ~/.platformio/packages/tool-esptoolpy/espefuse.py -p /dev/cu.usbmodem21201 --chip esp32s3 burn_efuse DIS_PAD_JTAG 1
