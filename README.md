@@ -72,6 +72,9 @@ There is also a 3D model with a control panel layout and parts for automating a 
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl
 * all test points -> 1.5x0.7
 * add pin headers for any extra IO + i2c
+* change voltage inputs from 0-3.3v to 0-2.048v on the ads11145
+  * 100 ohm sense resistor on 4-20ma sensors
+  * what about tds sensors?  11.0 kΩ / 8.0 kΩ voltage divider
 
 
 Rev B disable buzzer jtag pins:
