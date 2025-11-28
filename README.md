@@ -14,6 +14,8 @@ Built on the **ESP32-S3**, Brineomatic integrates pressure sensors, flow meters,
 
 Brineomatic is part of the **Yarrboard** ecosystem and benefits from its modular firmware channels, UI components, validation framework, and hardware abstraction layers.
 
+![Brineomatic Running - please ignore my old and tired membrane with high PPM!](/assets/brineomatic-running.png)
+
 ---
 
 # Table of Contents
@@ -77,6 +79,8 @@ Brineomatic continuously monitors critical values and stops safely on failure:
 
 Brineomatic is built around the ESP32-S3 with USB-C, using modular Yarrboard channels for relays, servos, steppers, and IO expansion.
 
+![Brineomatic Rev B Pinout](/diagrams/Brineomatic%20Rev%20B%20Pinout.png)
+
 ### Core capabilities:
 - ESP32-S3 module with WiFi and USB-C  
 - 12–30 V DC input with onboard power regulation  
@@ -117,8 +121,6 @@ Brineomatic is built around the ESP32-S3 with USB-C, using modular Yarrboard cha
 - Controller case (STEP)  
 - Rainman retrofit control panel (STEP)  
 - Fusion 360 reference assembly
-
-Files are located under `/models/` and `/diagrams/`.
 
 ---
 
@@ -199,6 +201,14 @@ See `/diagrams/` for:
 - Set tank capacity  
 - Configure autoflush mode + interval
 - Select units (pressure, temperature, flow, etc.)
+
+## Node-RED
+
+The easiest way to get tank level and water temperature information into your watermaker is to use SignalK + Node RED using the HTTP API.  
+
+[Download the Node-RED flow here.](https://raw.githubusercontent.com/hoeken/brineomatic/main/brineomatic_node_red.json)
+
+![Node RED Flow](/assets/Node-RED%20flow.png)
 
 ---
 
