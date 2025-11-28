@@ -1,3 +1,11 @@
+![Hardware: Open Source](https://img.shields.io/badge/Hardware-Open%20Source-brightgreen?logo=opensourcehardware&logoColor=white)
+![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)
+![Web UI](https://img.shields.io/badge/Web%20UI-HTML5%20%2B%20Bootstrap5-blue?logo=googlechrome&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-Supported-purple?logo=mqtt&logoColor=white)
+![SignalK](https://img.shields.io/badge/SignalK-Integrated-0aa?logo=simpleicons)
+![3D Models](https://img.shields.io/badge/3D%20Models-STEP%20Included-lightgrey?logo=fusion360&logoColor=white)
+
+
 # Brineomatic — Open Hardware Watermaker Automation Controller
 
 Brineomatic is an open-hardware, open-firmware controller that fully automates marine reverse-osmosis watermakers. Designed for DIY builders and cruising sailors, it provides **sensor-driven automation**, **robust safety checks**, and **remote web-based control**, while remaining easy to service, modify, and adapt to nearly any watermaker—including Rainman, Spectra, DIY builds, and traditional AC pump systems.
