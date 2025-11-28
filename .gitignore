@@ -46,3 +46,7 @@ frothfet-12ch/output/
 *.FCStd1
 *.stl
 *.dxf
+brineomatic/production/bom.csv
+brineomatic/production/designators.csv
+brineomatic/production/netlist.ipc
+brineomatic/production/positions.csv
