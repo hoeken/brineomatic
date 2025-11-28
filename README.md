@@ -202,14 +202,6 @@ See `/diagrams/` for:
 - Configure autoflush mode + interval
 - Select units (pressure, temperature, flow, etc.)
 
-## Node-RED
-
-The easiest way to get tank level and water temperature information into your watermaker is to use SignalK + Node RED using the HTTP API.  
-
-[Download the Node-RED flow here.](https://raw.githubusercontent.com/hoeken/brineomatic/main/brineomatic_node_red.json)
-
-![Node RED Flow](/assets/Node-RED%20flow.png)
-
 ---
 
 # Operation
@@ -276,6 +268,14 @@ Realtime interactive control of the machine.
 
 ## SignalK
 All the same data as MQTT, but in SignalK delta format with the `watermaker/brineomatic/*` path.
+
+## Node-RED
+
+The easiest way to get tank level and water temperature information into your watermaker is to use SignalK + Node RED using the HTTP API.  
+
+[Download the Node-RED flow here.](https://raw.githubusercontent.com/hoeken/brineomatic/main/brineomatic_node_red.json)
+
+![Node RED Flow](/assets/Node-RED%20flow.png)
 
 ---
 
