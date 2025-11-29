@@ -7,7 +7,6 @@
 * change voltage inputs from 0-3.3v to 0-2.048v on the ads11145
   * 100 ohm sense resistor on 4-20ma sensors
   * what about tds sensors?  11.0 kΩ / 8.0 kΩ voltage divider
-* add MAX-485 chip + termination resistor + jumper
 * add extra temperature output
 * add extra relay/solenoid output (if possible)
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl
@@ -26,3 +25,4 @@
 * add pullup resistor to ads1115 alert
 * move 5v led to ESP32_5V
 * change pulldown resistor on mosfets to 10k or add buffer chip like on frothfet
+* add MAX-485 chip + termination resistor

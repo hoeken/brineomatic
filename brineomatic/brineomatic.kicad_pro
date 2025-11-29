@@ -797,6 +797,10 @@
     [
       "0f01c39f-0c25-414e-9ed3-1ba09e2af0c5",
       "Stepper Driver"
+    ],
+    [
+      "ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0",
+      "RS485"
     ]
   ],
   "text_variables": {}
