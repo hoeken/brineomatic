@@ -1738,15 +1738,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "137b66e2-c72e-4b72-84e6-c4fe4dc438fb")
+			(uuid "a4043566-71d0-4268-b749-3860d9b5077b")
 		)
 		(pin "2"
-			(uuid "e7510912-b399-48a5-b0f8-668c9df0775c")
+			(uuid "4bdec8b9-ad8a-4d78-aada-74768bedb752")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
 					(reference "D16")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "D?")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
@@ -1774,7 +1778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c842bea-11d5-4237-93fb-f452ef0f58c3")
-		(property "Reference" "J8"
+		(property "Reference" "J"
 			(at 166.37 72.3899 0)
 			(effects
 				(font
@@ -1829,27 +1833,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f3bac232-a272-4074-9f00-f1b4355b6b05")
+			(uuid "ffc85a94-8cc3-433c-bd65-c1abe0a0b133")
 		)
 		(pin "1"
-			(uuid "103e3550-bffd-4d33-9169-f96d51b7cce5")
+			(uuid "4d64070c-cc9d-48c5-a9d8-4cfe41bc7378")
 		)
 		(instances
-			(project ""
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
-					(reference "J15")
-					(unit 1)
-				)
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
-					(reference "J8")
-					(unit 1)
-				)
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c855463c-7233-4758-aee4-aa81e2b08bc2"
-					(reference "J13")
-					(unit 1)
-				)
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
-					(reference "J17")
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -1910,12 +1902,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9918b18-6c24-4867-9072-7bb8f93ec946")
+			(uuid "6d1241ed-279a-4a7d-8a36-2880b875a9f8")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
-					(reference "#PWR038")
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
@@ -1923,11 +1919,11 @@
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c855463c-7233-4758-aee4-aa81e2b08bc2"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1998,15 +1994,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d09d0c1-e7e2-4f87-bec5-07600b5028f0")
+			(uuid "7eda7a41-aedc-4a7f-8cd2-0797b2452b6c")
 		)
 		(pin "2"
-			(uuid "7af358d2-0eea-4e08-b7ef-79b94a4f2572")
+			(uuid "0d0b7f06-6c2d-41db-b9d7-27b7bd781d2d")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
 					(reference "R27")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
@@ -2087,15 +2087,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5bf6ea2-ef0b-4450-b66e-faecf115f74e")
+			(uuid "8d305b1d-7760-4218-ad4c-b2c9c35500c9")
 		)
 		(pin "2"
-			(uuid "41fc076c-4c68-49f8-8380-21862481f57b")
+			(uuid "baf23dce-4776-4f71-b8ca-ee815066919d")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
 					(reference "R28")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
@@ -2178,15 +2182,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a9aa1fc-21c4-4fdc-9863-d71b1e10395f")
+			(uuid "0b691f9a-d130-44b0-9f15-2b8cc4d3e7a1")
 		)
 		(pin "2"
-			(uuid "91c0a017-bc5e-46dc-8eb5-a2d3d3bcdb19")
+			(uuid "28dcc390-9fc4-41e5-9a47-91c6d17dbd51")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
 					(reference "J14")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "J?")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
@@ -2269,15 +2277,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "86fb5922-869e-4397-b096-7970c7fdb9c4")
+			(uuid "a363cddd-2ef8-45ff-aede-27cfb40b5285")
 		)
 		(pin "2"
-			(uuid "3b76916a-f23d-49b2-95d4-1c00e3189695")
+			(uuid "f51d52d8-2d87-444f-aa79-49d60b9e3295")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
 					(reference "R29")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "R?")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
@@ -2363,18 +2375,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "e2e9ed3f-f971-4466-9af4-af50b4d00236")
+			(uuid "f86af1fe-7c33-44e5-ab06-f9c6476baaa6")
 		)
 		(pin "3"
-			(uuid "803c6e52-d428-4a66-a54d-773b13a8c29d")
+			(uuid "6cf803e7-0820-471c-aa70-fa5acfd1665f")
 		)
 		(pin "1"
-			(uuid "297dc1f1-fcaf-497a-b7e9-e8e87917dcc3")
+			(uuid "115acf2f-1fb8-4a1c-b902-980bb97f15cc")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
 					(reference "Q5")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "Q?")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
@@ -2447,12 +2463,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f75d8ed-a3f0-46ed-a766-62728f247934")
+			(uuid "4eea1d63-ac50-4813-8256-39e16ee295d2")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
-					(reference "#PWR037")
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
@@ -2460,11 +2480,11 @@
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c855463c-7233-4758-aee4-aa81e2b08bc2"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2544,15 +2564,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e1e4cc3-a665-405e-9e35-21d88fba65a0")
+			(uuid "80f935ad-6c39-47ef-83c4-59a925d674df")
 		)
 		(pin "2"
-			(uuid "365dd5ce-ee0c-4796-98a1-3c9ce62335ae")
+			(uuid "cffe2d36-cfda-4743-833d-74bce888b4b5")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
 					(reference "D15")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
+					(reference "D?")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"

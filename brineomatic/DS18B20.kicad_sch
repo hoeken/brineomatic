@@ -704,7 +704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ab5471-bae0-4a80-ac1d-ea4aa41af242")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR017"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -754,11 +754,11 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4c28a3dc-9363-4fde-b010-be952dc8ce44"
-					(reference "#PWR052")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7dc38cc9-02c6-4108-8c2f-d0f758210cae"
-					(reference "#PWR?")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -837,7 +837,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4c28a3dc-9363-4fde-b010-be952dc8ce44"
-					(reference "R?")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7dc38cc9-02c6-4108-8c2f-d0f758210cae"
@@ -857,7 +857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c219df46-847d-434d-ab72-2536b5b3b9c7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR016"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -907,11 +907,11 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4c28a3dc-9363-4fde-b010-be952dc8ce44"
-					(reference "#PWR051")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7dc38cc9-02c6-4108-8c2f-d0f758210cae"
-					(reference "#PWR?")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -927,7 +927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc2a1a87-397c-4dc6-a206-14dfc5ef7e06")
-		(property "Reference" "J?"
+		(property "Reference" "J5"
 			(at 113.03 91.186 0)
 			(effects
 				(font
@@ -1001,11 +1001,11 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4c28a3dc-9363-4fde-b010-be952dc8ce44"
-					(reference "J?")
+					(reference "J21")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7dc38cc9-02c6-4108-8c2f-d0f758210cae"
-					(reference "J?")
+					(reference "J5")
 					(unit 1)
 				)
 			)

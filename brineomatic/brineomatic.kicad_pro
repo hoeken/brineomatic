@@ -805,6 +805,10 @@
     [
       "ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0",
       "RS485"
+    ],
+    [
+      "53b9b350-c996-44b6-8dbf-2a99841f1965",
+      "Solenoid Driver 5"
     ]
   ],
   "text_variables": {}
