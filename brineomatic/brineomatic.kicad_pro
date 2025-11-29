@@ -799,6 +799,10 @@
       "Stepper Driver"
     ],
     [
+      "4c28a3dc-9363-4fde-b010-be952dc8ce44",
+      "Water Temperature"
+    ],
+    [
       "ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0",
       "RS485"
     ]

@@ -1250,10 +1250,6 @@
 		(uuid "cade0f1e-830d-4d92-a0b5-02aeb1a97d94")
 	)
 	(no_connect
-		(at 234.95 109.22)
-		(uuid "d3a07daf-80dd-40a5-a2dc-e686748bfffb")
-	)
-	(no_connect
 		(at 234.95 76.2)
 		(uuid "e0b36ae0-d8bb-4c84-a24d-f5e3eec59492")
 	)
@@ -1667,6 +1663,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 120.65) (xy 198.12 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffb7c24-479a-49fb-8ba7-82adcb797e22")
+	)
+	(wire
+		(pts
 			(xy 121.92 175.26) (xy 121.92 185.42)
 		)
 		(stroke
@@ -1684,16 +1690,6 @@
 			(type default)
 		)
 		(uuid "87008498-82b8-4b9a-ae6c-dca30753e5a3")
-	)
-	(wire
-		(pts
-			(xy 162.56 118.11) (xy 166.37 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a5fb9c3-7bac-41cd-9274-4bd3067cf4f0")
 	)
 	(wire
 		(pts
@@ -1737,6 +1733,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 118.11) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a893d5-d869-400d-a476-e9b163919ab6")
+	)
+	(wire
+		(pts
 			(xy 74.93 114.3) (xy 72.39 114.3)
 		)
 		(stroke
@@ -1744,6 +1750,16 @@
 			(type default)
 		)
 		(uuid "9d643868-2c0b-4697-a1f5-212aef0e053a")
+	)
+	(wire
+		(pts
+			(xy 234.95 109.22) (xy 241.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1195181-4957-4653-96e1-cf3a17e80726")
 	)
 	(wire
 		(pts
@@ -1917,6 +1933,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 118.11) (xy 175.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e9a797-26ed-4920-87de-9844e05c3560")
+	)
+	(wire
+		(pts
 			(xy 195.58 86.36) (xy 198.12 86.36)
 		)
 		(stroke
@@ -1944,16 +1970,6 @@
 			(type default)
 		)
 		(uuid "e01e12e8-0fad-42f2-9869-13f06c662e8a")
-	)
-	(wire
-		(pts
-			(xy 166.37 120.65) (xy 198.12 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0375fdf-d362-4c35-a68c-748572cf1ce9")
 	)
 	(wire
 		(pts
@@ -2004,16 +2020,6 @@
 			(type default)
 		)
 		(uuid "f0d4971d-64bb-429e-98fb-86a936882040")
-	)
-	(wire
-		(pts
-			(xy 166.37 118.11) (xy 166.37 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5347e9f-5485-4c16-92f7-09c2490e3dac")
 	)
 	(wire
 		(pts
@@ -4250,6 +4256,59 @@
 		)
 	)
 	(sheet
+		(at 143.002 115.57)
+		(size 19.558 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c28a3dc-9363-4fde-b010-be952dc8ce44")
+		(property "Sheetname" "Water Temperature"
+			(at 143.002 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DS18B20.kicad_sch"
+			(at 143.002 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "OUTPUT" input
+			(at 162.56 118.11 0)
+			(uuid "6c6d8e2c-55d9-402b-828a-8fa3a9ffe15f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 34.29 109.22)
 		(size 31.75 5.08)
 		(exclude_from_sim no)
@@ -5293,7 +5352,7 @@
 		)
 	)
 	(sheet
-		(at 142.875 115.57)
+		(at 241.3 107.95)
 		(size 19.685 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5309,7 +5368,7 @@
 		)
 		(uuid "d9651726-ebc8-4cdb-a521-a43a3039a77a")
 		(property "Sheetname" "Piezo"
-			(at 142.875 114.8584 0)
+			(at 241.3 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5377,7 @@
 			)
 		)
 		(property "Sheetfile" "piezo.kicad_sch"
-			(at 142.875 119.9646 0)
+			(at 241.3 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,13 +5387,13 @@
 			)
 		)
 		(pin "PIEZO" input
-			(at 162.56 118.11 0)
+			(at 241.3 109.22 180)
 			(uuid "caffa578-bd42-485b-9451-4e04700c8983")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
