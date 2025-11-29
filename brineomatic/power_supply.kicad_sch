@@ -3296,12 +3296,6 @@
 		(uuid "414aafd6-ee99-4aed-be60-92124572b82c")
 	)
 	(junction
-		(at 231.14 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54d709af-7d07-4938-94aa-c7b0e28ba235")
-	)
-	(junction
 		(at 200.66 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3409,6 +3403,12 @@
 		(color 0 0 0 0)
 		(uuid "eef2371c-ed29-4cf7-bdc3-fe4acfb932af")
 	)
+	(junction
+		(at 243.84 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7b25755-7378-45d3-a26d-d6ad2863ca43")
+	)
 	(no_connect
 		(at 41.91 52.07)
 		(uuid "4ce1ec1a-5daf-4c72-9ab7-fa7b26d148e5")
@@ -3419,7 +3419,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 120.65) (xy 250.19 120.65)
+			(xy 237.49 120.65) (xy 243.84 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3599,7 +3599,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 128.27) (xy 231.14 129.54)
+			(xy 243.84 128.27) (xy 243.84 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +3649,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 114.3) (xy 219.71 120.65)
+			(xy 243.84 114.3) (xy 243.84 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3786,16 +3786,6 @@
 			(type default)
 		)
 		(uuid "7d3bc7e4-5367-4f03-a6ee-42a4490f42e0")
-	)
-	(wire
-		(pts
-			(xy 231.14 120.65) (xy 236.22 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7df80eaf-0541-4f18-9444-3ae012de48f5")
 	)
 	(wire
 		(pts
@@ -3969,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 120.65) (xy 231.14 120.65)
+			(xy 219.71 120.65) (xy 229.87 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4099,7 +4089,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 137.16) (xy 231.14 137.16)
+			(xy 219.71 137.16) (xy 243.84 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4209,7 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 134.62) (xy 231.14 137.16)
+			(xy 243.84 134.62) (xy 243.84 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4277,28 +4267,6 @@
 		)
 		(uuid "fc5c5de9-0e91-4478-acb3-bc138e2cca65")
 	)
-	(global_label "ESP32_5V"
-		(shape input)
-		(at 250.19 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "67258784-2072-42dc-acbf-809c5463d047")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.4884 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 129.54 73.66 0)
@@ -4360,71 +4328,6 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 219.71 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0396e304-5f74-4d6c-8093-a2c289d94a0d")
-		(property "Reference" "#FLG07"
-			(at 219.71 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 219.71 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 219.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02ae941d-3952-4b46-9679-0bac3367b39c")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4760,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 219.71 114.3 0)
+		(at 243.84 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4866,7 +4769,7 @@
 		(fields_autoplaced yes)
 		(uuid "38dce389-a554-49b8-a0e4-5f22679df508")
 		(property "Reference" "#PWR031"
-			(at 219.71 118.11 0)
+			(at 243.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4778,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 219.71 109.22 0)
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +4786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 114.3 0)
+			(at 243.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +4795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 114.3 0)
+			(at 243.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +4804,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 219.71 114.3 0)
+			(at 243.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +5916,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 240.03 120.65 180)
+		(at 233.68 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6022,7 +5925,7 @@
 		(fields_autoplaced yes)
 		(uuid "a27df70d-f691-4db2-a983-e63645a6b087")
 		(property "Reference" "D11"
-			(at 240.03 114.3 0)
+			(at 233.68 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +5933,7 @@
 			)
 		)
 		(property "Value" "SS54"
-			(at 240.03 116.84 0)
+			(at 233.68 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +5941,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 240.03 120.65 0)
+			(at 233.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +5950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 120.65 0)
+			(at 233.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +5959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 120.65 0)
+			(at 233.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +5968,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 240.03 120.65 90)
+			(at 233.68 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +5977,7 @@
 			)
 		)
 		(property "LCSC" "C22452"
-			(at 240.03 120.65 0)
+			(at 233.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,6 +6322,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 243.84 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c141b213-39c8-4794-bf4a-067b7fe94593")
+		(property "Reference" "#FLG010"
+			(at 243.84 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 243.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28ccc03c-ca9c-4a06-8ad1-33f59d2c96f9")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 52.07 115.57 0)
 		(unit 1)
@@ -6653,7 +6621,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 231.14 132.08 0)
+		(at 243.84 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6662,7 +6630,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4023fc4-fbe3-4aa4-8d28-a9383191cbcc")
 		(property "Reference" "R20"
-			(at 233.68 130.8099 0)
+			(at 246.38 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,7 +6639,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 233.68 133.3499 0)
+			(at 246.38 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +6648,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 231.14 132.08 0)
+			(at 243.84 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +6657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 132.08 0)
+			(at 243.84 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6666,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 231.14 132.08 0)
+			(at 243.84 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6847,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 231.14 124.46 90)
+		(at 243.84 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6888,7 +6856,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbc605da-e57b-488b-9bbb-c8f85b584a15")
 		(property "Reference" "D10"
-			(at 234.95 124.7774 90)
+			(at 247.65 124.7774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,8 +6864,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
-			(at 234.95 127.3174 90)
+		(property "Value" "GREEN"
+			(at 247.65 127.3174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +6874,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 231.14 124.46 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +6883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 124.46 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +6892,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 231.14 124.46 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +6901,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 231.14 124.46 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +6910,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 231.14 124.46 90)
+			(at 243.84 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)

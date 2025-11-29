@@ -290,6 +290,7 @@
 	(net 136 "/ESP32-S3/GPIO36")
 	(net 137 "/ESP32-S3/GPIO37")
 	(net 138 "Net-(R51-Pad1)")
+	(net 139 "Net-(D11-A)")
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "00685b10-3331-46e8-aa2a-7172ea62c931")
@@ -1559,7 +1560,7 @@
 			(size 1.34 2.39)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.186567)
-			(net 7 "+5V")
+			(net 139 "Net-(D11-A)")
 			(pintype "passive")
 			(uuid "2aeef3a6-eef4-4465-b268-436d5198930a")
 		)
@@ -3796,7 +3797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "5c8d03b3-3994-4446-af78-856e5909ec44")
@@ -22170,7 +22171,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9756732f-571b-48fb-bc17-6fadf6c65843")
@@ -29235,7 +29236,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "99c31c6d-866d-4e59-b0cf-9d336e8101f9")
@@ -30511,7 +30512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e49bc531-0923-42d3-a297-a31425fafc92")
@@ -32449,7 +32450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "524e4b7b-f1df-4bc3-a92c-956010b00499")
@@ -38685,7 +38686,7 @@
 			(size 2.5 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1388888889)
-			(net 13 "ESP32_5V")
+			(net 7 "+5V")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "9d5d2f52-9290-4dd7-8d25-63061490e37b")
@@ -38695,7 +38696,7 @@
 			(size 2.5 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1388888889)
-			(net 7 "+5V")
+			(net 139 "Net-(D11-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c1fa2a6b-f85f-4526-bb9a-aed3760f15bf")
@@ -48115,7 +48116,7 @@
 			(size 1.125 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
-			(net 7 "+5V")
+			(net 139 "Net-(D11-A)")
 			(pintype "passive")
 			(uuid "5ca3fe6b-350b-47c3-8e3b-6d7163982809")
 		)
