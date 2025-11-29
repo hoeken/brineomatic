@@ -429,7 +429,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 111.76 96.52)
+			(xy 130.81 96.52) (xy 128.27 96.52)
 		)
 		(stroke
 			(width 0)
@@ -497,34 +497,24 @@
 		)
 		(uuid "ad99b55b-429d-42c5-ab6e-7c8e223fbd5e")
 	)
-	(wire
-		(pts
-			(xy 111.76 96.52) (xy 111.76 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efa6d7df-64c4-490b-937d-b35aedf86294")
-	)
-	(global_label "5V_TRUE"
+	(global_label "5V_HIGH_POWER"
 		(shape input)
-		(at 111.76 95.25 90)
+		(at 128.27 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "48d86a3e-b93c-4ee9-8ac0-028d895c56e5")
+		(uuid "899b059d-7feb-4443-9370-85d636024ec6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 84.282 90)
+			(at 110.0448 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)

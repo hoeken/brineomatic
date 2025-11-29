@@ -1,10 +1,21 @@
 ## Electronics Todo (REV-C)
 
 * change voltage inputs from 0-3.3v to 0-2.048v on the ads11145
-  * 100 ohm sense resistor on 4-20ma sensors
+  * 100 ohm sense resistor on 4-20ma sensors (test on sendomatic)
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl
 * all test points -> 1.5x0.7
-* add two holes somewhere mid board to mount board to bottom case
+* add 1-2 holes somewhere mid board to mount board to bottom case
+* schematic review
+* edc checks
+* finalize component placement
+* route board
+* via stitching
+* drc
+* bom + placement check
+
+## 3D Print Todo
+
+* Din rail mount: https://github.com/hzeller/din-rail-clip-mount
 * add holes in case top for buttons
 
 ### Done

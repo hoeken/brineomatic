@@ -80,10 +80,6 @@
           ""
         ],
         [
-          "silk_overlap|114507005|33718530|88d7126d-b493-4b51-9243-a006c833ae50|cc7e3391-9357-445b-b96a-08607bd0eb11",
-          ""
-        ],
-        [
           "silk_overlap|165885287|66849639|7a314237-cb2a-44a2-a935-8d0c59dc9f0e|b892e88c-da93-4972-916d-ee870a55112f",
           ""
         ],
@@ -552,7 +548,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../brineomatic-rev-b.step",
+      "step": "../brineomatic-rev-c.step",
       "svg": "",
       "vrml": ""
     },
