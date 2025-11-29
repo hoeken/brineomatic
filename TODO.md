@@ -1,7 +1,6 @@
 ## Electronics Todo (REV-C)
 
 * copy esp32-s3 changes from sendit (usb, crystal, etc)
-* add pullup resistor to ads1115 alert
 * change pulldown resistor on mosfets to 10k or add buffer chip like on frothfet
 * add two holes somewhere mid board to mount board to bottom case
 * move 5v led to ESP32_5V
@@ -26,3 +25,4 @@
 ### Done
 
 * top/bottom edge should be straight across
+* add pullup resistor to ads1115 alert
