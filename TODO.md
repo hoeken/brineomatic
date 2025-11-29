@@ -15,6 +15,7 @@
 
 ## 3D Print Todo
 
+* add usb c cable model - test fit / interference
 * Din rail mount: https://github.com/hzeller/din-rail-clip-mount
 * add holes in case top for buttons
 
