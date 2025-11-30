@@ -650,7 +650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4c68d4d-5c90-437d-a2dc-812d9e90b4a0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -700,7 +700,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/0442c100-f200-44e3-9806-ad19ad5a87d8"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
