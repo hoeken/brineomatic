@@ -2525,7 +2525,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 113.03 104.4574 90)
 			(effects
 				(font
@@ -2561,7 +2561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965799"
+		(property "LCSC" ""
 			(at 109.22 101.6 0)
 			(effects
 				(font
