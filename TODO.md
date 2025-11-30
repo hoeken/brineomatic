@@ -1,5 +1,6 @@
 ## Electronics Todo (REV-C)
 
+* test 10k pulldown on relays vs power on glitch
 * change voltage inputs from 0-3.3v to 0-2.048v on the ads11145
   * 100 ohm sense resistor on 4-20ma sensors (test on sendomatic)
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl
@@ -9,13 +10,14 @@
 * edc checks
 * finalize component placement
 * route board
+* silkscreen
 * via stitching
 * drc
 * bom + placement check
 
 ## 3D Print Todo
 
-* add usb c cable model - test fit / interference
+* update the case for rev c
 * Din rail mount: https://github.com/hzeller/din-rail-clip-mount
 * add holes in case top for buttons
 
