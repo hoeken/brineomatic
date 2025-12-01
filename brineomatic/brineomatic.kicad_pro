@@ -60,31 +60,27 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|89950000|87545000|4cab7d6e-3a4c-44d8-a98f-e80b8de87269|678e2cc7-5e56-4f82-b804-69ae0239ddd3",
+          "hole_clearance|74950000|86745000|4cab7d6e-3a4c-44d8-a98f-e80b8de87269|678e2cc7-5e56-4f82-b804-69ae0239ddd3",
           ""
         ],
         [
-          "hole_clearance|89950000|87545000|4cab7d6e-3a4c-44d8-a98f-e80b8de87269|bb1261ad-e458-4890-a5b6-9c98b38006a2",
+          "hole_clearance|74950000|86745000|4cab7d6e-3a4c-44d8-a98f-e80b8de87269|bb1261ad-e458-4890-a5b6-9c98b38006a2",
           ""
         ],
         [
-          "hole_clearance|96050000|87545000|20222841-6b38-4e2f-a1fc-b68199d99f89|23da3d05-0a8e-4f82-af12-6d03ebdae560",
+          "hole_clearance|81050000|86745000|20222841-6b38-4e2f-a1fc-b68199d99f89|23da3d05-0a8e-4f82-af12-6d03ebdae560",
           ""
         ],
         [
-          "hole_clearance|96050000|87545000|20222841-6b38-4e2f-a1fc-b68199d99f89|d46a9253-5ee1-45b9-abb9-280170088dd8",
+          "hole_clearance|81050000|86745000|20222841-6b38-4e2f-a1fc-b68199d99f89|d46a9253-5ee1-45b9-abb9-280170088dd8",
           ""
         ],
         [
-          "silk_overlap|105015079|33718530|aaa459cf-10cf-4063-80db-ebc92c7375f2|dd32b09d-2a40-4bfb-ae9f-8d080290b230",
+          "silk_overlap|163000000|66549639|b892e88c-da93-4972-916d-ee870a55112f|f63cb85a-0f77-46fd-af01-771387630191",
           ""
         ],
         [
-          "silk_overlap|165885287|66849639|7a314237-cb2a-44a2-a935-8d0c59dc9f0e|b892e88c-da93-4972-916d-ee870a55112f",
-          ""
-        ],
-        [
-          "silk_overlap|165885287|85100000|b892e88c-da93-4972-916d-ee870a55112f|f63cb85a-0f77-46fd-af01-771387630191",
+          "silk_overlap|165485287|66549639|7a314237-cb2a-44a2-a935-8d0c59dc9f0e|b892e88c-da93-4972-916d-ee870a55112f",
           ""
         ]
       ],
@@ -671,6 +667,36 @@
           "group_by": false,
           "label": "Rotation Offset",
           "name": "Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Name",
+          "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
           "show": false
         }
       ],

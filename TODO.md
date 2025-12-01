@@ -3,11 +3,7 @@
 * test 10k pulldown on relays vs power on glitch
 * change voltage inputs from 0-3.3v to 0-2.048v on the ads11145
   * 100 ohm sense resistor on 4-20ma sensors (test on sendomatic)
-* add test points for 3.3v, 5.0v, 24v, gnd, sda, scl
-* all test points -> 1.5x0.7
-* add 1-2 holes somewhere mid board to mount board to bottom case
 * schematic review
-* edc checks
 * finalize component placement
 * route board
 * silkscreen
@@ -39,3 +35,6 @@
 * move bottom connectors left 1-2mm
 * move temperature sensors to top
 * move power to bottom
+* added extra esd protection on input pins
+* add test points for 3.3v, 5.0v, 24v, gnd, sda, scl
+* all test points -> 1.5x0.7
