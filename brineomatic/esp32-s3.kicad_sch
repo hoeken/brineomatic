@@ -6563,7 +6563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b4e3aef-5e6d-40fa-b0ba-e6133949c353")
-		(property "Reference" "TP3"
+		(property "Reference" "TP7"
 			(at 225.806 22.86 0)
 			(effects
 				(font
@@ -6660,7 +6660,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "TP3")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -6898,7 +6898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dc73c31-f611-4dec-ac6a-0ea5c4ecda78")
-		(property "Reference" "TP1"
+		(property "Reference" "TP5"
 			(at 188.976 101.6 0)
 			(effects
 				(font
@@ -6995,7 +6995,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "TP1")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8236,7 +8236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae97f8b5-2bd0-42ab-9087-01dcf361cea6")
-		(property "Reference" "TP2"
+		(property "Reference" "TP6"
 			(at 188.976 134.62 0)
 			(effects
 				(font
@@ -8333,7 +8333,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "TP2")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
