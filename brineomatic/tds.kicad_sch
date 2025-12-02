@@ -1016,7 +1016,7 @@
 		)
 		(uuid "fe4b02e3-b725-4992-94cc-4b3b61aed895")
 	)
-	(text_box "Designed for DFRobot TDS Sensor SEN0244\nhttps://www.dfrobot.com/product-1662.html\n\n* Noise filtering RC filter\n* PESD3V3L1BA / BAT54S for ESD + overvoltage protection"
+	(text_box "Designed for DFRobot TDS Sensor SEN0244\nhttps://www.dfrobot.com/product-1662.html\n\n* Noise filtering RC filter: 159hz lowpass\n* PESD3V3L1BA / BAT54S for ESD + overvoltage protection"
 		(exclude_from_sim no)
 		(at 81.915 114.3 0)
 		(size 76.2 12.7)
@@ -1555,7 +1555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 120.65 90.1763 0)
 			(effects
 				(font

@@ -1312,7 +1312,7 @@
 		)
 		(uuid "6bf992e5-677d-4f92-a96e-eca1b1019e93")
 	)
-	(text_box "Designed for flowmeters powered by 5v with open collector output.\n\n* 5v to 3.3v voltage divider as pullup on the input.\n* Noise filtering RC filter\n* BAT54S for ESD / overvoltage protection"
+	(text_box "Designed for flowmeters powered by 5v with open collector output.\n\n* 5v to 3.3v voltage divider as pullup on the input.\n* Noise filtering RC filter: 10kHz lowpass\n* BAT54S for ESD / overvoltage protection"
 		(exclude_from_sim no)
 		(at 93.345 124.46 0)
 		(size 85.09 12.7)

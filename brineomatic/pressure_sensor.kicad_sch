@@ -1283,7 +1283,7 @@
 		)
 		(uuid "2122d648-3b7e-43e0-a1cd-288f6d3a0f46")
 	)
-	(text_box "Designed for 4-20mA pressure sensors powered by 12-24v\n\n* 165ohm shunt for 3.3v output\n* Noise filtering RC filter\n* PESD3V3L1BA / BAT54S for ESD and overvoltage protection"
+	(text_box "Designed for 4-20mA pressure sensors powered by 12-24v\n\n* 165ohm shunt for 3.3v output\n* Noise filtering RC filter: 159hz cutoff\n* PESD3V3L1BA / BAT54S for ESD and overvoltage protection"
 		(exclude_from_sim no)
 		(at 78.74 118.11 0)
 		(size 80.01 12.7)
@@ -2149,7 +2149,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "165 0.1%"
+		(property "Value" "100R 0.1%"
 			(at 111.76 96.5199 0)
 			(effects
 				(font
@@ -2185,7 +2185,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C870446"
+		(property "LCSC" "C728670"
 			(at 109.22 95.25 0)
 			(effects
 				(font
@@ -2231,7 +2231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 127 96.5263 0)
 			(effects
 				(font
