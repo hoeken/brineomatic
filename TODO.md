@@ -1,12 +1,10 @@
 ## Electronics Todo (REV-C)
 
 * test 10k pulldown on relays vs power on glitch
-* change voltage inputs from 0-3.3v to 0-2.048v on the ads11145
+* change voltage inputs from 0-3.3v to 0-2.048v on the ads1115?
   * 100 ohm sense resistor on 4-20ma sensors (test on sendomatic)
+* switch to smt standoffs?  sendit test board y/n
 * schematic review
-* via stitching
-* drc
-* bom + placement check
 
 ## 3D Print Todo
 
@@ -35,3 +33,4 @@
 * added extra esd protection on input pins
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl
 * all test points -> 1.5x0.7
+* bom + placement check

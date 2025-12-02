@@ -1473,7 +1473,7 @@
 	)
 	(text "Analog Sensors"
 		(exclude_from_sim no)
-		(at 42.926 90.17 0)
+		(at 25.4 83.185 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1545,7 +1545,7 @@
 	)
 	(text "RS485 / MODBUS"
 		(exclude_from_sim no)
-		(at 26.924 154.559 0)
+		(at 25.4 154.305 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1568,7 +1568,7 @@
 	)
 	(text "Stepper Driver"
 		(exclude_from_sim no)
-		(at 32.258 30.226 0)
+		(at 24.765 29.845 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1727,7 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 118.11) (xy 78.74 113.03)
+			(xy 77.47 120.65) (xy 77.47 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 124.46) (xy 74.93 124.46)
+			(xy 77.47 127) (xy 73.66 127)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 123.19) (xy 81.28 135.89)
+			(xy 80.01 125.73) (xy 80.01 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1837,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 115.57) (xy 81.28 101.6)
+			(xy 80.01 118.11) (xy 80.01 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 101.6) (xy 74.93 101.6)
+			(xy 80.01 104.14) (xy 73.66 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 120.65) (xy 83.82 120.65)
+			(xy 77.47 123.19) (xy 82.55 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 116.84) (xy 113.03 110.49)
+			(xy 111.76 119.38) (xy 111.76 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 115.57) (xy 81.28 115.57)
+			(xy 82.55 118.11) (xy 80.01 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 120.65) (xy 78.74 124.46)
+			(xy 77.47 123.19) (xy 77.47 127)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 113.03) (xy 74.93 113.03)
+			(xy 77.47 115.57) (xy 73.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 135.89) (xy 74.93 135.89)
+			(xy 80.01 138.43) (xy 73.66 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 116.84) (xy 113.03 116.84)
+			(xy 106.68 119.38) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 123.19) (xy 83.82 123.19)
+			(xy 80.01 125.73) (xy 82.55 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 118.11) (xy 83.82 118.11)
+			(xy 77.47 120.65) (xy 82.55 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +2523,7 @@
 	)
 	(global_label "ADC_ALERT"
 		(shape input)
-		(at 107.95 119.38 0)
+		(at 106.68 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2533,7 +2533,7 @@
 		)
 		(uuid "445d6115-540d-43be-a219-6ae05116a58a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.0347 119.38 0)
+			(at 119.7647 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3029,7 @@
 	)
 	(global_label "BRINE_TDS"
 		(shape input)
-		(at 43.18 101.6 180)
+		(at 41.91 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3039,7 +3039,7 @@
 		)
 		(uuid "aae37cbf-3fb5-4ba4-9f85-dda26023c2a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.1558 101.6 0)
+			(at 28.8858 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3337,7 @@
 	)
 	(global_label "PRODUCT_TDS"
 		(shape input)
-		(at 43.18 113.03 180)
+		(at 41.91 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3347,7 +3347,7 @@
 		)
 		(uuid "f3bed92d-9f43-45c3-80b2-82e8f06e91e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.0715 113.03 0)
+			(at 25.8015 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4229,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 113.03 110.49 0)
+		(at 111.76 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4239,7 +4239,7 @@
 		(fields_autoplaced yes)
 		(uuid "d16f8538-1652-4d12-afbb-077b4c19ce25")
 		(property "Reference" "#PWR07"
-			(at 113.03 114.3 0)
+			(at 111.76 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4248,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 113.03 105.41 0)
+			(at 111.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 110.49 0)
+			(at 111.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 110.49 0)
+			(at 111.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 113.03 110.49 0)
+			(at 111.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,8 +4564,8 @@
 		)
 	)
 	(sheet
-		(at 144.78 127)
-		(size 19.05 8.255)
+		(at 144.145 127)
+		(size 19.685 8.255)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4580,7 +4580,7 @@
 		)
 		(uuid "0442c100-f200-44e3-9806-ad19ad5a87d8")
 		(property "Sheetname" "Servos"
-			(at 144.78 126.2884 0)
+			(at 144.145 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4589,7 @@
 			)
 		)
 		(property "Sheetfile" "servo.kicad_sch"
-			(at 144.78 135.8396 0)
+			(at 144.145 135.8396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4599,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 144.78 127 0)
+			(at 144.145 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +4885,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 110.49)
+		(at 41.91 113.03)
 		(size 31.75 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4901,7 +4901,7 @@
 		)
 		(uuid "4dde40bf-0b86-4621-acd9-eb6c6b71c357")
 		(property "Sheetname" "Product TDS"
-			(at 43.18 109.7784 0)
+			(at 41.91 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +4910,7 @@
 			)
 		)
 		(property "Sheetfile" "tds.kicad_sch"
-			(at 43.18 116.1546 0)
+			(at 41.91 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +4920,7 @@
 			)
 		)
 		(pin "SIGNAL" input
-			(at 74.93 113.03 0)
+			(at 73.66 115.57 0)
 			(uuid "8e5a28b0-7544-4834-82de-7dc0e8cbd6ec")
 			(effects
 				(font
@@ -4930,7 +4930,7 @@
 			)
 		)
 		(pin "INPUT" input
-			(at 43.18 113.03 180)
+			(at 41.91 115.57 180)
 			(uuid "de7dc2b4-2b15-46ba-9add-5544db6b78a3")
 			(effects
 				(font
@@ -5424,7 +5424,7 @@
 		)
 	)
 	(sheet
-		(at 83.82 113.03)
+		(at 82.55 115.57)
 		(size 24.13 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5440,7 +5440,7 @@
 		)
 		(uuid "64f85b9c-b5dc-4ec9-9075-ce977ed1cba6")
 		(property "Sheetname" "ADC"
-			(at 83.82 112.3184 0)
+			(at 82.55 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5449,7 @@
 			)
 		)
 		(property "Sheetfile" "1115_adc.kicad_sch"
-			(at 83.82 126.3146 0)
+			(at 82.55 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5459,7 @@
 			)
 		)
 		(pin "ADC0" input
-			(at 83.82 115.57 180)
+			(at 82.55 118.11 180)
 			(uuid "289f493d-438d-43b1-89fc-37660e0dc8e2")
 			(effects
 				(font
@@ -5469,7 +5469,7 @@
 			)
 		)
 		(pin "ADC2" input
-			(at 83.82 120.65 180)
+			(at 82.55 123.19 180)
 			(uuid "fc9902df-d32b-4652-9d39-e2fd840dedc0")
 			(effects
 				(font
@@ -5479,7 +5479,7 @@
 			)
 		)
 		(pin "ADC1" input
-			(at 83.82 118.11 180)
+			(at 82.55 120.65 180)
 			(uuid "29b23a69-5120-4273-b460-caa7143db150")
 			(effects
 				(font
@@ -5489,7 +5489,7 @@
 			)
 		)
 		(pin "ADC3" input
-			(at 83.82 123.19 180)
+			(at 82.55 125.73 180)
 			(uuid "d6c4e027-6188-43d7-a916-4fe0230fb18d")
 			(effects
 				(font
@@ -5499,7 +5499,7 @@
 			)
 		)
 		(pin "ADDR" input
-			(at 107.95 116.84 0)
+			(at 106.68 119.38 0)
 			(uuid "55bc3aef-dd5d-415b-88ff-10f83c831feb")
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 			)
 		)
 		(pin "ALERT{slash}RDY" input
-			(at 107.95 119.38 0)
+			(at 106.68 121.92 0)
 			(uuid "e7cb4a40-b896-4819-aa36-a2a6ed854cbb")
 			(effects
 				(font
@@ -5729,7 +5729,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 99.06)
+		(at 41.91 101.6)
 		(size 31.75 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5745,7 +5745,7 @@
 		)
 		(uuid "be3403ab-9eef-436c-86e7-0de3f072ae30")
 		(property "Sheetname" "Brine TDS"
-			(at 43.18 98.3484 0)
+			(at 41.91 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5754,7 @@
 			)
 		)
 		(property "Sheetfile" "tds.kicad_sch"
-			(at 43.18 104.7246 0)
+			(at 41.91 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +5764,7 @@
 			)
 		)
 		(pin "SIGNAL" input
-			(at 74.93 101.6 0)
+			(at 73.66 104.14 0)
 			(uuid "9d2f2713-5af7-447e-bd9a-6cb739a2b4d7")
 			(effects
 				(font
@@ -5774,7 +5774,7 @@
 			)
 		)
 		(pin "INPUT" input
-			(at 43.18 101.6 180)
+			(at 41.91 104.14 180)
 			(uuid "6061da8b-0d9f-4185-a99c-b977accf5a45")
 			(effects
 				(font
@@ -5898,7 +5898,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 121.92)
+		(at 41.91 124.46)
 		(size 31.75 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5914,7 +5914,7 @@
 		)
 		(uuid "c8ab4709-9ad5-4833-bb93-07e00d6a0170")
 		(property "Sheetname" "Low Pressure Sensor"
-			(at 43.18 121.2084 0)
+			(at 41.91 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +5923,7 @@
 			)
 		)
 		(property "Sheetfile" "pressure_sensor.kicad_sch"
-			(at 43.18 127.5846 0)
+			(at 41.91 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +5933,7 @@
 			)
 		)
 		(pin "SIGNAL" input
-			(at 74.93 124.46 0)
+			(at 73.66 127 0)
 			(uuid "558e1422-ad16-4e08-b0bc-cce2e61c6d59")
 			(effects
 				(font
@@ -5951,8 +5951,8 @@
 		)
 	)
 	(sheet
-		(at 144.78 138.43)
-		(size 20.32 3.81)
+		(at 144.145 138.43)
+		(size 20.955 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5967,7 +5967,7 @@
 		)
 		(uuid "d9651726-ebc8-4cdb-a521-a43a3039a77a")
 		(property "Sheetname" "Piezo"
-			(at 144.78 137.7184 0)
+			(at 144.145 137.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +5976,7 @@
 			)
 		)
 		(property "Sheetfile" "piezo.kicad_sch"
-			(at 144.78 142.8246 0)
+			(at 144.145 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6057,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 133.35)
+		(at 41.91 135.89)
 		(size 31.75 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6073,7 +6073,7 @@
 		)
 		(uuid "e7fd98b0-0753-4e9e-b57d-135c0c1a0b39")
 		(property "Sheetname" "High Pressure Sensor"
-			(at 43.18 132.6384 0)
+			(at 41.91 135.1784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6082,7 @@
 			)
 		)
 		(property "Sheetfile" "pressure_sensor.kicad_sch"
-			(at 43.18 139.0146 0)
+			(at 41.91 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6092,7 @@
 			)
 		)
 		(pin "SIGNAL" input
-			(at 74.93 135.89 0)
+			(at 73.66 138.43 0)
 			(uuid "60fe8259-8425-4cc0-8869-4c1b55276984")
 			(effects
 				(font

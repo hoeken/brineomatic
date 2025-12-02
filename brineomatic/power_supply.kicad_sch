@@ -5583,7 +5583,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C90975"
+		(property "LCSC" "C22036"
 			(at 219.71 128.27 0)
 			(effects
 				(font
@@ -5884,6 +5884,24 @@
 			)
 		)
 		(property "Description" "Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, SOT-23-5"
+			(at 241.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2649430"
+			(at 241.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 241.3 123.19 0)
 			(effects
 				(font
