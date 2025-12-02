@@ -4,9 +4,6 @@
 * change voltage inputs from 0-3.3v to 0-2.048v on the ads11145
   * 100 ohm sense resistor on 4-20ma sensors (test on sendomatic)
 * schematic review
-* finalize component placement
-* route board
-* silkscreen
 * via stitching
 * drc
 * bom + placement check
