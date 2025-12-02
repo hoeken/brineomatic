@@ -30088,7 +30088,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a0b4ee82-88b8-4b16-938d-ee73dc4e429b")
@@ -32881,7 +32881,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "658786e0-b567-44e6-81f5-d53b9f934d67")
@@ -46449,7 +46449,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1a0b95c0-d777-429f-810e-5e3e10c537bf")

@@ -721,7 +721,7 @@
 		)
 		(uuid "aa0e0927-2651-4274-9571-e02dcea7ac9a")
 	)
-	(text_box "Simple connector for a DS18B20 temperature sensor."
+	(text_box "* Simple connector for a DS18B20 temperature sensor.\n* PESD3V3L1BA for ESD protection"
 		(exclude_from_sim no)
 		(at 87.63 118.11 0)
 		(size 76.2 12.7)
