@@ -4422,7 +4422,7 @@
 		(at 120.6 63.4)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6390,6 +6390,177 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "25cb553e-c995-45fd-ab76-350a0b4614a7")
+		(at 71.2 88.7)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP3"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2a6d347-a7f9-42eb-9ba1-5584c8c704d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "b507a608-045e-436d-989f-038322c5aed7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b27a9cf-219b-4c24-bdae-0ea87215f186")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78232358-c5e7-4fc8-8017-fbc96f3c9913")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bcf7fc8-740a-4eee-8e87-7f67005eb81e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec69a4b6-e457-4d4d-b742-d9922b2594e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c679172d-4992-4b00-b9c3-4ab7eaea0ce9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e988172d-ab94-4091-b444-a7d85a5ea81a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c01ff8bc-1658-4ea9-87a3-06244672987f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/7cbb3b3c-cf93-4880-b816-c6df902b993c/c7ef7ada-c19e-40b4-915d-aac4676bae5c")
+		(sheetname "/Power Supply/")
+		(sheetfile "power_supply.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "1624ece8-1725-4504-9b0e-2363c47ab614")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9c8ad726-d7d8-4cd7-8c9f-4e02d9359737")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "5bcbe9a8-2731-4f05-a150-700923eddae9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "4d83672a-191f-434a-a55b-93bb5a74fbce")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "294a28ac-4313-47a6-98a0-9666cc340ce5")
@@ -6609,7 +6780,7 @@
 		(at 96.4 73.5 180)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -16922,7 +17093,7 @@
 		(at 84.6 80.2)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP7"
+		(property "Reference" "TP8"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -17295,7 +17466,7 @@
 		(property "Reference" "R37"
 			(at -0.3 3.8 90)
 			(layer "F.SilkS")
-			(uuid "7d5b51e7-2734-46ca-95e9-d69ada1a3e0f")
+			(uuid "194bc7df-6659-419d-a403-bf5049c8124d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17306,7 +17477,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "d0cef1ed-4a2f-405b-b007-69587f916542")
+			(uuid "1993db45-3334-4987-a8df-6cd5c23bea7d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17318,7 +17489,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "faa57276-4c4e-4638-86c0-17f26e4348da")
+			(uuid "e7b5200c-7b7b-4966-924f-c67ada05c874")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -17330,7 +17501,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39d36561-998d-473e-8f21-ac04e983fae0")
+			(uuid "e43adf48-96f2-4e87-bdf1-1219384137a4")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -29906,7 +30077,7 @@
 		(at 147.3 53.1)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP3"
+		(property "Reference" "TP4"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -36481,7 +36652,7 @@
 		(property "Reference" "R36"
 			(at -0.3 6.6 90)
 			(layer "F.SilkS")
-			(uuid "ee552b82-5d0c-4b1c-b720-aa7319acc94f")
+			(uuid "fb47d31e-8119-4fe7-8755-2a99523b6dcc")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -36492,7 +36663,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "36badb71-8b6e-45fc-997e-4b866616a203")
+			(uuid "d0168e02-815d-4920-b641-1fc04d612a47")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -36504,7 +36675,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d44262f1-66f1-448b-8f8e-ff16378a6edb")
+			(uuid "29791966-4c3c-4dea-8324-f46d9d304618")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -36516,7 +36687,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b79c8e4e-f87d-4e9c-b8e8-2749d60f1856")
+			(uuid "4a0942f9-17e8-4e93-a378-dc8f1b064b5c")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -51889,7 +52060,7 @@
 		(at 101.8 57)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -52063,7 +52234,7 @@
 		(property "Reference" "U6"
 			(at 0.8375 -5.2 270)
 			(layer "F.SilkS")
-			(uuid "3c92d8ac-186e-40a4-b261-c35fb5e43d5b")
+			(uuid "5ad908ab-98c3-4d66-9d1b-939e0d1ff37f")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -52074,7 +52245,7 @@
 		(property "Value" "USBLC6-2SC6"
 			(at 0 2.4 90)
 			(layer "F.Fab")
-			(uuid "e1fc7daf-1681-4b8c-8367-9026df4dd60f")
+			(uuid "9726354c-d009-4d13-8828-5d4a6c68a6ae")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -52086,7 +52257,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "984f1c76-ef77-4bb3-a242-1c9bf3318d5b")
+			(uuid "2f5998d3-1793-4d01-8f1c-44d6d4b07d49")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -52098,7 +52269,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a118a6dc-3ae9-4135-b8c5-e832ff913260")
+			(uuid "593e08ea-47c8-4489-bb37-bf6779b6e006")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -54535,6 +54706,17 @@
 		(at 164.3 63.1 90)
 		(layer "F.SilkS")
 		(uuid "c32003f2-6df9-4ea3-822f-06026a135c96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 71.2 86.9 0)
+		(layer "F.SilkS" knockout)
+		(uuid "c9c0e977-28f7-4160-a28b-e687759bf169")
 		(effects
 			(font
 				(size 1 1)
@@ -58211,15 +58393,6 @@
 		(free yes)
 		(net 1)
 		(uuid "b775fef4-dc08-4e6c-9d07-045dfa865620")
-	)
-	(via
-		(at 70.8 88.6)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "b9821f57-9cd1-4eab-aa92-3eb027ccb2c2")
 	)
 	(via
 		(at 132.9 56.65)
@@ -77921,51 +78094,51 @@
 			"b4a7f410-6392-43ba-ac32-9b6f8bcd8916" "b4fe563c-f716-489a-a659-faf75a2a1114"
 			"b5e1d7c1-334e-4433-bebb-407a1238fb7c" "b615bcd2-871b-4c82-9b5d-65f1e6ba4887"
 			"b6cac999-10d3-41c2-b12f-79be03127161" "b75213e4-3bfe-41f2-8c00-b574b8ef6a1d"
-			"b9821f57-9cd1-4eab-aa92-3eb027ccb2c2" "bb77ea4d-b061-403e-b211-e92c32cbb95a"
-			"bb9810cd-ad43-48ea-8674-fcc7f59c2ed1" "bba6f96a-7b27-4bc1-b9c6-aa9066b4d361"
-			"bc0201fe-4503-4529-816e-978df3618eb4" "bc0f23c9-5788-49e3-882f-54f7958daed5"
-			"bc66db5e-2b17-4dcc-a55a-f47310397c62" "bce16600-7ba4-4c38-8730-230ab8234cd7"
-			"bd1b35b7-1835-47a9-a676-903207554a0e" "bd28d498-b83d-4ced-a8a6-5bc0d24cf5e3"
-			"be824945-1112-4f52-b5f0-0fd64b7c413f" "bf52944f-77c1-4324-8b0c-b9aa7f0cbe0c"
-			"c0e07344-b529-4788-bc8e-950f03f353ae" "c0fd8b9c-c771-4652-8b59-5ebab4fc91ef"
-			"c1672ca4-2c0f-4662-9c83-459dcdd5f163" "c3308a0e-97e9-4c3a-be13-5f0450e7b12b"
-			"c3a6f457-3a8d-4735-869a-bbd103cf7495" "c3ef1823-8db5-46fd-87e0-dcf328b81be8"
-			"c4702036-00d4-49c3-aa94-868ef00fc11d" "c5fdcc45-3ae6-4cf9-bb77-2b58ce1a8369"
-			"c668f17e-d3e4-435d-970c-d2596ed3c070" "c67c0785-dbfc-48f6-aafb-2421f2d42a58"
-			"c6af7363-a160-4cde-bafd-a44f717a4736" "c7b632a5-b2f7-44be-b237-c42557b37621"
-			"c9971196-de2d-4ee9-ad7b-eb1260f16178" "c9e9b234-b883-4d25-82a6-8b15fc0906b3"
-			"cb20a9c6-7606-43c4-a900-d74a839e84ab" "cd343c75-0f15-42b4-bc5f-ace7b1504c99"
-			"cdb7c14a-7d98-43c7-b539-542b81d40b43" "cf521d23-b11f-4951-b6e6-c185ffae129d"
-			"cf8107d8-cc10-48b3-8ee0-d6eb3348bbb0" "cfc5d49c-1018-4fea-8a6f-6d758b812104"
-			"d02e91ad-16b2-4345-8217-038d444ff85a" "d279d72d-e9e9-472a-8056-51c8e1b74b37"
-			"d364e4c8-9b6c-42b3-b06d-d1901b788eb9" "d37ef011-c17c-4804-849b-457e9530e3de"
-			"d3861668-515e-4f51-afae-8dd17be79466" "d3d362e4-f483-417a-b512-7cb36f894648"
-			"d3e2837d-ba87-43eb-bc46-28614cea0264" "d615e2bb-d330-4dd1-93f2-b4fd6a583f34"
-			"d7572b04-2a69-4d11-959d-151c419efc61" "d7b832d1-c386-468c-8f2f-6ca8ce980aff"
-			"d94f25eb-163b-4192-8ad5-8ff5272124b6" "d9fd2b02-249d-40b0-b06a-45284fd97d31"
-			"dae5c78e-830b-4db6-9221-59f9a1512267" "dae673f5-840a-4ec2-a9ed-3e0fb89e77a8"
-			"db1337fd-46e5-442d-926d-f14f5e66ca43" "dcbe53be-0cf1-4a60-b1c9-d38a26f9542b"
-			"dd0b8015-8e23-400e-9b89-92f577e0ef53" "dd319084-8374-4a69-a74e-d5accb763435"
-			"dea51c4e-e425-4069-aa27-dce4112b9e73" "e00041d7-d956-43de-ad75-88d8ef854fed"
-			"e319e610-e20d-4e00-a940-e3206159fcaa" "e3545b80-5f87-42e5-b2c0-47f6db494e5c"
-			"e3602707-bb16-4dba-b535-a4b057f07bdd" "e3f7d7ff-3116-49f6-ba4b-2241bf314959"
-			"e41f2b07-10c9-4a54-8aac-9279dc4a1dce" "e458dfcb-7d4f-468f-b298-1df4a658ac42"
-			"e4679818-7db7-425a-9ed7-a77fb8c0d53c" "e50faf0c-dfa1-4569-a04c-320a19918d41"
-			"e760b4b8-8e2d-4a26-8294-43772d3a620e" "e9aa3a2d-157e-49b5-96db-2a97b3b1e556"
-			"ea205408-7163-487c-ae91-b755b2380e10" "eba37158-6d8c-4282-9de4-d5bd0d28a276"
-			"ebae895c-cca1-4f4d-a565-0f2d4c97e53b" "ed7c4fe4-51f6-4cfd-90aa-bb57ee86984d"
-			"ed813bb1-8e3b-4f19-a102-0e2a7841120d" "edfd4f53-4501-419a-b1bd-8fa92d8bbee2"
-			"ef69a59f-3d10-458b-8750-9f819f193fe6" "ef8893df-5123-40cd-aa15-8af6b0ce1b5c"
-			"f19bc3c9-b043-4c3b-be07-7ee2717749c4" "f1d2c96e-8d47-41e5-b619-3b8495a5e930"
-			"f208f82f-8747-4dc9-89f4-84d052fdbd52" "f3dba0dc-4d0b-436f-a822-c07508b51da7"
-			"f41b908b-1b0c-4c24-8106-dc98f94bf631" "f4cd0500-6bf5-4211-b90d-8e9851fca634"
-			"f56590cf-279a-4969-a4b0-2d39aad8fbcb" "f5e280ab-5f27-413f-89e5-6fff1d708567"
-			"f67587ab-ab40-4e6f-92d7-7b4c302f36f1" "f6fa070c-da2c-423e-8c8e-bc7636915528"
-			"f89860d6-5f81-4334-8355-29d6a453f9ca" "f91a99dd-4158-4635-bdd3-e43a3fe3d2ef"
-			"f9b87ee1-1398-4312-8b0c-380484798b06" "fa515d49-f461-434e-a345-d11de62cf1c2"
-			"fac432f1-6f28-4996-b4f5-91687f7b0276" "fb344e31-8426-4703-b40e-23b5d6a467d7"
-			"fb9a4cdc-e242-457d-b251-873387aefdb7" "fdf0535c-f5be-4b41-ac52-a4f1d02ecdb0"
-			"fe1465b6-d6b7-48c8-8ad7-79ace0dcc169" "ff00af63-6e8e-486d-be17-378c2b6aed07"
+			"bb77ea4d-b061-403e-b211-e92c32cbb95a" "bb9810cd-ad43-48ea-8674-fcc7f59c2ed1"
+			"bba6f96a-7b27-4bc1-b9c6-aa9066b4d361" "bc0201fe-4503-4529-816e-978df3618eb4"
+			"bc0f23c9-5788-49e3-882f-54f7958daed5" "bc66db5e-2b17-4dcc-a55a-f47310397c62"
+			"bce16600-7ba4-4c38-8730-230ab8234cd7" "bd1b35b7-1835-47a9-a676-903207554a0e"
+			"bd28d498-b83d-4ced-a8a6-5bc0d24cf5e3" "be824945-1112-4f52-b5f0-0fd64b7c413f"
+			"bf52944f-77c1-4324-8b0c-b9aa7f0cbe0c" "c0e07344-b529-4788-bc8e-950f03f353ae"
+			"c0fd8b9c-c771-4652-8b59-5ebab4fc91ef" "c1672ca4-2c0f-4662-9c83-459dcdd5f163"
+			"c3308a0e-97e9-4c3a-be13-5f0450e7b12b" "c3a6f457-3a8d-4735-869a-bbd103cf7495"
+			"c3ef1823-8db5-46fd-87e0-dcf328b81be8" "c4702036-00d4-49c3-aa94-868ef00fc11d"
+			"c5fdcc45-3ae6-4cf9-bb77-2b58ce1a8369" "c668f17e-d3e4-435d-970c-d2596ed3c070"
+			"c67c0785-dbfc-48f6-aafb-2421f2d42a58" "c6af7363-a160-4cde-bafd-a44f717a4736"
+			"c7b632a5-b2f7-44be-b237-c42557b37621" "c9971196-de2d-4ee9-ad7b-eb1260f16178"
+			"c9e9b234-b883-4d25-82a6-8b15fc0906b3" "cb20a9c6-7606-43c4-a900-d74a839e84ab"
+			"cd343c75-0f15-42b4-bc5f-ace7b1504c99" "cdb7c14a-7d98-43c7-b539-542b81d40b43"
+			"cf521d23-b11f-4951-b6e6-c185ffae129d" "cf8107d8-cc10-48b3-8ee0-d6eb3348bbb0"
+			"cfc5d49c-1018-4fea-8a6f-6d758b812104" "d02e91ad-16b2-4345-8217-038d444ff85a"
+			"d279d72d-e9e9-472a-8056-51c8e1b74b37" "d364e4c8-9b6c-42b3-b06d-d1901b788eb9"
+			"d37ef011-c17c-4804-849b-457e9530e3de" "d3861668-515e-4f51-afae-8dd17be79466"
+			"d3d362e4-f483-417a-b512-7cb36f894648" "d3e2837d-ba87-43eb-bc46-28614cea0264"
+			"d615e2bb-d330-4dd1-93f2-b4fd6a583f34" "d7572b04-2a69-4d11-959d-151c419efc61"
+			"d7b832d1-c386-468c-8f2f-6ca8ce980aff" "d94f25eb-163b-4192-8ad5-8ff5272124b6"
+			"d9fd2b02-249d-40b0-b06a-45284fd97d31" "dae5c78e-830b-4db6-9221-59f9a1512267"
+			"dae673f5-840a-4ec2-a9ed-3e0fb89e77a8" "db1337fd-46e5-442d-926d-f14f5e66ca43"
+			"dcbe53be-0cf1-4a60-b1c9-d38a26f9542b" "dd0b8015-8e23-400e-9b89-92f577e0ef53"
+			"dd319084-8374-4a69-a74e-d5accb763435" "dea51c4e-e425-4069-aa27-dce4112b9e73"
+			"e00041d7-d956-43de-ad75-88d8ef854fed" "e319e610-e20d-4e00-a940-e3206159fcaa"
+			"e3545b80-5f87-42e5-b2c0-47f6db494e5c" "e3602707-bb16-4dba-b535-a4b057f07bdd"
+			"e3f7d7ff-3116-49f6-ba4b-2241bf314959" "e41f2b07-10c9-4a54-8aac-9279dc4a1dce"
+			"e458dfcb-7d4f-468f-b298-1df4a658ac42" "e4679818-7db7-425a-9ed7-a77fb8c0d53c"
+			"e50faf0c-dfa1-4569-a04c-320a19918d41" "e760b4b8-8e2d-4a26-8294-43772d3a620e"
+			"e9aa3a2d-157e-49b5-96db-2a97b3b1e556" "ea205408-7163-487c-ae91-b755b2380e10"
+			"eba37158-6d8c-4282-9de4-d5bd0d28a276" "ebae895c-cca1-4f4d-a565-0f2d4c97e53b"
+			"ed7c4fe4-51f6-4cfd-90aa-bb57ee86984d" "ed813bb1-8e3b-4f19-a102-0e2a7841120d"
+			"edfd4f53-4501-419a-b1bd-8fa92d8bbee2" "ef69a59f-3d10-458b-8750-9f819f193fe6"
+			"ef8893df-5123-40cd-aa15-8af6b0ce1b5c" "f19bc3c9-b043-4c3b-be07-7ee2717749c4"
+			"f1d2c96e-8d47-41e5-b619-3b8495a5e930" "f208f82f-8747-4dc9-89f4-84d052fdbd52"
+			"f3dba0dc-4d0b-436f-a822-c07508b51da7" "f41b908b-1b0c-4c24-8106-dc98f94bf631"
+			"f4cd0500-6bf5-4211-b90d-8e9851fca634" "f56590cf-279a-4969-a4b0-2d39aad8fbcb"
+			"f5e280ab-5f27-413f-89e5-6fff1d708567" "f67587ab-ab40-4e6f-92d7-7b4c302f36f1"
+			"f6fa070c-da2c-423e-8c8e-bc7636915528" "f89860d6-5f81-4334-8355-29d6a453f9ca"
+			"f91a99dd-4158-4635-bdd3-e43a3fe3d2ef" "f9b87ee1-1398-4312-8b0c-380484798b06"
+			"fa515d49-f461-434e-a345-d11de62cf1c2" "fac432f1-6f28-4996-b4f5-91687f7b0276"
+			"fb344e31-8426-4703-b40e-23b5d6a467d7" "fb9a4cdc-e242-457d-b251-873387aefdb7"
+			"fdf0535c-f5be-4b41-ac52-a4f1d02ecdb0" "fe1465b6-d6b7-48c8-8ad7-79ace0dcc169"
+			"ff00af63-6e8e-486d-be17-378c2b6aed07"
 		)
 	)
 	(embedded_fonts no)
