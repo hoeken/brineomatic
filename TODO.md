@@ -37,3 +37,4 @@
 * 165 ohm to 100 ohm sense resistor on 4-20ma sensors to better use ADC range
 * gate resistor to 220ohm / pulldown to 10k
 * ao3400a changed to Si2318 for a little bit more headroom with 24v supplies.
+* added back up usb serial converter headers

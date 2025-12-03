@@ -4902,7 +4902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11cc2a60-8772-4686-a658-6497b248569f")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 68.58 120.015 0)
 			(effects
 				(font
@@ -4952,7 +4952,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6706,7 +6706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "939f44b2-da0d-41c3-9282-3a016fd28009")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 92.71 57.1563 0)
 			(effects
 				(font
@@ -6778,7 +6778,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7004,7 +7004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a756f2cc-19b4-40fa-87ae-00acb1c20514")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 113.03 57.1563 0)
 			(effects
 				(font
@@ -7076,7 +7076,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7377,7 +7377,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cbff86bf-6736-4302-9286-ee7b93fdd047")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 106.68 125.7363 0)
 			(effects
 				(font
@@ -7449,7 +7449,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8188,7 +8188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e95c4305-07e6-497d-878c-97326c240a48")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 76.2 50.165 0)
 			(effects
 				(font
@@ -8238,7 +8238,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8254,7 +8254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed8b977a-fad2-44f8-86c3-36c8969c2c09")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 81.28 129.5463 0)
 			(effects
 				(font
@@ -8326,7 +8326,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
