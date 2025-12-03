@@ -2058,7 +2058,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 115.57 85.09 90)
 			(effects
 				(font
@@ -2342,7 +2342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "Si2318"
 			(at 142.24 90.1699 0)
 			(effects
 				(font
@@ -2372,7 +2372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -2381,7 +2381,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5224194"
+		(property "LCSC" "C14498"
 			(at 135.89 88.9 0)
 			(effects
 				(font

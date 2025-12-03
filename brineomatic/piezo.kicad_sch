@@ -1426,7 +1426,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 128.27 90.17 90)
 			(effects
 				(font

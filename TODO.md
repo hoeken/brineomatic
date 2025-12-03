@@ -1,7 +1,9 @@
 ## Electronics Todo (REV-C)
 
-* test 10k pulldown on relays vs power on glitch
-* change voltage inputs from 0-3.3v to 0-2.048v on the ads1115?
+* power on glitch:
+  * test with scope
+  * test with 10k pulldown
+  * https://github.com/atomic14/esp32-s3-pinouts
 * switch to smt standoffs?  sendit test board y/n
 * schematic review
 
@@ -33,4 +35,5 @@
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl
 * all test points -> 1.5x0.7
 * 165 ohm to 100 ohm sense resistor on 4-20ma sensors to better use ADC range
-* bom + placement check
+* gate resistor to 220ohm / pulldown to 10k
+* ao3400a changed to Si2318 for a little bit more headroom with 24v supplies.

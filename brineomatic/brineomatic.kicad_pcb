@@ -3233,7 +3233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5e277e73-ab3d-48b7-958f-86edb13b7dac")
@@ -7713,7 +7713,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fdcf2d24-01e8-4ce1-96ca-0c4f7c3f9619")
@@ -10422,7 +10422,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "83d482ce-4706-402d-ad9b-3a02d4c9ab4f")
@@ -12933,7 +12933,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 0.05 1.5 0)
 			(layer "F.Fab")
 			(uuid "07b46c51-0c26-443a-98e1-674070d20406")
@@ -19025,7 +19025,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "80bb6a13-8b0c-4040-8ff2-a592230197d5")
@@ -23057,7 +23057,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2b8a3dfa-b246-461c-939c-f1991c253691")
@@ -23789,7 +23789,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "Si2318"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "e576d419-2fbc-45cb-9c3e-1a716653553d")
@@ -23813,7 +23813,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23826,7 +23826,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5224194"
+		(property "LCSC" "C14498"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25519,7 +25519,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "Si2318"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "b37c0189-dc6c-4e03-a5b8-c4c548e72a8a")
@@ -25542,7 +25542,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -25554,7 +25554,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5224194"
+		(property "LCSC" "C14498"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27587,7 +27587,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "Si2318"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "4418216a-2ba8-4db6-b024-8f2c8eddb90e")
@@ -27611,7 +27611,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27624,7 +27624,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5224194"
+		(property "LCSC" "C14498"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34937,14 +34937,14 @@
 			(at -2.89 -2.605)
 			(size 0.65 0.65)
 			(drill 0.65)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "4cab7d6e-3a4c-44d8-a98f-e80b8de87269")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -2.605)
 			(size 0.65 0.65)
 			(drill 0.65)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "20222841-6b38-4e2f-a1fc-b68199d99f89")
 		)
 		(pad "A1" smd roundrect
@@ -35822,7 +35822,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "Si2318"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "35c88091-0dd4-4f8b-9239-06576d66d480")
@@ -35846,7 +35846,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35859,7 +35859,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5224194"
+		(property "LCSC" "C14498"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36766,7 +36766,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b267b61c-61e9-4800-8d61-e4ac967a070d")
@@ -40975,7 +40975,7 @@
 			(at 11.25 0 90)
 			(size 3 3)
 			(drill 3)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "1187b6b9-aa69-454e-9298-8e700ba6db19")
 		)
 		(pad "1" thru_hole circle
@@ -46696,7 +46696,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f908f528-0e3c-4b9d-bc59-bc3c8235798e")
@@ -49069,7 +49069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "559006c4-3830-428e-b640-e4644a18fae9")
@@ -51264,7 +51264,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "220R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "608125e2-ecbc-4117-b1fb-f7cf5c06a11e")
@@ -53056,7 +53056,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "Si2318"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "b9138cc6-534d-4307-8a15-090848c30625")
@@ -53080,7 +53080,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53093,7 +53093,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5224194"
+		(property "LCSC" "C14498"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
