@@ -997,12 +997,14 @@
 		)
 		(uuid afc68739-71c8-4b62-9174-f57688cf3bb8)
 	)
-	(text "Piezo Buzzer"
+	(text "Buzzer"
 		(exclude_from_sim no)
-		(at 111.76 61.468 0)
+		(at 111.76 62.23 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
