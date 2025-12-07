@@ -1277,8 +1277,8 @@
 		(uuid 32efb7ee-103a-4f3e-8a88-0506a5af3fb2)
 	)
 	(rectangle
-		(start 64.77 150.749)
-		(end 92.71 187.579)
+		(start 64.77 151.13)
+		(end 92.71 187.325)
 		(stroke
 			(width 0)
 			(type default)
@@ -1287,18 +1287,6 @@
 			(type none)
 		)
 		(uuid 61178f34-b43d-4291-97ad-a45466f2d435)
-	)
-	(rectangle
-		(start 131.953 150.749)
-		(end 165.608 187.579)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 690c9d2b-b227-4be5-bef4-d2589b4e8bb2)
 	)
 	(rectangle
 		(start 204.47 26.67)
@@ -1313,8 +1301,8 @@
 		(uuid 710d4d4b-3596-43bd-a2ac-543a3a40f936)
 	)
 	(rectangle
-		(start 95.758 150.749)
-		(end 129.413 187.579)
+		(start 95.758 151.13)
+		(end 129.413 187.325)
 		(stroke
 			(width 0)
 			(type default)
@@ -1337,8 +1325,8 @@
 		(uuid 7ad6520c-063d-4531-90de-1dd82cddce75)
 	)
 	(rectangle
-		(start 24.003 150.749)
-		(end 62.738 187.579)
+		(start 24.003 151.13)
+		(end 62.738 187.325)
 		(stroke
 			(width 0)
 			(type default)
@@ -1512,7 +1500,7 @@
 	)
 	(text "Power Supply"
 		(exclude_from_sim no)
-		(at 133.223 153.924 0)
+		(at 138.43 168.91 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1857,16 +1845,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 121.92) (xy 229.87 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b33b583-8e38-4f86-85dd-4984abb2ee29")
-	)
-	(wire
-		(pts
 			(xy 90.17 90.17) (xy 73.66 90.17)
 		)
 		(stroke
@@ -2027,16 +2005,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 119.38) (xy 229.87 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0039caa-fae2-4cc3-92db-bdcd09278ba6")
-	)
-	(wire
-		(pts
 			(xy 41.91 176.53) (xy 44.45 176.53)
 		)
 		(stroke
@@ -2194,16 +2162,6 @@
 			(type default)
 		)
 		(uuid "f0d4971d-64bb-429e-98fb-86a936882040")
-	)
-	(wire
-		(pts
-			(xy 227.33 114.3) (xy 229.87 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f624c6c5-12fc-4c39-b0d3-9ab30eb8bfba")
 	)
 	(wire
 		(pts
@@ -2391,7 +2349,7 @@
 	)
 	(global_label "ADC_ALERT"
 		(shape input)
-		(at 227.33 114.3 180)
+		(at 229.87 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2401,7 +2359,7 @@
 		)
 		(uuid "185686d1-5749-4ac9-a3e8-37f957a6ca74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.2453 114.3 0)
+			(at 216.7853 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2811,7 @@
 	)
 	(global_label "RS485_DI"
 		(shape input)
-		(at 227.33 121.92 180)
+		(at 229.87 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2863,7 +2821,7 @@
 		)
 		(uuid "8ffbf384-224f-4a1a-8606-660fae675fc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.3944 121.92 0)
+			(at 217.9344 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3185,7 @@
 	)
 	(global_label "RS485_RO"
 		(shape input)
-		(at 227.33 119.38 180)
+		(at 229.87 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3237,7 +3195,7 @@
 		)
 		(uuid "dca1edc4-8f25-435a-805f-a76f6a9ee192")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.6687 119.38 0)
+			(at 217.2087 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,8 +5485,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 167.64)
-		(size 16.256 6.985)
+		(at 133.35 151.13)
+		(size 34.29 36.195)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5543,7 +5501,7 @@
 		)
 		(uuid "7cbb3b3c-cf93-4880-b816-c6df902b993c")
 		(property "Sheetname" "Power Supply"
-			(at 139.7 166.9284 0)
+			(at 133.35 150.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +5510,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 139.7 175.2096 0)
+			(at 133.35 187.9096 0)
 			(effects
 				(font
 					(size 1.27 1.27)

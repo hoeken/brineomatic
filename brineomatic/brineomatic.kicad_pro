@@ -60,22 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|74950000|86745000|4cab7d6e-3a4c-44d8-a98f-e80b8de87269|678e2cc7-5e56-4f82-b804-69ae0239ddd3",
-          ""
-        ],
-        [
-          "hole_clearance|74950000|86745000|4cab7d6e-3a4c-44d8-a98f-e80b8de87269|bb1261ad-e458-4890-a5b6-9c98b38006a2",
-          ""
-        ],
-        [
-          "hole_clearance|81050000|86745000|20222841-6b38-4e2f-a1fc-b68199d99f89|23da3d05-0a8e-4f82-af12-6d03ebdae560",
-          ""
-        ],
-        [
-          "hole_clearance|81050000|86745000|20222841-6b38-4e2f-a1fc-b68199d99f89|d46a9253-5ee1-45b9-abb9-280170088dd8",
-          ""
-        ],
-        [
           "silk_overlap|165485287|66549639|7a314237-cb2a-44a2-a935-8d0c59dc9f0e|b892e88c-da93-4972-916d-ee870a55112f",
           ""
         ],
@@ -153,7 +137,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
+        "min_hole_clearance": 0.194,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,

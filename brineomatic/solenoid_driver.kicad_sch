@@ -1656,7 +1656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "157e9a66-31c5-424c-ba18-1906a5ffe710")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 128.27 72.39 90)
 			(effects
 				(font
@@ -1746,23 +1746,23 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
-					(reference "D26")
+					(reference "D29")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
-					(reference "D37")
+					(reference "D41")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c855463c-7233-4758-aee4-aa81e2b08bc2"
-					(reference "D24")
+					(reference "D27")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
-					(reference "D28")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -2516,7 +2516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f770cc3e-b9af-45a8-b364-76f8bd77d02c")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 113.03 101.9174 90)
 			(effects
 				(font
@@ -2588,23 +2588,23 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
-					(reference "D25")
+					(reference "D28")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
-					(reference "D36")
+					(reference "D40")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c855463c-7233-4758-aee4-aa81e2b08bc2"
-					(reference "D23")
+					(reference "D26")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
-					(reference "D27")
+					(reference "D30")
 					(unit 1)
 				)
 			)

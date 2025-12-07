@@ -2014,7 +2014,7 @@
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
-					(reference "D22")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -2273,6 +2273,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2687129"
+			(at 114.3 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d73ff61b-adc2-41f5-8ba5-bead65e08400")
 		)
@@ -2286,7 +2295,7 @@
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
-					(reference "D21")
+					(reference "D24")
 					(unit 1)
 				)
 			)

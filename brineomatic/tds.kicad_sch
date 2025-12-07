@@ -1368,6 +1368,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2687129"
+			(at 105.41 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c157429-5ae3-4445-a0b2-df6aeba2bf59")
 		)
@@ -1377,7 +1386,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4dde40bf-0b86-4621-acd9-eb6c6b71c357"
-					(reference "D33")
+					(reference "D37")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/be3403ab-9eef-436c-86e7-0de3f072ae30"
@@ -1706,7 +1715,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4dde40bf-0b86-4621-acd9-eb6c6b71c357"
-					(reference "D34")
+					(reference "D38")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/be3403ab-9eef-436c-86e7-0de3f072ae30"
