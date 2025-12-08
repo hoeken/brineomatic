@@ -1337,18 +1337,6 @@
 		(uuid 83a22313-3767-46c9-8c91-9446cff8bb02)
 	)
 	(rectangle
-		(start 242.57 105.41)
-		(end 245.11 115.57)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 96c76768-4628-46de-ab88-f97b276f4890)
-	)
-	(rectangle
 		(start 23.495 26.67)
 		(end 123.19 73.66)
 		(stroke
@@ -1579,16 +1567,6 @@
 		)
 		(uuid "b02a9e13-f80d-4497-8c94-cfe384f23744")
 	)
-	(text "PU"
-		(exclude_from_sim no)
-		(at 241.3 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b4776e9d-d1ed-42f3-b24f-37a4d5e30bfb")
-	)
 	(text "I2C / QWIIC"
 		(exclude_from_sim no)
 		(at 65.913 153.924 0)
@@ -1601,16 +1579,6 @@
 			(justify left)
 		)
 		(uuid "b6dce645-f86d-4a79-9f14-37b72df19418")
-	)
-	(text "PU"
-		(exclude_from_sim no)
-		(at 241.3 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c148630c-be5f-418d-9587-909689dbb9c5")
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
@@ -1627,7 +1595,7 @@
 	)
 	(text "JTAG"
 		(exclude_from_sim no)
-		(at 243.84 110.49 90)
+		(at 242.57 110.49 90)
 		(effects
 			(font
 				(size 1.27 1.27)
