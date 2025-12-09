@@ -1027,7 +1027,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4c28a3dc-9363-4fde-b010-be952dc8ce44"
-					(reference "D39")
+					(reference "D38")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7dc38cc9-02c6-4108-8c2f-d0f758210cae"
@@ -1180,7 +1180,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4c28a3dc-9363-4fde-b010-be952dc8ce44"
-					(reference "R47")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7dc38cc9-02c6-4108-8c2f-d0f758210cae"

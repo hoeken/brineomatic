@@ -66,14 +66,6 @@
         [
           "lib_footprint_mismatch|78000000|89710000|ad63b392-958f-4107-88e5-cbc6ac171f1b|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "silk_overlap|163000000|66549639|b892e88c-da93-4972-916d-ee870a55112f|f63cb85a-0f77-46fd-af01-771387630191",
-          ""
-        ],
-        [
-          "silk_overlap|165485287|66549639|7a314237-cb2a-44a2-a935-8d0c59dc9f0e|b892e88c-da93-4972-916d-ee870a55112f",
-          ""
         ]
       ],
       "meta": {
@@ -120,7 +112,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "ignore",
