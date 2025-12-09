@@ -39,3 +39,4 @@
 * ao3400a changed to Si2318 for a little bit more headroom with 24v supplies.
 * added back up usb serial converter headers
 * added more esd protection to the 24v / 5v / 3.3v power rails
+* made attachment points a bit wider
