@@ -1274,9 +1274,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "82957cb2-dbff-4ee2-bbbb-e8c8f1e7b2f5")
+		(fields_autoplaced yes)
+		(uuid "7a0fd937-90de-40fc-b090-fa8a5c3cab9e")
 		(property "Reference" "Q2"
-			(at 146.05 92.71 0)
+			(at 147.32 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,8 +1285,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
-			(at 146.05 95.25 0)
+		(property "Value" "Si2318"
+			(at 147.32 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14498.pdf"
 			(at 146.05 97.79 0)
 			(effects
 				(font
@@ -1314,7 +1315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "MOSFET N-CH 40V 5.6A SOT-23"
 			(at 140.97 93.98 0)
 			(effects
 				(font
@@ -1323,7 +1324,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5224194"
+		(property "LCSC" "C14498"
 			(at 140.97 93.98 0)
 			(effects
 				(font
@@ -1331,80 +1332,20 @@
 				)
 				(hide yes)
 			)
-		)
-		(property "ALT" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 140.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58559893-a753-444b-a0d3-6dcec8136f0e")
 		)
 		(pin "2"
-			(uuid "b964b08f-027e-4a32-b6c8-3eb9624f73a2")
+			(uuid "8a1e1b6b-ed96-4b7c-ade2-e747d32b6565")
 		)
 		(pin "3"
-			(uuid "58eb645e-ff0a-4b73-bea2-dc302c9daaac")
+			(uuid "f92352e8-2e05-4911-ac40-b29758ffc388")
+		)
+		(pin "1"
+			(uuid "8c840d98-ed14-4d32-8688-5530c1e6e183")
 		)
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/d9651726-ebc8-4cdb-a521-a43a3039a77a"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/730ddc54-308b-4950-8f3a-2beb2098c60b"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1904,7 +1845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C96256.pdf"
 			(at 145.415 76.2 90)
 			(effects
 				(font

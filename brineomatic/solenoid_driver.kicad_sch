@@ -2362,7 +2362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14498.pdf"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -2372,7 +2372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 5.6A SOT-23"
 			(at 135.89 88.9 0)
 			(effects
 				(font

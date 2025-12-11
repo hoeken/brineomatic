@@ -4495,6 +4495,18 @@
 		)
 		(uuid de59027a-e144-45e4-8e92-96872f7c8353)
 	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 233.68 114.3 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "3a852689-5b1a-4dad-9a5a-2c0b647abadc")
+	)
 	(text "BOOT CONTROL"
 		(exclude_from_sim no)
 		(at 172.72 92.075 0)
@@ -4543,6 +4555,18 @@
 			)
 		)
 		(uuid "a56e272a-1a2a-4d72-8a75-a096d067f363")
+	)
+	(text "BOOT"
+		(exclude_from_sim no)
+		(at 196.85 114.3 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "bd236584-4ca8-4db1-b918-d338c19d56f3")
 	)
 	(text "RGB LED"
 		(exclude_from_sim no)
@@ -6669,7 +6693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20e0aea9-7920-486d-878c-1fe84bffc814")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG08"
 			(at 125.73 37.465 0)
 			(effects
 				(font
@@ -6724,7 +6748,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#FLG09")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -8768,7 +8792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 215.9 79.375 0)
 			(effects
 				(font
@@ -8882,17 +8906,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6e2badf-0cf0-43b5-9b99-4b7293931494")
 		(property "Reference" "SW2"
-			(at 233.68 115.57 0)
+			(at 233.68 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "~"
 			(at 233.68 118.11 0)
 			(effects
 				(font
@@ -9214,17 +9237,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b5fa6246-0282-46d2-9e68-4a58409f75d0")
 		(property "Reference" "SW1"
-			(at 196.85 115.57 0)
+			(at 196.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "~"
 			(at 196.85 118.11 0)
 			(effects
 				(font
@@ -10484,7 +10506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce956ba9-f18e-4f27-a38b-7edb7e0ba398")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG07"
 			(at 91.44 31.115 0)
 			(effects
 				(font
@@ -10539,7 +10561,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#FLG08")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
