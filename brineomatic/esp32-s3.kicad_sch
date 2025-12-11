@@ -1304,6 +1304,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Polyfuse"
 			(pin_numbers
 				(hide yes)
@@ -4419,7 +4602,7 @@
 		(uuid "a717e6b1-1f51-4fcc-889b-5f54060ace6f")
 	)
 	(junction
-		(at 224.79 27.94)
+		(at 205.74 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01328204-f09e-4620-86c4-007ede153aad")
@@ -4443,6 +4626,12 @@
 		(uuid "4e07dc40-3320-4ce1-8470-757d334145ed")
 	)
 	(junction
+		(at 233.68 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f98160d-35db-4b68-b064-ad66df05f035")
+	)
+	(junction
 		(at 195.58 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4459,6 +4648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "672d2e55-3ae1-48aa-a794-1ff4b8cd2cd4")
+	)
+	(junction
+		(at 218.44 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8617b82d-51a1-451d-8a42-d75a4015dc17")
 	)
 	(junction
 		(at 215.9 123.19)
@@ -4497,7 +4692,7 @@
 		(uuid "ab6f5183-bc2f-46bc-8a6e-468945aae13e")
 	)
 	(junction
-		(at 191.77 27.94)
+		(at 172.72 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac33e8ba-ea22-4cfb-afa9-5d7cadff4112")
@@ -4507,12 +4702,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8dc2553-d7b8-4393-9897-2fbe830d4703")
-	)
-	(junction
-		(at 236.22 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc70b818-e673-4011-82cc-4905d6da354d")
 	)
 	(junction
 		(at 105.41 41.91)
@@ -4527,7 +4716,7 @@
 		(uuid "bf68378a-6a8c-4391-a42a-87c3aa16dd1a")
 	)
 	(junction
-		(at 224.79 40.64)
+		(at 205.74 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c802b740-d637-4992-89ee-8e64dd8867d2")
@@ -4545,7 +4734,7 @@
 		(uuid "daebd6d1-1df2-4178-aa43-e1cdcf8fde68")
 	)
 	(junction
-		(at 208.28 40.64)
+		(at 189.23 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de4ddd89-62f1-4e81-84dd-4242866fca5e")
@@ -4574,6 +4763,12 @@
 		(color 0 0 0 0)
 		(uuid "ea4c25fd-ab07-41a0-b62c-ed136f56e6c6")
 	)
+	(junction
+		(at 218.44 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcad79fa-e0fc-4498-9bb6-02386e59ebeb")
+	)
 	(no_connect
 		(at 83.82 63.5)
 		(uuid "6390bdb1-6ca7-4d71-ad45-20bbfeb1ebe9")
@@ -4584,7 +4779,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 26.67) (xy 191.77 27.94)
+			(xy 172.72 29.21) (xy 172.72 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4604,7 +4799,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 27.94) (xy 236.22 30.48)
+			(xy 218.44 30.48) (xy 218.44 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4624,7 +4819,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 36.83) (xy 191.77 40.64)
+			(xy 172.72 39.37) (xy 172.72 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4724,7 +4919,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 40.64) (xy 236.22 40.64)
+			(xy 205.74 43.18) (xy 218.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4754,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 27.94) (xy 224.79 31.75)
+			(xy 205.74 30.48) (xy 205.74 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4824,7 +5019,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 40.64) (xy 224.79 36.83)
+			(xy 205.74 43.18) (xy 205.74 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4854,7 +5049,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 40.64) (xy 236.22 38.1)
+			(xy 218.44 43.18) (xy 218.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4894,7 +5089,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 40.64) (xy 208.28 40.64)
+			(xy 172.72 43.18) (xy 189.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4984,16 +5179,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 40.64) (xy 224.79 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed6eca4-c6b9-4d89-bc43-a2925bf17417")
-	)
-	(wire
-		(pts
 			(xy 71.12 130.81) (xy 71.12 133.35)
 		)
 		(stroke
@@ -5024,7 +5209,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 27.94) (xy 224.79 27.94)
+			(xy 218.44 43.18) (xy 233.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e2db92-e951-40ce-928f-7a7ca155f69a")
+	)
+	(wire
+		(pts
+			(xy 196.85 30.48) (xy 205.74 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5124,17 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 26.67) (xy 236.22 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad2120d7-8316-4a0e-a182-984b884eabcb")
-	)
-	(wire
-		(pts
-			(xy 191.77 31.75) (xy 191.77 27.94)
+			(xy 172.72 34.29) (xy 172.72 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5151,6 +5336,16 @@
 			(type default)
 		)
 		(uuid "b0a32623-b33a-44e6-890b-e9ff612b829f")
+	)
+	(wire
+		(pts
+			(xy 233.68 29.21) (xy 233.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c726da-3f86-485c-bf98-4e20353edd9e")
 	)
 	(wire
 		(pts
@@ -5174,7 +5369,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 27.94) (xy 236.22 27.94)
+			(xy 205.74 30.48) (xy 218.44 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5201,6 +5396,16 @@
 			(type default)
 		)
 		(uuid "be476a92-6de1-4308-ba10-43889dfa5409")
+	)
+	(wire
+		(pts
+			(xy 205.74 43.18) (xy 189.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23d0681-81eb-47bc-9549-bb6a7921344b")
 	)
 	(wire
 		(pts
@@ -5384,7 +5589,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 27.94) (xy 200.66 27.94)
+			(xy 172.72 30.48) (xy 181.61 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5404,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 35.56) (xy 208.28 40.64)
+			(xy 189.23 38.1) (xy 189.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5441,6 +5646,16 @@
 			(type default)
 		)
 		(uuid "edead5e3-5fdc-48a0-95b9-0999bed89dea")
+	)
+	(wire
+		(pts
+			(xy 233.68 30.48) (xy 218.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8f353e-83dc-450c-800d-6cebed86b1df")
 	)
 	(wire
 		(pts
@@ -6086,7 +6301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "056d4912-765a-4ccf-9754-6e2d4ee4a725")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR045"
 			(at 97.79 179.07 0)
 			(effects
 				(font
@@ -6136,7 +6351,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR047")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6151,7 +6366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14b2c822-e9de-417b-9941-7d8b6f67b681")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR057"
 			(at 220.98 119.38 0)
 			(effects
 				(font
@@ -6201,7 +6416,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR059")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -6215,15 +6430,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 236.22 34.29 90)
+		(at 218.44 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "16cfcd82-3477-4969-b440-0ccb3e6438a7")
-		(property "Reference" "D35"
-			(at 238.76 33.02 90)
+		(property "Reference" "D33"
+			(at 220.98 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6447,7 @@
 			)
 		)
 		(property "Value" "SMAJ3.3A"
-			(at 238.76 35.56 90)
+			(at 220.98 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6456,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 236.22 34.29 0)
+			(at 218.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 34.29 0)
+			(at 218.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 34.29 0)
+			(at 218.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6483,7 @@
 			)
 		)
 		(property "LCSC" "C18199544"
-			(at 236.22 34.29 90)
+			(at 218.44 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6492,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 236.22 34.29 0)
+			(at 218.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +6509,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "D35")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -6310,7 +6525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a131b68-5014-4b68-b48b-b308fb548694")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR049"
 			(at 115.57 81.28 0)
 			(effects
 				(font
@@ -6360,7 +6575,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR051")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6374,7 +6589,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 191.77 26.67 0)
+		(at 172.72 29.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6382,8 +6597,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dfcf2f4-6291-4793-a1d0-36c5d37c4e13")
-		(property "Reference" "#PWR053"
-			(at 191.77 30.48 0)
+		(property "Reference" "#PWR051"
+			(at 172.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,7 +6607,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 191.77 21.59 0)
+			(at 172.72 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,7 +6615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 26.67 0)
+			(at 172.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +6624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 26.67 0)
+			(at 172.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +6633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 191.77 26.67 0)
+			(at 172.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6647,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR053")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6531,7 +6746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2af5adb8-ee9a-4a8a-832a-85be05a579c1")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR056"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -6581,7 +6796,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR058")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6678,7 +6893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30dc939a-5559-4c76-a207-51474b247582")
-		(property "Reference" "R36"
+		(property "Reference" "R39"
 			(at 96.52 45.72 90)
 			(effects
 				(font
@@ -6790,7 +7005,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "R36")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -6804,7 +7019,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 191.77 34.29 0)
+		(at 172.72 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6812,8 +7027,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32029bd6-a69b-4623-9899-4d60b87c2ca5")
-		(property "Reference" "C19"
-			(at 194.31 33.0262 0)
+		(property "Reference" "C20"
+			(at 175.26 35.5662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +7037,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 194.31 35.5662 0)
+			(at 175.26 38.1062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +7046,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.77 34.29 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +7055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 34.29 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,7 +7064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 34.29 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +7072,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 191.77 34.29 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +7081,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 191.77 34.29 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,7 +7090,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 191.77 34.29 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +7099,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 191.77 34.29 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +7108,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 191.77 34.29 0)
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +7131,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6938,7 +7153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35feb72d-26ee-48e0-b093-e6d59182e8ba")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 60.96 127.0062 0)
 			(effects
 				(font
@@ -7042,7 +7257,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7063,7 +7278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ba2c404-0707-4f1b-9688-71518d3e5ee9")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR052"
 			(at 184.15 119.38 0)
 			(effects
 				(font
@@ -7113,7 +7328,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR054")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7127,7 +7342,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 224.79 27.94 0)
+		(at 205.74 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7135,7 +7350,7 @@
 		(dnp no)
 		(uuid "4b4e3aef-5e6d-40fa-b0ba-e6133949c353")
 		(property "Reference" "TP8"
-			(at 223.266 22.86 0)
+			(at 204.216 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,7 +7359,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 227.33 25.9079 0)
+			(at 208.28 28.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +7369,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 229.87 27.94 0)
+			(at 210.82 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +7378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 27.94 0)
+			(at 210.82 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7387,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 224.79 27.94 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7396,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 224.79 27.94 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,7 +7405,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 224.79 27.94 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +7414,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 224.79 27.94 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +7423,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 224.79 27.94 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7432,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 224.79 27.94 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7253,7 +7468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "503af043-0ac8-4a3b-9ef6-e5bd94a1734d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR046"
 			(at 97.79 186.69 0)
 			(effects
 				(font
@@ -7303,7 +7518,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR048")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7318,7 +7533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59bd9037-8d00-41c6-86b4-f4441f01f887")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 188.214 64.262 0)
 			(effects
 				(font
@@ -7388,7 +7603,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -7402,7 +7617,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 208.28 27.94 0)
+		(at 189.23 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7410,8 +7625,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6556f56d-a3ad-42cb-93e8-139d7154db60")
-		(property "Reference" "U8"
-			(at 208.28 21.59 0)
+		(property "Reference" "U7"
+			(at 189.23 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7634,7 @@
 			)
 		)
 		(property "Value" "LDL1117S33R"
-			(at 208.28 24.13 0)
+			(at 189.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,7 +7642,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 208.28 22.86 0)
+			(at 189.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C435835.pdf"
-			(at 210.82 34.29 0)
+			(at 191.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7660,7 @@
 			)
 		)
 		(property "Description" "1.2 A high PSRR low-dropout linear voltage regulator"
-			(at 208.28 27.94 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +7669,7 @@
 			)
 		)
 		(property "LCSC" "C435835"
-			(at 208.28 27.94 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7689,7 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7490,7 +7705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69bad118-8291-41d0-823c-1f6486bbe063")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 223.52 129.5462 0)
 			(effects
 				(font
@@ -7594,7 +7809,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7615,7 +7830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dc73c31-f611-4dec-ac6a-0ea5c4ecda78")
-		(property "Reference" "TP7"
+		(property "Reference" "TP9"
 			(at 214.376 118.11 0)
 			(effects
 				(font
@@ -7712,7 +7927,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "TP7")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7734,7 +7949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "701579d0-a66c-4153-bf07-09f79ac8c933")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR044"
 			(at 85.09 162.56 0)
 			(effects
 				(font
@@ -7784,7 +7999,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR046")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7806,7 +8021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72bad0b5-ea73-441b-9c56-bf1c905b0af0")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR054"
 			(at 204.47 83.82 0)
 			(effects
 				(font
@@ -7856,7 +8071,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR057")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7878,7 +8093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7602a895-c736-48eb-b38b-d5f5a40eddf8")
-		(property "Reference" "D33"
+		(property "Reference" "D31"
 			(at 99.3775 29.21 0)
 			(effects
 				(font
@@ -7886,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Value" "SS36"
+		(property "Value" "SS34"
 			(at 99.3775 31.75 0)
 			(effects
 				(font
@@ -7903,7 +8118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" ""
 			(at 99.06 35.56 0)
 			(effects
 				(font
@@ -7912,7 +8127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60V 3A Schottky Diode, SMA"
+		(property "Description" "40V Independent 550mV@3A 3A SMA(DO-214AC) Single Diodes RoHS"
 			(at 99.06 35.56 0)
 			(effects
 				(font
@@ -7921,7 +8136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16015"
+		(property "LCSC" "C8678"
 			(at 99.06 35.56 0)
 			(effects
 				(font
@@ -7939,7 +8154,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "D33")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -8123,7 +8338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97284f40-a910-4318-97ca-c103c61d59fa")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR058"
 			(at 229.87 144.78 0)
 			(effects
 				(font
@@ -8173,7 +8388,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR061")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8195,7 +8410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99c62adf-c1f2-4eae-8b07-9d4c958e07eb")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 186.69 129.5335 0)
 			(effects
 				(font
@@ -8299,7 +8514,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8321,7 +8536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d6455ea-26c8-4067-aef7-3a598bbe76b4")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR053"
 			(at 193.04 143.51 0)
 			(effects
 				(font
@@ -8371,7 +8586,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR055")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8393,7 +8608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ed40451-1ca9-434e-84f5-08fe472acee7")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 73.66 127.0062 0)
 			(effects
 				(font
@@ -8506,7 +8721,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8527,7 +8742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f586938-4d08-4790-acce-27f495766fcf")
-		(property "Reference" "D34"
+		(property "Reference" "D32"
 			(at 221.742 60.96 0)
 			(effects
 				(font
@@ -8647,7 +8862,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "D34")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -8810,7 +9025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae97f8b5-2bd0-42ab-9087-01dcf361cea6")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 177.546 118.11 0)
 			(effects
 				(font
@@ -8907,7 +9122,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8929,7 +9144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aebe8311-7a71-4053-8ed3-e5901016b994")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR048"
 			(at 109.22 48.26 0)
 			(effects
 				(font
@@ -8979,7 +9194,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR050")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9143,7 +9358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bde8e82e-7cf8-4485-ba29-073b3b1fd96d")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 113.03 29.21 90)
 			(effects
 				(font
@@ -9256,7 +9471,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -9270,7 +9485,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 224.79 34.29 0)
+		(at 205.74 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9278,8 +9493,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2c147e-8919-430d-84dc-76303b2c54c8")
-		(property "Reference" "C23"
-			(at 227.33 33.0262 0)
+		(property "Reference" "C22"
+			(at 208.28 35.5662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9288,7 +9503,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 227.33 35.5662 0)
+			(at 208.28 38.1062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9297,7 +9512,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 224.79 34.29 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 34.29 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,7 +9530,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 34.29 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9538,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 224.79 34.29 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9547,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 224.79 34.29 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9556,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 224.79 34.29 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +9565,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 224.79 34.29 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +9574,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 224.79 34.29 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9368,7 +9583,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 224.79 34.29 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +9606,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9413,7 +9628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5b1ab64-ebe4-4e83-9944-35fae8d491d7")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 169.672 65.278 0)
 			(effects
 				(font
@@ -9526,7 +9741,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9938,7 +10153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c99ad580-0dd8-4a00-bd6e-a51f388276f1")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -9988,7 +10203,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10190,15 +10405,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 236.22 26.67 0)
+		(at 233.68 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cc532300-0b2c-4892-9229-395411cbe14e")
-		(property "Reference" "#PWR060"
-			(at 236.22 30.48 0)
+		(property "Reference" "#PWR059"
+			(at 233.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +10422,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 236.22 21.59 0)
+			(at 233.68 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,7 +10430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 26.67 0)
+			(at 233.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +10439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 26.67 0)
+			(at 233.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10233,7 +10448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 236.22 26.67 0)
+			(at 233.68 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +10462,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -10337,6 +10552,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 233.68 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf4509a6-53e0-4404-aa33-baa92bc3a628")
+		(property "Reference" "D34"
+			(at 236.22 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 236.22 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 233.68 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e0475b8-690a-4d25-a34e-8978b35a9a65")
+		)
+		(pin "2"
+			(uuid "e376bbf5-4908-45a5-884d-5db57d6380f3")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 73.66 0)
 		(unit 1)
@@ -10346,7 +10648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d55c55b5-b253-4d87-bcc3-05aa2464ff73")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 64.77 80.01 0)
 			(effects
 				(font
@@ -10396,7 +10698,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10418,7 +10720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e74a8e04-e99c-4cce-bf0b-fa886836f2eb")
-		(property "Reference" "R37"
+		(property "Reference" "R40"
 			(at 186.69 118.1099 0)
 			(effects
 				(font
@@ -10523,7 +10825,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "R37")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10545,7 +10847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7976949-44b6-4974-9c3d-54e810a2ffc8")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR050"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -10595,7 +10897,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR052")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -10616,7 +10918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea87ef47-bc4e-417f-98ca-2fe414aafbf9")
-		(property "Reference" "R35"
+		(property "Reference" "R38"
 			(at 96.52 38.1 90)
 			(effects
 				(font
@@ -10728,7 +11030,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "R35")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -10741,17 +11043,86 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 208.28 40.64 0)
+		(lib_id "Device:R_Small_US")
+		(at 233.68 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "f0b7dd37-f9ef-4e8d-91d2-3b0fc45069e9")
+		(property "Reference" "R42"
+			(at 236.22 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 236.22 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0a192a6-e5e0-4660-aa53-40efac0c0ab6")
+		)
+		(pin "2"
+			(uuid "568c9488-4ffd-43f1-bc7c-9f2cc40ec892")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "f1296544-5efe-44a2-a230-6b1eddf2cf20")
-		(property "Reference" "#PWR056"
-			(at 208.28 46.99 0)
+		(property "Reference" "#PWR055"
+			(at 205.74 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,7 +11131,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 45.72 0)
+			(at 205.74 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +11139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 40.64 0)
+			(at 205.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,7 +11148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 40.64 0)
+			(at 205.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10786,7 +11157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 40.64 0)
+			(at 205.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +11171,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "#PWR056")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10822,7 +11193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb33cef8-6775-46ee-b331-0bccd6f27bc9")
-		(property "Reference" "R38"
+		(property "Reference" "R41"
 			(at 223.52 118.1099 0)
 			(effects
 				(font
@@ -10927,7 +11298,7 @@
 			)
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "R38")
+					(reference "R41")
 					(unit 1)
 				)
 			)
