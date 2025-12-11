@@ -1678,6 +1678,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Management:LM74700"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2977,6 +3144,12 @@
 		(uuid "300ce8a3-f42b-49f9-aaf1-c8f9b0e4fb35")
 	)
 	(junction
+		(at 130.81 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3459b686-2dd5-4cd8-a36e-91d91ddfd74b")
+	)
+	(junction
 		(at 166.37 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3384,6 +3557,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 113.03) (xy 130.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420ca753-f9c6-4abd-8f70-7e919ab9c4d8")
+	)
+	(wire
+		(pts
 			(xy 176.53 123.19) (xy 179.07 123.19)
 		)
 		(stroke
@@ -3534,6 +3717,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 123.19) (xy 151.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bcef0a-8983-4b4c-9440-287d21e56cf8")
+	)
+	(wire
+		(pts
 			(xy 204.47 123.19) (xy 207.01 123.19)
 		)
 		(stroke
@@ -3674,6 +3867,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 113.03) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827bb636-b91a-4989-bc56-bfd5407a3fd0")
+	)
+	(wire
+		(pts
 			(xy 153.67 50.8) (xy 153.67 44.45)
 		)
 		(stroke
@@ -3781,6 +3984,16 @@
 			(type default)
 		)
 		(uuid "9e53d63e-8b50-42a7-840a-d1968464f4f8")
+	)
+	(wire
+		(pts
+			(xy 151.13 113.03) (xy 144.78 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f607d16-9687-4b98-9b2f-2a5cc85c1fc3")
 	)
 	(wire
 		(pts
@@ -4274,7 +4487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00b86b0d-baf6-454f-946c-007d8177b2b3")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 129.54 80.01 0)
 			(effects
 				(font
@@ -4324,7 +4537,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4340,7 +4553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "010df919-71f6-43ae-a3b2-ea5219b2a971")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 151.13 153.67 0)
 			(effects
 				(font
@@ -4390,7 +4603,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4845,7 +5058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "344d1c93-aea5-4847-bb8e-64f9927c0ecd")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 157.48 54.9274 90)
 			(effects
 				(font
@@ -4908,7 +5121,7 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -4924,7 +5137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38dce389-a554-49b8-a0e4-5f22679df508")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 234.95 115.57 0)
 			(effects
 				(font
@@ -4974,7 +5187,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5338,7 +5551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "565d83bb-5211-4e65-878e-c73a48d5c2ad")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 171.45 60.96 90)
 			(effects
 				(font
@@ -5410,7 +5623,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -5656,7 +5869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c5afdae-f7f0-4d99-a28f-de05d00c1eba")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR027"
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -5707,7 +5920,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "#PWR071")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5968,7 +6181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9285a6a0-6f8e-4e32-b4a3-c967ab73e7ce")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 153.67 40.64 0)
 			(effects
 				(font
@@ -6018,7 +6231,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6615,6 +6828,92 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 140.97 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbd680ce-6649-4ba8-a685-45a403904d24")
+		(property "Reference" "D17"
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 140.97 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d1e6047-3bc7-40d6-8bd7-c39cbf89485e")
+		)
+		(pin "1"
+			(uuid "10344e02-69a4-428a-adca-06ef896931df")
+		)
+		(instances
+			(project ""
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -7338,7 +7637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbc605da-e57b-488b-9bbb-c8f85b584a15")
-		(property "Reference" "D19"
+		(property "Reference" "D20"
 			(at 238.76 127.3174 90)
 			(effects
 				(font
@@ -7410,7 +7709,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "D19")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -7900,7 +8199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef6f12b4-6ba0-4676-9524-d50fe5aa410a")
-		(property "Reference" "D20"
+		(property "Reference" "D21"
 			(at 251.46 129.54 90)
 			(effects
 				(font
@@ -7972,7 +8271,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "D20")
+					(reference "D21")
 					(unit 1)
 				)
 			)
