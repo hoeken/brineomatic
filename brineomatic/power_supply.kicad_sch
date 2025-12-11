@@ -620,6 +620,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small_US"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -3108,6 +3272,12 @@
 		(uuid "13b4f41d-6917-4cac-8399-897d77225418")
 	)
 	(junction
+		(at 189.23 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c83bc9-4b13-4dae-b4a7-5e49ec415699")
+	)
+	(junction
 		(at 129.54 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3118,12 +3288,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17b6824c-ef37-490a-9973-c633754931af")
-	)
-	(junction
-		(at 44.45 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1de162ba-72fc-4821-aa6b-d26a9aed07dc")
 	)
 	(junction
 		(at 153.67 44.45)
@@ -3234,6 +3398,12 @@
 		(uuid "b2423758-7fde-41f0-ab62-fe930d3f8f5b")
 	)
 	(junction
+		(at 44.45 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b47502c4-829d-465d-822f-c98a8e4e7662")
+	)
+	(junction
 		(at 176.53 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3264,22 +3434,28 @@
 		(uuid "c72d3422-c9da-45c4-a273-86952bdc6c8e")
 	)
 	(junction
-		(at 193.04 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce865339-892b-45d6-9be5-a18bd01db2bc")
-	)
-	(junction
 		(at 176.53 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceaeeeda-d5d3-4b42-9892-151849d46eaa")
 	)
 	(junction
+		(at 194.31 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4ced8da-d974-4856-8b7a-f0abbea2562a")
+	)
+	(junction
 		(at 151.13 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d76071c5-dedc-4658-86d8-a90c55fed601")
+	)
+	(junction
+		(at 189.23 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8815f0e-be98-4d39-a4d6-6263e57a699b")
 	)
 	(junction
 		(at 121.92 52.07)
@@ -3427,6 +3603,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 123.19) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ec4ca2-e832-4bee-800f-871e0a9f0124")
+	)
+	(wire
+		(pts
 			(xy 148.59 123.19) (xy 151.13 123.19)
 		)
 		(stroke
@@ -3497,6 +3683,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 123.19) (xy 189.23 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33521624-3a5f-417e-89a2-89e68b4c7d40")
+	)
+	(wire
+		(pts
 			(xy 176.53 135.89) (xy 176.53 144.78)
 		)
 		(stroke
@@ -3524,6 +3720,16 @@
 			(type default)
 		)
 		(uuid "386a0ef7-4159-43b0-98bc-2b987e89e749")
+	)
+	(wire
+		(pts
+			(xy 189.23 135.89) (xy 189.23 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3888a546-119c-46b9-b6bb-ade635583a71")
 	)
 	(wire
 		(pts
@@ -3567,7 +3773,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 123.19) (xy 179.07 123.19)
+			(xy 176.53 123.19) (xy 180.34 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3614,6 +3820,16 @@
 			(type default)
 		)
 		(uuid "47532c71-3c99-4ae5-a67e-faadd9a2e3aa")
+	)
+	(wire
+		(pts
+			(xy 44.45 118.11) (xy 50.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8c8f6a-8527-4fd9-9b02-2c55d4876b39")
 	)
 	(wire
 		(pts
@@ -3697,16 +3913,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 123.19) (xy 200.66 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f63ff94-1266-47db-b365-7b069161117f")
-	)
-	(wire
-		(pts
 			(xy 161.29 44.45) (xy 153.67 44.45)
 		)
 		(stroke
@@ -3757,6 +3963,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 123.19) (xy 189.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694b4026-9973-4976-a1d5-8a665173951a")
+	)
+	(wire
+		(pts
 			(xy 234.95 123.19) (xy 248.92 123.19)
 		)
 		(stroke
@@ -3784,16 +4000,6 @@
 			(type default)
 		)
 		(uuid "6d3053ca-2c17-4d7b-919b-0ce5449b651b")
-	)
-	(wire
-		(pts
-			(xy 44.45 116.84) (xy 44.45 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7264b345-9ca1-4352-b86f-2e59f8fa79b1")
 	)
 	(wire
 		(pts
@@ -3927,16 +4133,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 118.11) (xy 50.8 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "900e4480-d705-482a-9dc8-6fffa22a4d57")
-	)
-	(wire
-		(pts
 			(xy 217.17 144.78) (xy 234.95 144.78)
 		)
 		(stroke
@@ -4007,6 +4203,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 123.19) (xy 200.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19b3db6-b5fb-4f13-b6b6-bb0d51ab26ef")
+	)
+	(wire
+		(pts
 			(xy 76.2 52.07) (xy 76.2 58.42)
 		)
 		(stroke
@@ -4027,7 +4233,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 144.78) (xy 209.55 144.78)
+			(xy 176.53 144.78) (xy 189.23 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4187,13 +4393,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 123.19) (xy 193.04 123.19)
+			(xy 189.23 144.78) (xy 209.55 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1deb638-44ee-4483-97a4-d7efd099f168")
+		(uuid "c9c4e078-2332-42c0-9da1-0e11f69ef4d4")
 	)
 	(wire
 		(pts
@@ -4284,16 +4490,6 @@
 			(type default)
 		)
 		(uuid "e192a489-d1bc-42c5-b27d-f4153a7869cc")
-	)
-	(wire
-		(pts
-			(xy 209.55 144.78) (xy 209.55 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1a61ade-4aba-47eb-abce-396f79df335c")
 	)
 	(wire
 		(pts
@@ -4674,72 +4870,6 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 44.45 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11cc2a60-8772-4686-a658-6497b248569f")
-		(property "Reference" "#FLG01"
-			(at 44.45 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 44.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 44.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4f4cc10-7d17-459d-a164-8795d8c957f9")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5195,7 +5325,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 209.55 139.7 0)
+		(at 209.55 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5204,7 +5334,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d7a8c25-5a84-4ea1-bdc3-4b9596e75667")
 		(property "Reference" "#FLG07"
-			(at 209.55 137.795 0)
+			(at 209.55 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5343,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 209.55 134.62 0)
+			(at 209.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 139.7 0)
+			(at 209.55 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 139.7 0)
+			(at 209.55 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5369,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 209.55 139.7 0)
+			(at 209.55 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5913,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 181.61 123.19 270)
+		(at 182.88 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5792,7 +5922,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b2b0b70-4da3-4a8f-ad18-b86787120059")
 		(property "Reference" "F2"
-			(at 181.61 116.84 90)
+			(at 182.88 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5930,7 @@
 			)
 		)
 		(property "Value" "mSMD150"
-			(at 181.61 119.38 90)
+			(at 182.88 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5938,7 @@
 			)
 		)
 		(property "Footprint" "yarrboard:Fuse_1812_4532Metric"
-			(at 176.53 124.46 0)
+			(at 177.8 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +5948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 123.19 0)
+			(at 182.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5957,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 123.19 0)
+			(at 182.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5966,7 @@
 			)
 		)
 		(property "LCSC" "C70121"
-			(at 181.61 123.19 90)
+			(at 182.88 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,6 +6051,93 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 189.23 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d5ab439-44d5-4da4-80b3-f8094d1bbad7")
+		(property "Reference" "C15"
+			(at 191.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF / 10v"
+			(at 191.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+			(at 189.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 189.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72494"
+			(at 189.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "180"
+			(at 189.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e40f54d4-ffe1-44bf-9c27-64cdc8e3a8a0")
+		)
+		(pin "2"
+			(uuid "bba37c16-e9ea-467e-91eb-0be015521d04")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -7074,7 +7291,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 193.04 123.19 0)
+		(at 194.31 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7082,7 +7299,7 @@
 		(dnp no)
 		(uuid "c141b213-39c8-4794-bf4a-067b7fe94593")
 		(property "Reference" "#FLG06"
-			(at 193.04 121.285 0)
+			(at 194.31 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,7 +7308,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 193.04 119.38 0)
+			(at 194.31 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 123.19 0)
+			(at 194.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 123.19 0)
+			(at 194.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +7334,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 193.04 123.19 0)
+			(at 194.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

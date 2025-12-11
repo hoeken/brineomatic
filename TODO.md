@@ -1,5 +1,6 @@
 ## Electronics Todo (REV-C)
 
+
 * power on glitch:
   * test with scope
   * test with 10k pulldown
@@ -40,3 +41,5 @@
 * added back up usb serial converter headers
 * added more esd protection to the 24v / 5v / 3.3v power rails
 * made attachment points a bit wider
+* switch to rt7272b for 24v -> 5v regulator
+* added bulk cap to 5v rail
