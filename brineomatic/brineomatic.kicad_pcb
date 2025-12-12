@@ -1548,7 +1548,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "52d28aba-218e-44c2-a8b8-e2cb5679d496")
@@ -2293,7 +2293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "94509504-c604-40d4-96cf-0d406c168654")
@@ -5676,7 +5676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7918,7 +7918,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 0 1.43 270)
 			(layer "F.Fab")
 			(uuid "cbb84ba6-ca2c-4428-a79c-dd8d6b81819e")
@@ -8343,7 +8343,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "56ed6e15-1dd1-4eb6-80eb-82a0b590fef3")
@@ -14980,7 +14980,7 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "~"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "9cab8d0c-701e-40b0-a541-0b30f5d1ee3d")
@@ -18393,7 +18393,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "~"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "d7269a6d-db56-458f-8ed5-173e7f4b70d2")
@@ -19837,7 +19837,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e46d874c-eb20-4436-b560-706c47bb61bd")
@@ -27911,7 +27911,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "f32c636c-7f90-4ad6-968d-48667d17fff1")
@@ -34027,7 +34027,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54S"
+		(property "Value" "BAV199"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "38eadd70-8fe4-409c-9272-8b7cf412cafb")
@@ -34038,7 +34038,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C40919.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34064,7 +34064,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C727126"
+		(property "LCSC" "C40919"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37735,7 +37735,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "339f228b-e37e-49d2-b55f-47d8200802df")
@@ -39997,7 +39997,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54S"
+		(property "Value" "BAV199"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "d511fc51-0947-46b3-bf9c-2a3119171f40")
@@ -40008,7 +40008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C40919.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40034,7 +40034,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C727126"
+		(property "LCSC" "C40919"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43133,7 +43133,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54S"
+		(property "Value" "BAV199"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "4006f9cd-9dc8-4d63-a98e-fe97bb90ea71")
@@ -43144,7 +43144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C40919.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43168,7 +43168,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C727126"
+		(property "LCSC" "C40919"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44866,7 +44866,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54S"
+		(property "Value" "BAV199"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "a7b6f7cf-c371-4ae2-bf7c-a6fa88f62abd")
@@ -44877,7 +44877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C40919.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44903,7 +44903,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C727126"
+		(property "LCSC" "C40919"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50977,7 +50977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "1ce4a7d8-4b16-470a-936d-6e6cbb800260")
