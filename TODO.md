@@ -1,10 +1,6 @@
 ## Electronics Todo (REV-C)
 
 
-* power on glitch:
-  * test with scope
-  * test with 10k pulldown
-  * https://github.com/atomic14/esp32-s3-pinouts
 * switch to smt standoffs?  sendit test board y/n
 * schematic review
 
