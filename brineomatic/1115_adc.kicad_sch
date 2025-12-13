@@ -1686,7 +1686,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 204.47 81.28 0)
 			(effects
 				(font
