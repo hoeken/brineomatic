@@ -6960,7 +6960,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" " C23186"
 			(at 99.06 43.18 90)
 			(effects
 				(font
@@ -10832,6 +10832,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 184.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce426b29-9099-4887-a45b-e2cbfc9381e5")
 		)
@@ -10983,7 +10992,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" " C23186"
 			(at 99.06 40.64 90)
 			(effects
 				(font
@@ -11111,6 +11120,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C23186"
 			(at 233.68 40.64 0)
 			(effects
 				(font
@@ -11297,6 +11315,15 @@
 			)
 		)
 		(property "Supplier Part" ""
+			(at 220.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 220.98 119.38 0)
 			(effects
 				(font

@@ -2154,7 +2154,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" " C4190"
 			(at 177.8 81.28 0)
 			(effects
 				(font
@@ -2242,7 +2242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 595-ADS1115IDGSR "
+		(property "Mouser" ""
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -2460,6 +2460,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 148.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 148.59 74.93 0)
 			(effects
 				(font
@@ -2716,7 +2725,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" " C4190"
 			(at 187.96 81.28 0)
 			(effects
 				(font

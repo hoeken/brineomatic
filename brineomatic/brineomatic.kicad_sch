@@ -3456,6 +3456,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 53.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d0ab984-77f1-4b3a-893b-f868ed0e4207")
 		)
@@ -4498,6 +4507,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 53.34 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 53.34 52.07 0)
 			(effects
 				(font
