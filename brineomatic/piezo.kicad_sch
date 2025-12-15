@@ -1488,7 +1488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ce37767-f3d2-4bd1-af86-07292d8c545e")
-		(property "Reference" "D15"
+		(property "Reference" "D16"
 			(at 139.7 78.4225 0)
 			(effects
 				(font
@@ -1621,7 +1621,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/d9651726-ebc8-4cdb-a521-a43a3039a77a"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 			)
