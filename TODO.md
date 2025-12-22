@@ -1,11 +1,8 @@
 ## Electronics Todo (REV-C)
 
-* re-route the whole board
-* add more gnd vias to SMBJ30CA
-* 5v traces thicker
+* gnd vias
+* silk screen
 * add test points to bottom
-* add fiducials if possible
-* add locating holes
 * add pcb number
 * fuse silkscreen covered
 

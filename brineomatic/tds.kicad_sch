@@ -1128,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 74.93) (xy 130.81 77.47)
+			(xy 130.81 63.5) (xy 130.81 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +1200,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 130.81 74.93 0)
+		(at 130.81 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1209,7 +1209,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f1cfe48-fc92-4c94-acdc-ddb716b1dcd7")
 		(property "Reference" "#PWR021"
-			(at 130.81 78.74 0)
+			(at 130.81 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1218,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 130.81 69.85 0)
+			(at 130.81 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 74.93 0)
+			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 74.93 0)
+			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1244,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 130.81 74.93 0)
+			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,7 +1386,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4dde40bf-0b86-4621-acd9-eb6c6b71c357"
-					(reference "D42")
+					(reference "D41")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/be3403ab-9eef-436c-86e7-0de3f072ae30"
@@ -1555,7 +1555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8848450-6817-4b1a-b7e9-8ce266d6512d")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 120.65 87.6363 0)
 			(effects
 				(font
@@ -1627,11 +1627,11 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4dde40bf-0b86-4621-acd9-eb6c6b71c357"
-					(reference "C46")
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/be3403ab-9eef-436c-86e7-0de3f072ae30"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1715,7 +1715,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4dde40bf-0b86-4621-acd9-eb6c6b71c357"
-					(reference "D43")
+					(reference "D42")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/be3403ab-9eef-436c-86e7-0de3f072ae30"
