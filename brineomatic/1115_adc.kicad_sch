@@ -1632,7 +1632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14955c95-1345-46ab-a5c0-3a66c0d7a045")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 207.01 80.0163 0)
 			(effects
 				(font
@@ -1704,7 +1704,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1719,7 +1719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fce07c1-b3c6-4013-8509-b9d2e975aef0")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 218.44 80.0163 0)
 			(effects
 				(font
@@ -1791,7 +1791,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/64f85b9c-b5dc-4ec9-9075-ce977ed1cba6"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)

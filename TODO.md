@@ -1,6 +1,5 @@
 ## Electronics Todo (REV-C)
 
-* add 1nF caps to +ve voltage on teh 24v/5v connectors
 * change Rlim to 82k
 * voltage divider on EN pin to turn on at 12v (EN = 2v) -> connect to VIN not 24v
 * Rotate C8\C7 and wider VIN
