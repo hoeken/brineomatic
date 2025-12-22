@@ -1,7 +1,6 @@
 ## Electronics Todo (REV-C)
 
 
-* make all signal outputs into outputs (pressure, flow, temp, etc.)
 * add more gnd vias to SMBJ30CA
 * 5v traces thicker
 * add test points to bottom

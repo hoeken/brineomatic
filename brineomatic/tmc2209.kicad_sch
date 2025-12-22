@@ -2937,7 +2937,7 @@
 		(uuid "3b1aa271-00e3-4a49-bf75-7ef1f9c59298")
 	)
 	(hierarchical_label "DIAG"
-		(shape input)
+		(shape output)
 		(at 63.5 120.65 180)
 		(effects
 			(font
@@ -2981,7 +2981,7 @@
 		(uuid "c64ab930-6658-4aa0-8949-0fdbc629968d")
 	)
 	(hierarchical_label "INDEX"
-		(shape input)
+		(shape output)
 		(at 63.5 123.19 180)
 		(effects
 			(font
@@ -3003,7 +3003,7 @@
 		(uuid "e423d51f-c887-460b-b65d-cbe2c2739772")
 	)
 	(hierarchical_label "TX"
-		(shape input)
+		(shape output)
 		(at 31.75 93.98 180)
 		(effects
 			(font

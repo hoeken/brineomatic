@@ -1184,7 +1184,7 @@
 		)
 		(uuid "e341d3bd-df24-4e3a-a3af-97fd72bb84f4")
 	)
-	(hierarchical_label "PIEZO"
+	(hierarchical_label "BUZZER"
 		(shape input)
 		(at 121.92 93.98 180)
 		(effects

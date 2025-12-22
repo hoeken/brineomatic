@@ -909,8 +909,8 @@
 		)
 		(uuid "d226b5c9-5f5c-4fbc-a9d3-b4e02b024ee7")
 	)
-	(hierarchical_label "OUTPUT"
-		(shape input)
+	(hierarchical_label "I{slash}O"
+		(shape bidirectional)
 		(at 142.24 93.98 0)
 		(effects
 			(font

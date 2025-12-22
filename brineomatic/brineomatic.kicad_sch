@@ -1919,16 +1919,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 48.26) (xy 81.28 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ab15289-7742-4dfc-9593-4c6ca96567bc")
-	)
-	(wire
-		(pts
 			(xy 88.9 138.43) (xy 95.25 138.43)
 		)
 		(stroke
@@ -1976,16 +1966,6 @@
 			(type default)
 		)
 		(uuid "437f9c22-1f31-4740-b4f7-0da0c55725d3")
-	)
-	(wire
-		(pts
-			(xy 81.28 39.37) (xy 80.01 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "439e9b60-b137-4af7-87e4-4a7a9d8c5e1c")
 	)
 	(wire
 		(pts
@@ -2129,16 +2109,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 50.8) (xy 80.01 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cd68a17-7b60-49a2-8243-fac9b0f0c62f")
-	)
-	(wire
-		(pts
 			(xy 111.76 96.52) (xy 111.76 90.17)
 		)
 		(stroke
@@ -2146,16 +2116,6 @@
 			(type default)
 		)
 		(uuid "6f871b6f-93ce-41c8-9c77-47ed3853af7e")
-	)
-	(wire
-		(pts
-			(xy 81.28 41.91) (xy 80.01 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0e2613-b0f3-4b87-ace9-38e13e85cab0")
 	)
 	(wire
 		(pts
@@ -2206,16 +2166,6 @@
 			(type default)
 		)
 		(uuid "a2b57bc2-5bed-4ead-92f8-63ac6c8f65df")
-	)
-	(wire
-		(pts
-			(xy 81.28 36.83) (xy 80.01 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaefd34b-5934-4889-b2cb-127b73202ad5")
 	)
 	(wire
 		(pts
@@ -2316,16 +2266,6 @@
 			(type default)
 		)
 		(uuid "f0d4971d-64bb-429e-98fb-86a936882040")
-	)
-	(wire
-		(pts
-			(xy 81.28 34.29) (xy 80.01 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8c5e0b7-6c67-4788-80c3-b85756e4e8ca")
 	)
 	(wire
 		(pts
@@ -2481,7 +2421,7 @@
 	)
 	(global_label "WATER_TEMPERATURE"
 		(shape input)
-		(at 161.29 64.77 0)
+		(at 162.56 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2491,7 +2431,7 @@
 		)
 		(uuid "15d033f4-e66b-4250-86cd-c298452e1e5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.2321 64.77 0)
+			(at 185.5021 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2509,7 @@
 	)
 	(global_label "TMC2209_DIAG"
 		(shape input)
-		(at 81.28 41.91 0)
+		(at 80.01 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2579,7 +2519,7 @@
 		)
 		(uuid "33b8cbd8-832d-4506-8546-5787125fd23b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.9932 41.91 0)
+			(at 96.7232 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2531,7 @@
 	)
 	(global_label "TMC2209_RX"
 		(shape input)
-		(at 81.28 50.8 0)
+		(at 80.01 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2601,7 +2541,7 @@
 		)
 		(uuid "3a70af8f-54b0-46a1-b66c-49bd5f80f094")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.2393 50.8 0)
+			(at 94.9693 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2729,7 @@
 	)
 	(global_label "TMC2209_EN"
 		(shape input)
-		(at 81.28 39.37 0)
+		(at 80.01 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2799,7 +2739,7 @@
 		)
 		(uuid "5a9c00dd-aaa5-451d-9eff-23efc01ec131")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.2393 39.37 0)
+			(at 94.9693 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2749,7 @@
 			)
 		)
 	)
-	(global_label "PIEZO"
+	(global_label "BUZZER"
 		(shape input)
 		(at 165.1 140.97 0)
 		(fields_autoplaced yes)
@@ -2821,7 +2761,7 @@
 		)
 		(uuid "5c92a415-7a16-4216-85c2-090cd8b97552")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.649 140.97 0)
+			(at 175.5237 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2881,7 @@
 			)
 		)
 	)
-	(global_label "PIEZO"
+	(global_label "BUZZER"
 		(shape input)
 		(at 229.87 73.66 180)
 		(fields_autoplaced yes)
@@ -2953,7 +2893,7 @@
 		)
 		(uuid "88106331-fbea-4a8a-866f-661af528b52c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.321 73.66 0)
+			(at 219.4463 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3191,7 @@
 	)
 	(global_label "TMC2209_DIR"
 		(shape input)
-		(at 81.28 36.83 0)
+		(at 80.01 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3261,7 +3201,7 @@
 		)
 		(uuid "b65c80d3-bbb2-4afb-9da4-658c9e05d7c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9046 36.83 0)
+			(at 95.6346 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3235,7 @@
 	)
 	(global_label "TMC2209_STEP"
 		(shape input)
-		(at 81.28 34.29 0)
+		(at 80.01 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3305,7 +3245,7 @@
 		)
 		(uuid "d2858b4a-3924-496b-99ec-1bd7b5f3fc07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.3559 34.29 0)
+			(at 97.0859 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3367,7 @@
 	)
 	(global_label "TMC2209_TX"
 		(shape input)
-		(at 81.28 48.26 0)
+		(at 80.01 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3437,7 +3377,7 @@
 		)
 		(uuid "f0a19b84-7862-4a71-a087-6077c954c043")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9369 48.26 0)
+			(at 94.6669 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5176,7 @@
 				(justify right)
 			)
 		)
-		(pin "TX" input
+		(pin "TX" output
 			(at 80.01 50.8 0)
 			(uuid "fce9751b-fa14-4507-bed4-6b6d2e5b00f8")
 			(effects
@@ -5266,7 +5206,7 @@
 				(justify left)
 			)
 		)
-		(pin "DIAG" input
+		(pin "DIAG" output
 			(at 80.01 41.91 0)
 			(uuid "a9a4627f-3c40-4040-bd3f-be21904b9421")
 			(effects
@@ -5286,7 +5226,7 @@
 				(justify right)
 			)
 		)
-		(pin "INDEX" input
+		(pin "INDEX" output
 			(at 80.01 44.45 0)
 			(uuid "b79b07ae-893c-41cc-bdae-5d72eaa32e3b")
 			(effects
@@ -5369,7 +5309,7 @@
 	)
 	(sheet
 		(at 142.24 62.23)
-		(size 19.05 4.318)
+		(size 20.32 4.318)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5402,8 +5342,8 @@
 				(hide yes)
 			)
 		)
-		(pin "OUTPUT" input
-			(at 161.29 64.77 0)
+		(pin "I{slash}O" bidirectional
+			(at 162.56 64.77 0)
 			(uuid "6c6d8e2c-55d9-402b-828a-8fa3a9ffe15f")
 			(effects
 				(font
@@ -5455,7 +5395,7 @@
 				(hide yes)
 			)
 		)
-		(pin "SIGNAL" input
+		(pin "SIGNAL" output
 			(at 73.66 91.44 0)
 			(uuid "8e5a28b0-7544-4834-82de-7dc0e8cbd6ec")
 			(effects
@@ -6140,7 +6080,7 @@
 				(hide yes)
 			)
 		)
-		(pin "OUTPUT" input
+		(pin "I{slash}O" bidirectional
 			(at 162.56 57.15 0)
 			(uuid "0378febc-d65a-45fb-81a5-ccbaf9ed0142")
 			(effects
@@ -6246,7 +6186,7 @@
 				(hide yes)
 			)
 		)
-		(pin "OUTPUT" input
+		(pin "OUTPUT" output
 			(at 162.56 40.64 0)
 			(uuid "8f604e42-4176-4a02-9ca5-b532ef2e749f")
 			(effects
@@ -6299,7 +6239,7 @@
 				(hide yes)
 			)
 		)
-		(pin "SIGNAL" input
+		(pin "SIGNAL" output
 			(at 73.66 82.55 0)
 			(uuid "9d2f2713-5af7-447e-bd9a-6cb739a2b4d7")
 			(effects
@@ -6362,7 +6302,7 @@
 				(hide yes)
 			)
 		)
-		(pin "OUTPUT" input
+		(pin "OUTPUT" output
 			(at 162.56 48.26 0)
 			(uuid "6e29f5f8-d7c4-4bef-a757-80886f631efb")
 			(effects
@@ -6468,7 +6408,7 @@
 				(hide yes)
 			)
 		)
-		(pin "SIGNAL" input
+		(pin "SIGNAL" output
 			(at 73.66 100.33 0)
 			(uuid "558e1422-ad16-4e08-b0bc-cce2e61c6d59")
 			(effects
@@ -6502,7 +6442,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d9651726-ebc8-4cdb-a521-a43a3039a77a")
-		(property "Sheetname" "Piezo"
+		(property "Sheetname" "Buzzer"
 			(at 144.145 137.7184 0)
 			(effects
 				(font
@@ -6521,7 +6461,7 @@
 				(hide yes)
 			)
 		)
-		(pin "PIEZO" input
+		(pin "BUZZER" input
 			(at 165.1 140.97 0)
 			(uuid "caffa578-bd42-485b-9451-4e04700c8983")
 			(effects
@@ -6627,7 +6567,7 @@
 				(hide yes)
 			)
 		)
-		(pin "SIGNAL" input
+		(pin "SIGNAL" output
 			(at 73.66 109.22 0)
 			(uuid "60fe8259-8425-4cc0-8869-4c1b55276984")
 			(effects

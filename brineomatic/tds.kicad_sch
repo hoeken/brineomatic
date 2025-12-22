@@ -1188,7 +1188,7 @@
 		(uuid "06bfeff2-948a-4bce-aff5-6500b7ff15f9")
 	)
 	(hierarchical_label "SIGNAL"
-		(shape input)
+		(shape output)
 		(at 146.05 85.09 0)
 		(effects
 			(font
