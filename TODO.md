@@ -1,6 +1,5 @@
 ## Electronics Todo (REV-C)
 
-* add inline resistor to temperature sensor + servo inputs - 100ohm
 * add more gnd vias to SMBJ30CA
 * add caps to u4 output (max40200)
 * make sure we have bulk cap and tvs on 5v after ideal diode
@@ -15,10 +14,6 @@
 * 100R on tmc2209 enable
 * make all signal outputs into outputs (pressure, flow, temp, etc.)
 * redraw tds connector
-* redraw servo connector
-* switch pulldown to before 220R on mosfets (no voltage divider)
-* solenoid diode schematic -> schottky symbol
-* add 5v tvs to servo connector
 * move current 5v tvs to product/brine flow connectors, delete from power supply portion
 * add test points to bottom
 * add fiducials if possible

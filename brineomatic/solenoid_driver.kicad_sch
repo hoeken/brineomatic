@@ -482,6 +482,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_TVS"
 			(pin_numbers
 				(hide yes)
@@ -936,173 +1086,6 @@
 					(at 0 -2.54 90)
 					(length 1.016)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:MRA4004T3G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MRA4004T3G"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "400V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MRA4004T3G_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MRA4004T3G_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1698,6 +1681,12 @@
 		(uuid "1d405ac8-35f0-4b05-9815-06f2d21a3da7")
 	)
 	(junction
+		(at 120.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43bd4c2b-6aab-42a7-b427-4580a6eddac2")
+	)
+	(junction
 		(at 138.43 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1716,12 +1705,6 @@
 		(uuid "8ea9b0f5-430f-4e7a-b591-fd405e6d2d75")
 	)
 	(junction
-		(at 121.92 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9749735e-bca8-4b90-8e7c-498ea707ac05")
-	)
-	(junction
 		(at 152.4 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1734,10 +1717,10 @@
 		(uuid "b69ef768-079c-40f3-a818-4c120859581f")
 	)
 	(junction
-		(at 121.92 88.9)
+		(at 120.65 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c35ca47f-c5c5-40da-8ffd-a8f6cee25551")
+		(uuid "b9b55623-4024-4043-b413-4c5c463eaacc")
 	)
 	(junction
 		(at 138.43 106.68)
@@ -1775,6 +1758,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180dd136-f324-4d59-bc22-4a3467e9efd1")
+	)
+	(wire
+		(pts
 			(xy 125.73 80.01) (xy 125.73 77.47)
 		)
 		(stroke
@@ -1795,13 +1788,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 88.9) (xy 113.03 88.9)
+			(xy 109.22 88.9) (xy 120.65 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23ce6fc1-6dd8-4a2c-81a9-12594cf05585")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7b23da-dac7-4e44-a86e-150499a77bda")
 	)
 	(wire
 		(pts
@@ -1825,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 106.68) (xy 121.92 106.68)
+			(xy 109.22 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1852,16 +1855,6 @@
 			(type default)
 		)
 		(uuid "6755bcf5-5863-4b30-898d-547dbc84c80c")
-	)
-	(wire
-		(pts
-			(xy 121.92 88.9) (xy 130.81 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "680d68d6-e1c9-4d02-aab0-8724cec7e955")
 	)
 	(wire
 		(pts
@@ -1915,7 +1908,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 95.25) (xy 121.92 88.9)
+			(xy 128.27 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edec14a-3f36-4e10-b400-845e43eb7eae")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 120.65 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1942,16 +1945,6 @@
 			(type default)
 		)
 		(uuid "8b6a5a23-1879-4781-a649-f11b91e26737")
-	)
-	(wire
-		(pts
-			(xy 121.92 106.68) (xy 138.43 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98d09e0e-802b-4282-b241-8ec621a331f8")
 	)
 	(wire
 		(pts
@@ -1992,16 +1985,6 @@
 			(type default)
 		)
 		(uuid "b790be60-8d3b-4785-8145-dddf60bcce9a")
-	)
-	(wire
-		(pts
-			(xy 118.11 88.9) (xy 121.92 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb71d613-aaab-401c-ad15-e9384381a90f")
 	)
 	(wire
 		(pts
@@ -2055,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 121.92 106.68)
+			(xy 120.65 100.33) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2095,7 +2078,7 @@
 		(uuid "636eed54-c291-4035-86d1-c9c437d90c9c")
 	)
 	(symbol
-		(lib_id "Diode:MRA4004T3G")
+		(lib_id "Device:D_Schottky")
 		(at 125.73 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2105,7 +2088,7 @@
 		(fields_autoplaced yes)
 		(uuid "157e9a66-31c5-424c-ba18-1906a5ffe710")
 		(property "Reference" "D12"
-			(at 128.27 72.39 90)
+			(at 128.27 72.0724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2097,7 @@
 			)
 		)
 		(property "Value" "SS54"
-			(at 128.27 74.93 90)
+			(at 128.27 74.6124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2603,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 115.57 88.9 90)
+		(at 125.73 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2629,7 +2612,7 @@
 		(fields_autoplaced yes)
 		(uuid "8187c4b8-3885-4a60-b681-67be3f373bf6")
 		(property "Reference" "R14"
-			(at 115.57 82.55 90)
+			(at 125.73 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2620,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 115.57 85.09 90)
+			(at 125.73 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2628,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 115.57 88.9 0)
+			(at 125.73 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2637,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 88.9 0)
+			(at 125.73 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +2646,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 115.57 88.9 0)
+			(at 125.73 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +2655,7 @@
 			)
 		)
 		(property "LCSC" " C22962"
-			(at 115.57 88.9 0)
+			(at 125.73 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3023,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 121.92 97.79 180)
+		(at 120.65 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3049,7 +3032,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5e11143-c822-49e7-b169-037fe0a994df")
 		(property "Reference" "R15"
-			(at 124.46 96.5199 0)
+			(at 123.19 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3041,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 124.46 99.0599 0)
+			(at 123.19 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3050,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 121.92 97.79 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 97.79 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3068,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 121.92 97.79 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3077,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 121.92 97.79 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
