@@ -1,11 +1,9 @@
 ## Electronics Todo (REV-C)
 
-* Rotate C8\C7 and wider VIN
-* feedback trace thicker and further isolated
-* 5v traces thicker
-* 100R on tmc2209 enable
+
 * make all signal outputs into outputs (pressure, flow, temp, etc.)
 * add more gnd vias to SMBJ30CA
+* 5v traces thicker
 * add test points to bottom
 * add fiducials if possible
 * add locating holes
