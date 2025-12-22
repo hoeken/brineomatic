@@ -1,8 +1,5 @@
 ## Electronics Todo (REV-C)
 
-* stepper motor routing
-  * move to 3 vias on +24v side and 2 vias per side on motor side
-  * dont have trace continue through vias
 * add modbus TVS devices
 * add locating holes
 * add pcb number
