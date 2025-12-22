@@ -3485,7 +3485,7 @@
 		(at 105.41 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3506,7 +3506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "yarrboard:SMTSO30XXX"
 			(at 105.41 166.37 0)
 			(effects
 				(font
@@ -3526,6 +3526,15 @@
 		)
 		(property "Description" ""
 			(at 105.41 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916369"
+			(at 105.41 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +3783,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "94f94423-5ba6-422e-992b-f344a743a026")
@@ -3794,7 +3803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "yarrboard:SMTSO30XXX"
 			(at 119.38 166.37 0)
 			(effects
 				(font
@@ -3814,6 +3823,15 @@
 		)
 		(property "Description" ""
 			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916369"
+			(at 119.38 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3923,7 @@
 		(at 105.41 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3926,7 +3944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "yarrboard:SMTSO30XXX"
 			(at 105.41 176.53 0)
 			(effects
 				(font
@@ -3946,6 +3964,15 @@
 		)
 		(property "Description" ""
 			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916369"
+			(at 105.41 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4361,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4355,7 +4382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "yarrboard:SMTSO30XXX"
 			(at 119.38 176.53 0)
 			(effects
 				(font
@@ -4375,6 +4402,15 @@
 		)
 		(property "Description" ""
 			(at 119.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916369"
+			(at 119.38 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)

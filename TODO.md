@@ -1,12 +1,11 @@
 ## Electronics Todo (REV-C)
 
-
-* switch to smt standoffs
-* tmc2209 add 470pF / 100v caps to outputs for esd protection
-* add modbus TVS devices
-* put 2x0 ohm between GND and SHIELD
 * add ESD and/or series resistor to GPIO0/EN
-* beef up the pcb on the left holes
+* tmc2209 add 470pF / 100v caps to outputs for esd protection
+* stepper motor routing
+  * move to 3 vias on +24v side and 2 vias per side on motor side
+  * dont have trace continue through vias
+* add modbus TVS devices
 * add locating holes
 * add pcb number
 * switch to 1.5A on the usb fuse
@@ -35,10 +34,6 @@
 * solenoid diode schematic -> schottky symbol
 * add 5v tvs to servo connector
 * move current 5v tvs to product/brine flow connectors, delete from power supply portion
-* add JSCJ ESD24VC2 to stepper outputs
-* stepper motor routing
-  * move to 3 vias on +24v side and 2 vias per side on motor side
-  * dont have trace continue through vias
 
 
 ### Done
