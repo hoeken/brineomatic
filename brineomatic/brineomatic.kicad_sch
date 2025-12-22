@@ -1632,12 +1632,6 @@
 		(uuid "543c575b-5faa-4c2f-91d2-b599848f0764")
 	)
 	(junction
-		(at 41.91 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67eb2287-d7c9-4e63-bd47-dcfb2c0ed5f0")
-	)
-	(junction
 		(at 96.52 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1735,26 +1729,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 173.99) (xy 41.91 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b1f2289-fbcc-42e2-b3fc-af3e0a8cdd10")
-	)
-	(wire
-		(pts
-			(xy 39.37 168.91) (xy 44.45 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20a3fb3f-54aa-4b6c-bc2c-b0ba609cd9d4")
-	)
-	(wire
-		(pts
 			(xy 77.47 127) (xy 73.66 127)
 		)
 		(stroke
@@ -1782,16 +1756,6 @@
 			(type default)
 		)
 		(uuid "3fa9f875-3dae-4476-901d-de535ca8e2d0")
-	)
-	(wire
-		(pts
-			(xy 39.37 171.45) (xy 44.45 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "417870b9-1ea6-49a3-9a5e-66a81496cfb5")
 	)
 	(wire
 		(pts
@@ -2005,16 +1969,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 176.53) (xy 44.45 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c370d6-4b90-425f-a274-cf6d5246b5ca")
-	)
-	(wire
-		(pts
 			(xy 77.47 123.19) (xy 77.47 127)
 		)
 		(stroke
@@ -2125,16 +2079,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 173.99) (xy 41.91 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec839349-2544-4530-ad25-27fd033e63c2")
-	)
-	(wire
-		(pts
 			(xy 96.52 92.71) (xy 96.52 97.79)
 		)
 		(stroke
@@ -2183,19 +2127,9 @@
 		)
 		(uuid "fba01f1b-e196-443d-8f86-9e73b2325407")
 	)
-	(wire
-		(pts
-			(xy 39.37 176.53) (xy 41.91 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf7bb65-e62f-406f-afad-5510ef25ba75")
-	)
 	(global_label "RS485_DI"
 		(shape input)
-		(at 44.45 168.91 0)
+		(at 41.91 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2205,7 +2139,7 @@
 		)
 		(uuid "0113f504-6e9b-4b8c-9f72-0768daf94a93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.3856 168.91 0)
+			(at 53.8456 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2701,7 @@
 	)
 	(global_label "RS485_RO"
 		(shape input)
-		(at 44.45 171.45 0)
+		(at 41.91 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2777,7 +2711,7 @@
 		)
 		(uuid "7d3d927e-a162-4144-8493-e870a7c95a89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.1113 171.45 0)
+			(at 54.5713 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3009,7 @@
 	)
 	(global_label "RS485_DERE"
 		(shape input)
-		(at 44.45 176.53 0)
+		(at 41.91 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3085,7 +3019,7 @@
 		)
 		(uuid "b3d991b3-47a0-4c36-a606-1d9abb3871cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.3488 176.53 0)
+			(at 56.8088 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,8 +6056,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 166.116)
-		(size 12.7 12.192)
+		(at 29.21 164.846)
+		(size 12.7 11.049)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6138,7 +6072,7 @@
 		)
 		(uuid "ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0")
 		(property "Sheetname" "RS485"
-			(at 26.67 165.4044 0)
+			(at 29.21 164.1344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6081,7 @@
 			)
 		)
 		(property "Sheetfile" "rs485.kicad_sch"
-			(at 26.67 178.8926 0)
+			(at 29.21 176.4796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,8 +6090,8 @@
 				(hide yes)
 			)
 		)
-		(pin "DE" input
-			(at 39.37 173.99 0)
+		(pin "DERE" input
+			(at 41.91 172.72 0)
 			(uuid "56e5e0e4-1f71-44ad-bd73-102963ec5b3a")
 			(effects
 				(font
@@ -6167,7 +6101,7 @@
 			)
 		)
 		(pin "DI" input
-			(at 39.37 168.91 0)
+			(at 41.91 167.64 0)
 			(uuid "97e07e4e-8bd7-40d3-8a74-4146deaa585c")
 			(effects
 				(font
@@ -6176,19 +6110,9 @@
 				(justify right)
 			)
 		)
-		(pin "RO" input
-			(at 39.37 171.45 0)
+		(pin "RO" output
+			(at 41.91 170.18 0)
 			(uuid "c5da17a1-5b81-485d-ac89-a845eaf9db4a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{RE}" input
-			(at 39.37 176.53 0)
-			(uuid "41f78e6d-0256-449d-8ad4-e602ea9f6c73")
 			(effects
 				(font
 					(size 1.27 1.27)

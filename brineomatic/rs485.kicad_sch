@@ -702,6 +702,382 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SD12_SOD323"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SD12_SOD323"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor thyrector transil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD12_SOD323_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SD12_SOD323_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SM712_SOT23"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM712_SOT23"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
+				(at -3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor thyrector transil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM712_SOT23_0_0"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM712_SOT23_0_1"
+				(polyline
+					(pts
+						(xy -6.35 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -6.35 1.27) (xy -6.35 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.27) (xy -3.81 1.27) (xy -3.81 -1.27) (xy -4.318 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 6.35 -1.27) (xy 6.35 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM712_SOT23_1_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_UART:MAX3485"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1357,7 +1733,7 @@
 	)
 	(rectangle
 		(start 67.31 70.104)
-		(end 218.948 133.858)
+		(end 250.825 133.858)
 		(stroke
 			(width 0)
 			(type default)
@@ -1381,22 +1757,16 @@
 		(uuid "232371f3-2f23-44fe-bda0-69d74e35509a")
 	)
 	(junction
-		(at 96.52 82.55)
+		(at 114.3 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05ffc492-9524-4636-a6f1-b79cb130de3a")
+	)
+	(junction
+		(at 100.33 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ac9c78f-6815-4d66-af26-d2f27e14313d")
-	)
-	(junction
-		(at 171.45 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a371c37-4625-4df9-8b2e-352d1be489f3")
-	)
-	(junction
-		(at 171.45 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f1ad9ad-3b5e-47ae-bf42-31a3350100d9")
 	)
 	(junction
 		(at 83.82 123.19)
@@ -1405,10 +1775,34 @@
 		(uuid "52ae96ad-837b-438f-9600-9bdf6d9b9a50")
 	)
 	(junction
+		(at 123.19 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ad92aee-e605-4e4e-878d-6dd6ff990315")
+	)
+	(junction
 		(at 83.82 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f6e05df-c5e1-4ff4-a526-566cb6fcf33a")
+	)
+	(junction
+		(at 187.96 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63316536-f03d-4af3-9ba6-22b991b20e8a")
+	)
+	(junction
+		(at 114.3 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ba7d2dd-0a09-4f49-8c01-f1e11cf19153")
+	)
+	(junction
+		(at 160.02 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dcaa6a2-d015-46f8-9391-0313464d072f")
 	)
 	(junction
 		(at 123.19 82.55)
@@ -1435,10 +1829,10 @@
 		(uuid "b67fac8e-5e9d-451f-86fa-1b7bc884449f")
 	)
 	(junction
-		(at 105.41 82.55)
+		(at 114.3 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bf560186-6c33-42f7-aadf-17933407903c")
+		(uuid "ca057a28-30ef-4453-9d03-a9bcf56f00e2")
 	)
 	(junction
 		(at 160.02 123.19)
@@ -1447,48 +1841,44 @@
 		(uuid "d5268039-6024-4537-8d44-73e66d5040d8")
 	)
 	(junction
-		(at 160.02 99.06)
+		(at 187.96 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f08b4918-78a8-4f0a-beeb-4c0ffc97e51f")
+		(uuid "ea6f59b8-a241-4fd1-96ec-eb66cd159645")
 	)
 	(junction
-		(at 114.3 82.55)
+		(at 170.18 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc3e4a5c-ed57-4a36-97e9-9fc7034b794c")
+		(uuid "f02c7681-2c4f-44fc-b355-a0cd7c3a9a3e")
+	)
+	(junction
+		(at 179.07 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc1e3f76-6731-4266-abf2-ab3889b614ac")
 	)
 	(no_connect
-		(at 203.2 93.98)
+		(at 218.44 93.98)
 		(uuid "96896570-b2b4-4cb9-981f-4bed423a0f89")
 	)
 	(no_connect
-		(at 203.2 99.06)
+		(at 218.44 99.06)
 		(uuid "c14065cd-d020-4f1b-b9e6-7c4ee01d1d19")
 	)
 	(no_connect
-		(at 203.2 96.52)
+		(at 218.44 96.52)
 		(uuid "cae356f3-760e-4246-915e-60f2bf36cb2e")
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 181.61 99.06)
+			(xy 123.19 96.52) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d30c726-b00a-4bc9-ba27-6b3e3dc1313b")
-	)
-	(wire
-		(pts
-			(xy 105.41 101.6) (xy 105.41 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ea2ad1a-8d79-42c8-a2a2-5a8953c624aa")
+		(uuid "132e5221-aba7-4897-8e9a-e7efa7cb5d17")
 	)
 	(wire
 		(pts
@@ -1532,23 +1922,63 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 186.69 96.52)
+			(xy 187.96 101.6) (xy 201.93 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "275e9834-9038-4cb1-ae70-617bf81e4035")
+		(uuid "29453bb6-bc91-4345-8c09-de71738ba40f")
 	)
 	(wire
 		(pts
-			(xy 171.45 93.98) (xy 186.69 93.98)
+			(xy 160.02 101.6) (xy 160.02 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42e299ba-a675-4d03-a4e8-eb878636a619")
+		(uuid "3187bb3b-b27b-4337-bd82-736de8282d8b")
+	)
+	(wire
+		(pts
+			(xy 179.07 115.57) (xy 179.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3857ce6d-6c84-4029-911d-3376404bbc8e")
+	)
+	(wire
+		(pts
+			(xy 83.82 123.19) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a66aa09-80c0-4763-b11a-7fbb7e08e04e")
+	)
+	(wire
+		(pts
+			(xy 201.93 93.98) (xy 201.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edb625d-904a-49ac-9824-4921bc32ca17")
+	)
+	(wire
+		(pts
+			(xy 187.96 93.98) (xy 201.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cdb116-406f-461f-9865-3e32b0320879")
 	)
 	(wire
 		(pts
@@ -1572,6 +2002,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 123.19) (xy 160.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1c333b-4301-45b3-84fc-23caf94d2aae")
+	)
+	(wire
+		(pts
 			(xy 140.97 124.46) (xy 140.97 123.19)
 		)
 		(stroke
@@ -1582,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 105.41 82.55)
+			(xy 100.33 82.55) (xy 123.19 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1592,23 +2032,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 106.68) (xy 96.52 93.98)
+			(xy 100.33 106.68) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6168bb1d-a37a-4f15-8baf-56b2b0a08178")
-	)
-	(wire
-		(pts
-			(xy 105.41 82.55) (xy 105.41 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69e5f135-e506-4a22-b59b-05b0291bdebe")
 	)
 	(wire
 		(pts
@@ -1622,13 +2052,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 114.3 88.9)
+			(xy 114.3 123.19) (xy 140.97 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fe2f31b-e03b-46b7-908b-079f776300c9")
+		(uuid "737df713-f9bd-411c-8be7-8b9b23393855")
 	)
 	(wire
 		(pts
@@ -1652,6 +2082,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf60a87-a54e-48ce-960b-5d74fd161f8b")
+	)
+	(wire
+		(pts
 			(xy 83.82 82.55) (xy 72.39 82.55)
 		)
 		(stroke
@@ -1662,7 +2102,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 82.55) (xy 96.52 88.9)
+			(xy 151.13 101.6) (xy 151.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef6f5cc-ba7f-43d5-b582-f2b714fe559a")
+	)
+	(wire
+		(pts
+			(xy 100.33 82.55) (xy 100.33 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 160.02 99.06)
+			(xy 151.13 101.6) (xy 160.02 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1692,17 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 171.45 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a4f5c0-7c07-4c62-8d32-01e1b66f1248")
-	)
-	(wire
-		(pts
-			(xy 186.69 99.06) (xy 186.69 123.19)
+			(xy 201.93 104.14) (xy 201.93 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1712,17 +2152,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 82.55) (xy 96.52 82.55)
+			(xy 121.92 96.52) (xy 123.19 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8df28d55-7dea-4c11-91c2-dc85cf87b000")
+		(uuid "8c83a830-7846-4b85-aef6-253fc1722f77")
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 171.45 99.06)
+			(xy 160.02 101.6) (xy 187.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1742,17 +2182,27 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 160.02 111.76)
+			(xy 160.02 101.6) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "993564e0-ccae-4d07-8463-4aad783cd419")
+		(uuid "a89769c3-fb7c-4b21-97e7-e173eeb5318e")
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 105.41 101.6)
+			(xy 114.3 99.06) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac282a74-bc34-4b3f-8ed2-ab1f8be3f55e")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1762,13 +2212,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 99.06) (xy 181.61 96.52)
+			(xy 111.76 99.06) (xy 114.3 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1e4767d-befe-4ee2-bd46-0e7742ce97db")
+		(uuid "b166e969-9d97-4ede-bb45-9bf12d9de9d6")
 	)
 	(wire
 		(pts
@@ -1782,17 +2232,37 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 114.3 93.98)
+			(xy 114.3 118.11) (xy 114.3 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0dfce5b-fa86-48f0-8f81-8eeaac778e25")
+		(uuid "bee75ef9-f49f-4337-8234-26cf9fd0f0be")
 	)
 	(wire
 		(pts
-			(xy 130.81 106.68) (xy 96.52 106.68)
+			(xy 187.96 101.6) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ce509a-a21a-434f-b08e-4ded7b567ca3")
+	)
+	(wire
+		(pts
+			(xy 160.02 95.25) (xy 160.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7203297-e626-405f-a6c3-f6866e3b456b")
+	)
+	(wire
+		(pts
+			(xy 130.81 106.68) (xy 100.33 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1809,16 +2279,6 @@
 			(type default)
 		)
 		(uuid "ca38dc97-e65e-4093-8b64-6a1792954755")
-	)
-	(wire
-		(pts
-			(xy 123.19 96.52) (xy 123.19 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca95794a-3bd5-416b-b57b-e77274fe72e0")
 	)
 	(wire
 		(pts
@@ -1862,7 +2322,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 82.55) (xy 83.82 82.55)
+			(xy 170.18 93.98) (xy 170.18 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9db791-f299-48eb-9a20-933c8c527bbd")
+	)
+	(wire
+		(pts
+			(xy 100.33 82.55) (xy 83.82 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1872,27 +2342,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 82.55) (xy 114.3 82.55)
+			(xy 170.18 93.98) (xy 187.96 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4289ea2-e4d3-4eb1-bade-e9c8c2f08596")
+		(uuid "e73f13c8-18fd-4217-a2fb-39baa61ad253")
 	)
 	(wire
 		(pts
-			(xy 140.97 123.19) (xy 83.82 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f344c634-3fa1-4ea1-8ed2-77b8a2aec352")
-	)
-	(wire
-		(pts
-			(xy 186.69 123.19) (xy 160.02 123.19)
+			(xy 201.93 123.19) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1910,20 +2370,19 @@
 		)
 		(uuid "f9743bb1-aaf4-4243-9ab1-205f1baf5ba3")
 	)
-	(hierarchical_label "~{RE}"
-		(shape input)
-		(at 114.3 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 114.3 113.03)
 		)
-		(uuid "4c69dd83-ec1c-4e0b-afcb-0ffb0ad28a4f")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcab28c5-a23a-4f67-ad3d-ea82623c50ee")
 	)
-	(hierarchical_label "DE"
+	(hierarchical_label "DERE"
 		(shape input)
-		(at 105.41 101.6 180)
+		(at 111.76 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1933,8 +2392,8 @@
 		(uuid "a9a33f5e-c967-4f76-8066-2ee28cb08532")
 	)
 	(hierarchical_label "RO"
-		(shape input)
-		(at 123.19 96.52 180)
+		(shape output)
+		(at 121.92 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1945,7 +2404,7 @@
 	)
 	(hierarchical_label "DI"
 		(shape input)
-		(at 96.52 106.68 180)
+		(at 100.33 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2021,6 +2480,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SD12_SOD323")
+		(at 187.96 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1edc4f46-1ac4-4040-81a4-661032e9b907")
+		(property "Reference" "D46"
+			(at 190.5 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PSD12C"
+			(at 190.5 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 187.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "PSD12C-LF-T7"
+			(at 187.96 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "933e0ec0-2601-416b-b843-2066972f5957")
+		)
+		(pin "2"
+			(uuid "3bc25cca-5254-4d9e-a05a-84cdf0626895")
+		)
+		(instances
+			(project ""
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 160.02 114.3 180)
 		(unit 1)
@@ -2029,7 +2567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d317c78-0453-469b-b3bd-5444b0c1f7a0")
-		(property "Reference" "R62"
+		(property "Reference" "R63"
 			(at 161.798 113.284 0)
 			(effects
 				(font
@@ -2092,7 +2630,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0"
-					(reference "R62")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -2100,7 +2638,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 96.52 91.44 180)
+		(at 100.33 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2108,7 +2646,7 @@
 		(dnp no)
 		(uuid "3926942b-3600-41ed-93df-a49eac96b9ca")
 		(property "Reference" "R57"
-			(at 98.298 90.424 0)
+			(at 102.108 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2655,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 98.298 92.964 0)
+			(at 102.108 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,7 +2664,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.52 91.44 0)
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 91.44 0)
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2682,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 96.52 91.44 0)
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2691,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 96.52 91.44 0)
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,6 +2709,86 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM712_SOT23")
+		(at 179.07 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45ecc620-77fd-41ec-bb65-fc62fd735b18")
+		(property "Reference" "D45"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PSM712"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 179.07 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2687124"
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b33d407-8f22-4a23-b4a9-0f2a3f0420b1")
+		)
+		(pin "3"
+			(uuid "d7ecf7fa-cbce-40e5-ab16-7bf0ec221a12")
+		)
+		(pin "2"
+			(uuid "201e5a4b-c2bf-4bb9-8ed7-19eaf14099ea")
+		)
+		(instances
+			(project ""
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0"
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -2265,84 +2883,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 114.3 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e9dfc27-2ef1-40a5-a983-33b77e78cdbf")
-		(property "Reference" "R59"
-			(at 116.078 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 116.078 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f58f5fb2-d168-4491-9b59-3118a2c2623b")
-		)
-		(pin "2"
-			(uuid "20068719-f6a2-4cde-9341-2011afd365a7")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 123.19 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2421,15 +2961,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 171.45 96.52 180)
+		(at 160.02 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6d9cced3-e3c3-4e54-936e-2b853436ceeb")
-		(property "Reference" "R63"
-			(at 173.228 95.504 0)
+		(property "Reference" "R62"
+			(at 161.798 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2978,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 173.228 98.044 0)
+			(at 161.798 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2987,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 171.45 96.52 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 96.52 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +3005,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 171.45 96.52 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,7 +3014,7 @@
 			)
 		)
 		(property "LCSC" " C22787"
-			(at 171.45 96.52 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +3031,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0"
-					(reference "R63")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -2750,7 +3290,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 191.77 96.52 0)
+		(at 207.01 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2759,7 +3299,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb05bbcd-fa16-48d4-81c3-1abf9e2d95df")
 		(property "Reference" "J23"
-			(at 194.31 95.2499 0)
+			(at 209.55 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +3308,7 @@
 			)
 		)
 		(property "Value" "3.5mm"
-			(at 194.31 97.7899 0)
+			(at 209.55 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +3317,7 @@
 			)
 		)
 		(property "Footprint" "yarrboard:PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal"
-			(at 191.77 96.52 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +3326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 96.52 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +3335,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 96.52 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +3344,7 @@
 			)
 		)
 		(property "LCSC" "C5188296"
-			(at 191.77 96.52 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +3372,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 105.41 91.44 180)
+		(at 114.3 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2840,7 +3380,7 @@
 		(dnp no)
 		(uuid "bbc493f0-3e23-4920-aa43-dfef7d2ed9a4")
 		(property "Reference" "R58"
-			(at 107.188 90.424 0)
+			(at 116.078 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +3389,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 107.188 92.964 0)
+			(at 116.078 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +3398,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 91.44 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +3407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 91.44 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +3416,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 105.41 91.44 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +3425,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 105.41 91.44 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3528,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 208.28 96.52 0)
+		(at 223.52 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2997,7 +3537,7 @@
 		(fields_autoplaced yes)
 		(uuid "efde0ba2-03ea-45e0-8853-6945cbe5dbfd")
 		(property "Reference" "J24"
-			(at 210.82 95.2499 0)
+			(at 226.06 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3546,7 @@
 			)
 		)
 		(property "Value" "3.5mm"
-			(at 210.82 97.7899 0)
+			(at 226.06 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 96.52 0)
+			(at 223.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 96.52 0)
+			(at 223.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3573,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 208.28 96.52 0)
+			(at 223.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3582,7 @@
 			)
 		)
 		(property "LCSC" "C5188250"
-			(at 208.28 96.52 0)
+			(at 223.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
