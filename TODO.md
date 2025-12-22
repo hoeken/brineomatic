@@ -1,6 +1,5 @@
 ## Electronics Todo (REV-C)
 
-* L2 -> 3.3v power plane
 * add inline resistor to temperature sensor + servo inputs - 100ohm
 * add more gnd vias to SMBJ30CA
 * add caps to u4 output (max40200)
