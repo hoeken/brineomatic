@@ -4823,6 +4823,16 @@
 		)
 		(uuid "2118e85f-5089-4896-a288-a276d9ef331b")
 	)
+	(label "PRE_24"
+		(at 96.52 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "299044fc-d2b1-44c9-86f8-fa3511d2c44c")
+	)
 	(label "VIN"
 		(at 105.41 118.11 0)
 		(effects
