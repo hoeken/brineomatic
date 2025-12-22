@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "https://github.com/hoeken/brineomatic")
-		(date "2025-08-28")
+		(date "2025-12-22")
 		(rev "C")
 	)
 	(lib_symbols
@@ -4656,12 +4656,6 @@
 		(uuid "18c570a3-fa3a-40b4-97cd-bfaba4f03637")
 	)
 	(junction
-		(at 186.69 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c4f7846-138f-4d45-b164-1c5496a20463")
-	)
-	(junction
 		(at 233.68 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4672,12 +4666,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50c129b7-d5ea-449b-9dd7-e79b6c5cfd36")
-	)
-	(junction
-		(at 186.69 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53ec8986-b434-46fa-b216-2a20d81ae8a9")
 	)
 	(junction
 		(at 125.73 35.56)
@@ -5073,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 109.22) (xy 190.5 109.22)
+			(xy 182.88 109.22) (xy 190.5 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5663,23 +5651,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 142.24) (xy 186.69 142.24)
+			(xy 182.88 142.24) (xy 190.5 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c41bcd31-dc3e-4ce7-b7af-82c1c82ce372")
-	)
-	(wire
-		(pts
-			(xy 186.69 142.24) (xy 190.5 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4479c73-7c58-49a6-8251-705d0aeb34c4")
 	)
 	(wire
 		(pts
@@ -5910,16 +5888,6 @@
 			(type default)
 		)
 		(uuid "ee8f353e-83dc-450c-800d-6cebed86b1df")
-	)
-	(wire
-		(pts
-			(xy 182.88 109.22) (xy 186.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1708c50-386b-472f-8352-b556572dcd14")
 	)
 	(wire
 		(pts
@@ -8444,124 +8412,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 186.69 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dc73c31-f611-4dec-ac6a-0ea5c4ecda78")
-		(property "Reference" "TP7"
-			(at 185.166 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 189.23 107.1879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 191.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c3d438b-a822-4c1b-8d2e-045649ac33cd")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/2c30bc70-ed79-4c81-9563-e6b5b53d9914"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 156.21 0)
 		(unit 1)
@@ -9788,124 +9638,6 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
 					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 186.69 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae97f8b5-2bd0-42ab-9087-01dcf361cea6")
-		(property "Reference" "TP8"
-			(at 185.166 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 189.23 140.2079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 191.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 186.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a896e39-9491-4c1e-98c8-dcae62992104")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/2c30bc70-ed79-4c81-9563-e6b5b53d9914"
-					(reference "TP6")
 					(unit 1)
 				)
 			)

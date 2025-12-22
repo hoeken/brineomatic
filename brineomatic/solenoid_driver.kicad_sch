@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "https://github.com/hoeken/brineomatic")
-		(date "2025-08-28")
+		(date "2025-12-22")
 		(rev "C")
 	)
 	(lib_symbols

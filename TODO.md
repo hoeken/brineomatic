@@ -1,6 +1,6 @@
 ## Electronics Todo (REV-C)
 
-
+* re-route the whole board
 * add more gnd vias to SMBJ30CA
 * 5v traces thicker
 * add test points to bottom
