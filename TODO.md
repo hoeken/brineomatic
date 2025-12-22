@@ -1,10 +1,6 @@
 ## Electronics Todo (REV-C)
 
-* add caps to u4 output (max40200)
-* make sure we have bulk cap and tvs on 5v after ideal diode
 * add 1nF caps to +ve voltage on teh 24v/5v connectors
-* 2/3 caps in parallel with D16 - 1nf / 50v (24v input esd diode)
-* add 1uf to output of U3 (lm74700)
 * change Rlim to 82k
 * voltage divider on EN pin to turn on at 12v (EN = 2v) -> connect to VIN not 24v
 * Rotate C8\C7 and wider VIN
