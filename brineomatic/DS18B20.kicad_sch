@@ -761,7 +761,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 93.98) (xy 130.81 93.98)
+			(xy 123.19 93.98) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
@@ -871,6 +871,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 93.98) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f337d8-806f-4afd-a31c-e9ea72128b05")
+	)
+	(wire
+		(pts
 			(xy 123.19 95.25) (xy 123.19 93.98)
 		)
 		(stroke
@@ -901,7 +911,7 @@
 	)
 	(hierarchical_label "OUTPUT"
 		(shape input)
-		(at 130.81 93.98 0)
+		(at 142.24 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1109,6 +1119,88 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 135.89 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2c32b30-5f70-4312-8e1f-bdc7a71140f7")
+		(property "Reference" "R9"
+			(at 134.874 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R"
+			(at 137.414 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7eec46f-e8f5-4501-8d87-a61b3995eeac")
+		)
+		(pin "2"
+			(uuid "9f42e9a9-4d78-480d-af56-d3b74e23105a")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4c28a3dc-9363-4fde-b010-be952dc8ce44"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7dc38cc9-02c6-4108-8c2f-d0f758210cae"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 123.19 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1180,7 +1272,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/4c28a3dc-9363-4fde-b010-be952dc8ce44"
-					(reference "R56")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7dc38cc9-02c6-4108-8c2f-d0f758210cae"

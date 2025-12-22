@@ -2403,7 +2403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a007db3-ae0b-4a08-a60b-211ca28c20bf")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 111.76 92.7099 0)
 			(effects
 				(font
@@ -2466,23 +2466,23 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
-					(reference "R30")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
-					(reference "R64")
+					(reference "R67")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c855463c-7233-4758-aee4-aa81e2b08bc2"
-					(reference "R27")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
-					(reference "R33")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2628,7 +2628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8187c4b8-3885-4a60-b681-67be3f373bf6")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 115.57 82.55 90)
 			(effects
 				(font
@@ -2689,23 +2689,23 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
-					(reference "R31")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
-					(reference "R65")
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c855463c-7233-4758-aee4-aa81e2b08bc2"
-					(reference "R28")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
-					(reference "R34")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -3048,7 +3048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5e11143-c822-49e7-b169-037fe0a994df")
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 124.46 96.5199 0)
 			(effects
 				(font
@@ -3111,23 +3111,23 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
-					(reference "R32")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
-					(reference "R66")
+					(reference "R69")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c855463c-7233-4758-aee4-aa81e2b08bc2"
-					(reference "R29")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
-					(reference "R35")
+					(reference "R38")
 					(unit 1)
 				)
 			)

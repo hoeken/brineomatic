@@ -1361,7 +1361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d7934ce-7eec-4c06-9319-1f89f2997d77")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 128.27 87.63 90)
 			(effects
 				(font
@@ -1467,7 +1467,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/d9651726-ebc8-4cdb-a521-a43a3039a77a"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1715,7 +1715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c0a157-b863-47d0-aa1d-afe6acdc8605")
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 135.89 97.7899 0)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/d9651726-ebc8-4cdb-a521-a43a3039a77a"
-					(reference "R17")
+					(reference "R20")
 					(unit 1)
 				)
 			)
