@@ -1,10 +1,7 @@
 ## Electronics Todo (REV-C)
 
-* gnd vias
-* silk screen
 * add test points to bottom
 * add pcb number
-* fuse silkscreen covered
 
 
 ### Done
