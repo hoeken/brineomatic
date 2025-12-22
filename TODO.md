@@ -1,7 +1,5 @@
 ## Electronics Todo (REV-C)
 
-* change Rlim to 82k
-* voltage divider on EN pin to turn on at 12v (EN = 2v) -> connect to VIN not 24v
 * Rotate C8\C7 and wider VIN
 * feedback trace thicker and further isolated
 * 5v traces thicker
