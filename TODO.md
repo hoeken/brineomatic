@@ -1,20 +1,13 @@
 ## Electronics Todo (REV-C)
 
-* add modbus TVS devices
-* add locating holes
-* add pcb number
-* switch to 1.5A on the usb fuse
-* add caps to u4 output (max40200)
 * L2 -> 3.3v power plane
-* add inline resistor to temperature sensor + servo inputs - 10ohm
-* remove thermal relief on smt components for gnd fill
+* add inline resistor to temperature sensor + servo inputs - 100ohm
 * add more gnd vias to SMBJ30CA
+* add caps to u4 output (max40200)
+* make sure we have bulk cap and tvs on 5v after ideal diode
 * add 1nF caps to +ve voltage on teh 24v/5v connectors
-* add test points to bottom
-* add fiducials if possible
 * 2/3 caps in parallel with D16 - 1nf / 50v (24v input esd diode)
 * add 1uf to output of U3 (lm74700)
-* fuse silkscreen covered
 * change Rlim to 82k
 * voltage divider on EN pin to turn on at 12v (EN = 2v) -> connect to VIN not 24v
 * Rotate C8\C7 and wider VIN
@@ -24,11 +17,15 @@
 * make all signal outputs into outputs (pressure, flow, temp, etc.)
 * redraw tds connector
 * redraw servo connector
-* make sure we have bulk cap and tvs on 5v after ideal diode
 * switch pulldown to before 220R on mosfets (no voltage divider)
 * solenoid diode schematic -> schottky symbol
 * add 5v tvs to servo connector
 * move current 5v tvs to product/brine flow connectors, delete from power supply portion
+* add test points to bottom
+* add fiducials if possible
+* add locating holes
+* add pcb number
+* fuse silkscreen covered
 
 
 ### Done

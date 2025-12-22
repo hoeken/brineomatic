@@ -10142,7 +10142,7 @@
 				)
 			)
 		)
-		(property "Value" "4A"
+		(property "Value" "1.5A"
 			(at 113.03 31.75 90)
 			(effects
 				(font
@@ -10178,7 +10178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2760306"
+		(property "LCSC" "C70083"
 			(at 113.03 35.56 90)
 			(effects
 				(font
