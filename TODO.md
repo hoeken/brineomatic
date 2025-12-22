@@ -13,8 +13,6 @@
 * 5v traces thicker
 * 100R on tmc2209 enable
 * make all signal outputs into outputs (pressure, flow, temp, etc.)
-* redraw tds connector
-* move current 5v tvs to product/brine flow connectors, delete from power supply portion
 * add test points to bottom
 * add fiducials if possible
 * add locating holes

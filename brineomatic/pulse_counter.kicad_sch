@@ -1627,7 +1627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "123b2f16-a033-4a31-9d25-090c6a773992")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 106.68 118.11 0)
 			(effects
 				(font
@@ -1677,11 +1677,11 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1697,7 +1697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32f21d35-af78-4b0c-9a29-c284b24b0358")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 153.67 95.25 0)
 			(effects
 				(font
@@ -1747,11 +1747,11 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1943,7 +1943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7327853e-e859-4e9d-8906-5f2a00b1cdc1")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 156.21 100.33 90)
 			(effects
 				(font
@@ -2010,11 +2010,11 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
-					(reference "D24")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -2030,7 +2030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8078cb45-2d22-4a40-ba2d-96455cd3448e")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -2080,11 +2080,11 @@
 		(instances
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2183,7 +2183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dae12c01-af9f-49fc-a5e7-ada03b34510c")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 111.76 104.1399 90)
 			(effects
 				(font
@@ -2291,11 +2291,11 @@
 		(instances
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b"
-					(reference "D23")
+					(reference "D24")
 					(unit 1)
 				)
 			)
