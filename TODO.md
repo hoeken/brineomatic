@@ -1,6 +1,5 @@
 ## Electronics Todo (REV-C)
 
-* add more gnd vias to SMBJ30CA
 * add caps to u4 output (max40200)
 * make sure we have bulk cap and tvs on 5v after ideal diode
 * add 1nF caps to +ve voltage on teh 24v/5v connectors
@@ -13,6 +12,7 @@
 * 5v traces thicker
 * 100R on tmc2209 enable
 * make all signal outputs into outputs (pressure, flow, temp, etc.)
+* add more gnd vias to SMBJ30CA
 * add test points to bottom
 * add fiducials if possible
 * add locating holes
