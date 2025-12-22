@@ -1,14 +1,45 @@
 ## Electronics Todo (REV-C)
 
 
-* switch to smt standoffs?  sendit test board y/n
-* schematic review
+* switch to smt standoffs
+* tmc2209 add 470pF / 100v caps to outputs for esd protection
+* add modbus TVS devices
+* put 2x0 ohm between GND and SHIELD
+* add ESD and/or series resistor to GPIO0/EN
+* beef up the pcb on the left holes
+* add locating holes
+* add pcb number
+* switch to 1.5A on the usb fuse
+* add caps to u4 output (max40200)
+* L2 -> 3.3v power plane
+* add inline resistor to temperature sensor + servo inputs - 10ohm
+* remove thermal relief on smt components for gnd fill
+* add more gnd vias to SMBJ30CA
+* add 1nF caps to +ve voltage on teh 24v/5v connectors
+* add test points to bottom
+* add fiducials if possible
+* 2/3 caps in parallel with D16 - 1nf / 50v (24v input esd diode)
+* add 1uf to output of U3 (lm74700)
+* fuse silkscreen covered
+* change Rlim to 82k
+* voltage divider on EN pin to turn on at 12v (EN = 2v) -> connect to VIN not 24v
+* Rotate C8\C7 and wider VIN
+* feedback trace thicker and further isolated
+* 5v traces thicker
+* 100R on tmc2209 enable
+* make all signal outputs into outputs (pressure, flow, temp, etc.)
+* redraw tds connector
+* redraw servo connector
+* make sure we have bulk cap and tvs on 5v after ideal diode
+* switch pulldown to before 220R on mosfets (no voltage divider)
+* solenoid diode schematic -> schottky symbol
+* add 5v tvs to servo connector
+* move current 5v tvs to product/brine flow connectors, delete from power supply portion
+* add JSCJ ESD24VC2 to stepper outputs
+* stepper motor routing
+  * move to 3 vias on +24v side and 2 vias per side on motor side
+  * dont have trace continue through vias
 
-## 3D Print Todo
-
-* update the case for rev c
-* Din rail mount: https://github.com/hzeller/din-rail-clip-mount
-* add holes in case top for buttons
 
 ### Done
 
