@@ -1,6 +1,5 @@
 ## Electronics Todo (REV-C)
 
-* tmc2209 add 470pF / 100v caps to outputs for esd protection
 * stepper motor routing
   * move to 3 vias on +24v side and 2 vias per side on motor side
   * dont have trace continue through vias
