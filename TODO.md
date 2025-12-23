@@ -1,6 +1,5 @@
 ## Electronics Todo (REV-C)
 
-* silkscreen
 * final schematic review
 * test bom + placement
 
