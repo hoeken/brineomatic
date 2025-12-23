@@ -253,6 +253,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -1805,6 +1912,18 @@
 		(uuid "6dcaa6a2-d015-46f8-9391-0313464d072f")
 	)
 	(junction
+		(at 199.39 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ec477c-4812-403b-a9a6-fc0597b61bbb")
+	)
+	(junction
+		(at 199.39 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c8e12b5-a69d-43ba-8de0-71d171e9e36e")
+	)
+	(junction
 		(at 123.19 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1859,15 +1978,15 @@
 		(uuid "fc1e3f76-6731-4266-abf2-ab3889b614ac")
 	)
 	(no_connect
-		(at 218.44 93.98)
+		(at 223.52 99.06)
 		(uuid "96896570-b2b4-4cb9-981f-4bed423a0f89")
 	)
 	(no_connect
-		(at 218.44 99.06)
+		(at 223.52 104.14)
 		(uuid "c14065cd-d020-4f1b-b9e6-7c4ee01d1d19")
 	)
 	(no_connect
-		(at 218.44 96.52)
+		(at 223.52 101.6)
 		(uuid "cae356f3-760e-4246-915e-60f2bf36cb2e")
 	)
 	(wire
@@ -1922,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 101.6) (xy 201.93 101.6)
+			(xy 187.96 101.6) (xy 199.39 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 93.98) (xy 201.93 99.06)
+			(xy 207.01 93.98) (xy 207.01 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 201.93 93.98)
+			(xy 187.96 93.98) (xy 199.39 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2049,6 +2168,16 @@
 			(type default)
 		)
 		(uuid "6d2afe4e-0920-4bef-9f84-d3c1b417aab4")
+	)
+	(wire
+		(pts
+			(xy 199.39 101.6) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbc1b3c-311e-4698-8038-65ff332814ad")
 	)
 	(wire
 		(pts
@@ -2142,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 104.14) (xy 201.93 123.19)
+			(xy 207.01 104.14) (xy 207.01 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2189,6 +2318,16 @@
 			(type default)
 		)
 		(uuid "a89769c3-fb7c-4b21-97e7-e173eeb5318e")
+	)
+	(wire
+		(pts
+			(xy 199.39 93.98) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e75d34-30c8-4e10-86b1-d0988e3c2c0b")
 	)
 	(wire
 		(pts
@@ -2352,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 123.19) (xy 179.07 123.19)
+			(xy 207.01 123.19) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2789,6 +2928,73 @@
 			(project ""
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0"
 					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46dbacc1-b1a2-408f-a244-b898f799f766")
+		(property "Reference" "TP?"
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 196.85 103.6321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feea9bd6-5a2c-45a2-ad08-8fec6553ff96")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0"
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -3290,7 +3496,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 207.01 101.6 0)
+		(at 212.09 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3299,7 +3505,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb05bbcd-fa16-48d4-81c3-1abf9e2d95df")
 		(property "Reference" "J23"
-			(at 209.55 100.3299 0)
+			(at 214.63 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3514,7 @@
 			)
 		)
 		(property "Value" "3.5mm"
-			(at 209.55 102.8699 0)
+			(at 214.63 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3523,7 @@
 			)
 		)
 		(property "Footprint" "yarrboard:PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal"
-			(at 207.01 101.6 0)
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 101.6 0)
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3541,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 207.01 101.6 0)
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3550,7 @@
 			)
 		)
 		(property "LCSC" "C5188296"
-			(at 207.01 101.6 0)
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,17 +3733,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 223.52 96.52 0)
+		(lib_id "Connector:TestPoint")
+		(at 199.39 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efde0ba2-03ea-45e0-8853-6945cbe5dbfd")
-		(property "Reference" "J24"
-			(at 226.06 95.2499 0)
+		(uuid "ec281e20-36df-4293-8063-79a846d4f31e")
+		(property "Reference" "TP?"
+			(at 198.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,17 +3750,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.5mm"
-			(at 226.06 97.7899 0)
+		(property "Value" "TestPoint"
+			(at 201.93 91.9479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 223.52 96.52 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 204.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3770,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 96.52 0)
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e34d9a1-24d5-4a47-8a42-dc1680e68b1b")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 228.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efde0ba2-03ea-45e0-8853-6945cbe5dbfd")
+		(property "Reference" "J24"
+			(at 231.14 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.5mm"
+			(at 231.14 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3846,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 223.52 96.52 0)
+			(at 228.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3855,7 @@
 			)
 		)
 		(property "LCSC" "C5188250"
-			(at 223.52 96.52 0)
+			(at 228.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

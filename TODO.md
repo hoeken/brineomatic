@@ -1,8 +1,7 @@
 ## Electronics Todo (REV-C)
 
-* add test points to bottom
-* add pcb number
-
+* final schematic review
+* test bom + placement
 
 ### Done
 

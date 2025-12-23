@@ -10,6 +10,113 @@
 		(rev "C")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1334,6 +1441,18 @@
 		(uuid "4cda9512-4ad2-47c3-9080-04eb903a07f6")
 	)
 	(junction
+		(at 107.95 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f0b096d-e484-4648-b4e0-d817fd0f689b")
+	)
+	(junction
+		(at 107.95 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90862f0c-71d9-42a7-b198-3574ee2e017f")
+	)
+	(junction
 		(at 156.21 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1350,6 +1469,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6c38bd8-e0b5-48a2-907e-bfe658e74d4e")
+	)
+	(wire
+		(pts
+			(xy 107.95 87.63) (xy 113.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00753c64-2f8f-48f4-b70e-396228f806b6")
 	)
 	(wire
 		(pts
@@ -1373,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 100.33) (xy 113.03 105.41)
+			(xy 113.03 102.87) (xy 113.03 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1393,7 +1522,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 87.63) (xy 113.03 95.25)
+			(xy 113.03 87.63) (xy 113.03 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1443,7 +1572,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 90.17) (xy 133.35 90.17)
+			(xy 105.41 90.17) (xy 107.95 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1463,6 +1592,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 90.17) (xy 133.35 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3213b0-6233-449c-b9c5-c954d24a4464")
+	)
+	(wire
+		(pts
 			(xy 113.03 87.63) (xy 133.35 87.63)
 		)
 		(stroke
@@ -1473,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 87.63) (xy 113.03 87.63)
+			(xy 105.41 87.63) (xy 107.95 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1983,6 +2122,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c096ea9e-116e-42fb-a855-ffd69c9e65fc")
+		(property "Reference" "TP1"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 113.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8fd36b7-9bcc-4933-93b3-39a0225943bf")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c8ab4709-9ad5-4833-bb93-07e00d6a0170"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/e7fd98b0-0753-4e9e-b57d-135c0c1a0b39"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 148.59 90.17 90)
 		(unit 1)
@@ -2065,7 +2275,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 113.03 97.79 0)
+		(at 113.03 100.33 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2074,15 +2284,6 @@
 		(dnp no)
 		(uuid "da577cda-b6ec-4ec6-9a47-47c9097089d8")
 		(property "Reference" "C1"
-			(at 110.49 96.5135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF / 50v"
 			(at 110.49 99.0535 0)
 			(effects
 				(font
@@ -2091,8 +2292,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "1uF / 50v"
+			(at 110.49 101.5935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.03 97.79 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2311,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 97.79 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2320,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 97.79 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2328,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 113.03 97.79 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2337,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 113.03 97.79 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,7 +2346,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 113.03 97.79 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2355,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 113.03 97.79 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2364,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 113.03 97.79 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,6 +2688,77 @@
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/e7fd98b0-0753-4e9e-b57d-135c0c1a0b39"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc30c171-c802-4f80-bda9-f8ecbc4639fc")
+		(property "Reference" "TP2"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.41 92.2021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 102.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "118dc9e9-9149-4a9c-bb0b-292567825cf1")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c8ab4709-9ad5-4833-bb93-07e00d6a0170"
+					(reference "TP25")
+					(unit 1)
+				)
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/e7fd98b0-0753-4e9e-b57d-135c0c1a0b39"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
