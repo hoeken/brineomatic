@@ -3938,8 +3938,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10uF / 35v"
-			(at 107.442 48.006 0)
+		(property "Value" "10uF"
+			(at 105.41 48.26 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -3947,7 +3947,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 102.87 57.15 0)
 			(effects
 				(font
@@ -3966,6 +3966,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138687"
 			(at 102.87 57.15 0)
 			(effects
 				(font
@@ -4669,7 +4678,7 @@
 		(at 158.75 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3f0510df-7758-4522-b375-a9fdccf8f84b")
@@ -4736,7 +4745,7 @@
 		(at 158.75 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3f6ea62b-6511-4bf9-912a-cb834b330c63")
@@ -5138,8 +5147,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10uF / 35v"
-			(at 90.932 48.26 0)
+		(property "Value" "10uF"
+			(at 88.9 48.26 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -5147,7 +5156,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 86.36 57.15 0)
 			(effects
 				(font
@@ -5166,6 +5175,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138687"
 			(at 86.36 57.15 0)
 			(effects
 				(font
@@ -6695,7 +6713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21122"
 			(at 91.44 95.25 90)
 			(effects
 				(font
@@ -6866,7 +6884,7 @@
 		(at 144.78 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "db987056-261c-4d3b-b0a4-eebdc3bf49f3")
@@ -7233,7 +7251,7 @@
 		(at 144.78 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fadf95a2-7d71-45f6-bd6c-ead4385a0b0c")

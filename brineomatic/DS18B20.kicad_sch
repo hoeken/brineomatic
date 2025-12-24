@@ -1322,6 +1322,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 97.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e268ec3-4ae8-4a11-a029-b058d43b6b55")
 		)
@@ -1543,7 +1552,7 @@
 		(at 124.46 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6cb806a5-7ac0-4305-ad11-6ed1f9a01a30")
@@ -1663,7 +1672,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 144.78 93.98 0)
 			(effects
 				(font

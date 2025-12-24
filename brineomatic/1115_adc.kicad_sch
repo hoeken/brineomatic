@@ -1945,7 +1945,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" " C19702"
 			(at 226.06 81.28 0)
 			(effects
 				(font
@@ -2040,7 +2040,7 @@
 		(at 166.37 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3a28f156-bd9e-4fd9-8133-84ed2b898b29")
@@ -2355,7 +2355,7 @@
 		(at 175.26 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "94cf2eec-f03f-4ee9-9d3b-70886f89cf28")
@@ -2657,7 +2657,7 @@
 		(at 175.26 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b61972a9-592b-43af-819f-530920e1bf91")
@@ -2869,7 +2869,7 @@
 		(at 166.37 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d3b35fcc-52ee-46f5-a65a-e50d1c98173c")

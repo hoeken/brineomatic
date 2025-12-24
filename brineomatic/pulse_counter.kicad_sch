@@ -1419,7 +1419,7 @@
 		)
 		(uuid "6bf992e5-677d-4f92-a96e-eca1b1019e93")
 	)
-	(text_box "Designed for flowmeters powered by 5v with open collector output.\n\n* 5v to 3.3v voltage divider as pullup on the input.\n* Noise filtering RC filter: 10kHz lowpass\n* BAT54S for ESD / overvoltage protection"
+	(text_box "Designed for flowmeters powered by 5v with open collector output.\n\n* 5v to 3.3v voltage divider as pullup on the input.\n* Noise filtering RC filter: 12kHz lowpass\n* BAT54S for ESD / overvoltage protection"
 		(exclude_from_sim no)
 		(at 93.345 124.46 0)
 		(size 85.09 12.7)
@@ -1799,7 +1799,7 @@
 		(at 114.3 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "252a7a61-5e8f-4a21-a104-7707f4baf42f")
@@ -2498,7 +2498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3nF"
+		(property "Value" "2.7nF"
 			(at 144.78 106.6862 0)
 			(effects
 				(font
@@ -2534,7 +2534,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1609"
 			(at 142.24 105.41 0)
 			(effects
 				(font

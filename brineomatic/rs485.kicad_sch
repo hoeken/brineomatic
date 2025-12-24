@@ -2673,7 +2673,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5199854"
 			(at 187.96 97.79 90)
 			(effects
 				(font
@@ -2938,7 +2938,7 @@
 		(at 199.39 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "46dbacc1-b1a2-408f-a244-b898f799f766")
@@ -3063,7 +3063,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" " C19702"
 			(at 72.39 101.6 0)
 			(effects
 				(font
@@ -3737,7 +3737,7 @@
 		(at 199.39 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ec281e20-36df-4293-8063-79a846d4f31e")

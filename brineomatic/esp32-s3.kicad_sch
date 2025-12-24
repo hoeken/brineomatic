@@ -7028,7 +7028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 228.6 105.41 0)
 			(effects
 				(font
@@ -7278,7 +7278,7 @@
 		(at 81.28 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "210bbeae-a945-495e-aa43-3287a9e78ec1")
@@ -7345,7 +7345,7 @@
 		(at 153.67 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "23fa81b6-cad5-4081-b1cf-cf452434b99a")
@@ -7911,6 +7911,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbbd8ab4-f149-4c24-8b10-b0b3bb354e4e")
 		)
@@ -8037,6 +8046,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 40.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1b05409-75f8-4167-8c23-c6308f5541ed")
 		)
@@ -8140,7 +8158,7 @@
 		(at 180.34 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4b4e3aef-5e6d-40fa-b0ba-e6133949c353")
@@ -8373,7 +8391,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21189"
 			(at 58.42 76.2 0)
 			(effects
 				(font
@@ -8656,7 +8674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21189"
 			(at 50.8 76.2 0)
 			(effects
 				(font
@@ -8851,6 +8869,15 @@
 			)
 		)
 		(property "Supplier Part" ""
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 172.72 111.76 0)
 			(effects
 				(font
@@ -9442,7 +9469,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21189"
 			(at 66.04 76.2 0)
 			(effects
 				(font
@@ -9471,7 +9498,7 @@
 		(at 220.98 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "948ab505-c711-4bab-b042-3a86dd126f70")
@@ -9610,7 +9637,7 @@
 		(at 101.6 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9938f837-e193-4b71-afd2-52c18df0b3e7")
@@ -9763,6 +9790,15 @@
 			)
 		)
 		(property "Supplier Part" ""
+			(at 240.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 240.03 111.76 0)
 			(effects
 				(font
@@ -10341,7 +10377,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 161.29 105.41 0)
 			(effects
 				(font
@@ -11231,7 +11267,7 @@
 		(at 208.28 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c6d4b899-2cfb-46aa-9133-1752b2fa06b1")
@@ -12126,7 +12162,7 @@
 		(at 101.6 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e693111a-bd13-4a95-930e-a6216a002385")
@@ -12534,7 +12570,7 @@
 		(at 76.2 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ead1a5c8-cd74-41a0-9e54-0012bf548df2")
@@ -12650,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21189"
 			(at 43.18 76.2 0)
 			(effects
 				(font

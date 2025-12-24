@@ -2613,7 +2613,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF / 50v"
+		(property "Value" "1uF"
 			(at 154.94 99.0535 0)
 			(effects
 				(font
@@ -2685,6 +2685,15 @@
 			)
 		)
 		(property "Supplier Part" ""
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 152.4 97.79 0)
 			(effects
 				(font
@@ -2966,7 +2975,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C83847"
 			(at 168.91 97.79 90)
 			(effects
 				(font
@@ -3033,7 +3042,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF  / 50v"
+		(property "Value" "1uF"
 			(at 186.69 99.0535 0)
 			(effects
 				(font
@@ -3105,6 +3114,15 @@
 			)
 		)
 		(property "Supplier Part" ""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 184.15 97.79 0)
 			(effects
 				(font
@@ -3427,7 +3445,7 @@
 		(at 130.81 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f393a046-57b6-4629-8b0c-f4ae3e8b2801")
