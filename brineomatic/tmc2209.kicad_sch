@@ -4263,6 +4263,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C394425"
+			(at 95.25 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a4a836a-de07-4ca1-aad4-a5e3811cddc2")
 		)
@@ -4392,6 +4401,15 @@
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
 			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077519"
+			(at 137.16 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,6 +4853,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19077519"
+			(at 165.1 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66d4c975-8f10-4d3e-83c3-6b53f08ef9ee")
 		)
@@ -5217,6 +5244,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19077519"
+			(at 137.16 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ef08465-4d86-47c8-a3d6-6998bb2045f5")
 		)
@@ -5353,6 +5389,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19077519"
+			(at 165.1 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ae8b696-5499-46af-b13b-1cbe7ba270f4")
 		)
@@ -5416,6 +5461,15 @@
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
 			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077519"
+			(at 165.1 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,6 +6164,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19077519"
+			(at 165.1 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d54b5379-1ffa-422d-9f19-5e626b87189e")
 		)
@@ -6333,6 +6396,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C394425"
+			(at 115.57 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5813e65-ef26-47f7-8338-e2c34a5b2594")
 		)
@@ -6471,6 +6543,15 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 102.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C394425"
+			(at 102.87 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,6 +6830,15 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C394425"
+			(at 109.22 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)

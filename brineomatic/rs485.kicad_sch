@@ -2673,7 +2673,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "PSD12C-LF-T7"
+		(property "LCSC" ""
 			(at 187.96 97.79 90)
 			(effects
 				(font

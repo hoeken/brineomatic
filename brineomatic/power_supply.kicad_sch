@@ -9040,7 +9040,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C113999"
+		(property "LCSC" ""
 			(at 71.12 55.88 90)
 			(effects
 				(font
