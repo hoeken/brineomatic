@@ -1447,12 +1447,6 @@
 		(uuid "7f0b096d-e484-4648-b4e0-d817fd0f689b")
 	)
 	(junction
-		(at 107.95 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90862f0c-71d9-42a7-b198-3574ee2e017f")
-	)
-	(junction
 		(at 156.21 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1472,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 87.63) (xy 113.03 87.63)
+			(xy 105.41 87.63) (xy 113.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1609,16 +1603,6 @@
 			(type default)
 		)
 		(uuid "925f0f73-8572-4df8-9876-4c6f0b78aa89")
-	)
-	(wire
-		(pts
-			(xy 105.41 87.63) (xy 107.95 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a18779d-51e3-411e-b5d1-f90ca9a89701")
 	)
 	(wire
 		(pts
@@ -2116,77 +2100,6 @@
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/e7fd98b0-0753-4e9e-b57d-135c0c1a0b39"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.95 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c096ea9e-116e-42fb-a855-ffd69c9e65fc")
-		(property "Reference" "TP1"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 110.49 85.5979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 107.95 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8fd36b7-9bcc-4933-93b3-39a0225943bf")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c8ab4709-9ad5-4833-bb93-07e00d6a0170"
-					(reference "TP24")
-					(unit 1)
-				)
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/e7fd98b0-0753-4e9e-b57d-135c0c1a0b39"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

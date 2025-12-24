@@ -1836,12 +1836,6 @@
 		(uuid "b9b55623-4024-4043-b413-4c5c463eaacc")
 	)
 	(junction
-		(at 130.81 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cae6366e-bfd0-47e3-a0a7-5ea8129ac2fb")
-	)
-	(junction
 		(at 138.43 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2077,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 67.31) (xy 115.57 67.31)
+			(xy 115.57 67.31) (xy 138.43 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2194,16 +2188,6 @@
 			(type default)
 		)
 		(uuid "fa346283-fcec-44d0-9526-e2086cdbc07d")
-	)
-	(wire
-		(pts
-			(xy 138.43 67.31) (xy 130.81 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3f8c61-4689-45db-a5fc-1a7e74f12653")
 	)
 	(hierarchical_label "INPUT"
 		(shape input)
@@ -2605,89 +2589,6 @@
 				)
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 130.81 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70d88077-ad6a-4288-8175-18cf0daa1fa5")
-		(property "Reference" "TP8"
-			(at 132.08 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 128.27 69.3421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 130.81 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91708bc0-2c77-44c2-be77-1eddb73780c2")
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/427089b2-03f8-442f-beb9-df87f2c31083"
-					(reference "TP20")
-					(unit 1)
-				)
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/53b9b350-c996-44b6-8dbf-2a99841f1965"
-					(reference "TP36")
-					(unit 1)
-				)
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/91db2587-0f96-4292-982e-c9eb44a28398"
-					(reference "TP8")
-					(unit 1)
-				)
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/c855463c-7233-4758-aee4-aa81e2b08bc2"
-					(reference "TP18")
-					(unit 1)
-				)
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/dbb171ac-9e75-41dd-9596-6fac72a797a4"
-					(reference "TP22")
 					(unit 1)
 				)
 			)
