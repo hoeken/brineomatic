@@ -1,5 +1,11 @@
 # Changelog
 
+## Brineomatic Rev D
+
+* Fixed SMAJ5.0A symbols and footprint
+* Swapped L2 and L3.  Now SIG/GND/PWR/SIG
+* Consolidated both temperature sensors to GPIO4
+
 ## Brineomatic Rev C
 
 ### Power System & Protection

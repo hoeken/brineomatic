@@ -6,10 +6,117 @@
 	(paper "A4")
 	(title_block
 		(title "https://github.com/hoeken/brineomatic")
-		(date "2025-12-22")
-		(rev "C")
+		(date "2026-01-06")
+		(rev "D")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -507,156 +614,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -778,6 +735,144 @@
 					(at 0 -2.54 90)
 					(length 1.016)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMAJ5.0A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ5.0A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ5.0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ5.0A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2013,6 +2108,18 @@
 		(uuid "a3deab45-33f5-4473-9a19-3be4183ca2d4")
 	)
 	(junction
+		(at 167.64 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c28f15b0-a401-4f46-bf9e-3dd216cac372")
+	)
+	(junction
+		(at 163.83 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd7afb47-4b39-46d7-b05b-34f188218c5f")
+	)
+	(junction
 		(at 95.25 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2045,6 +2152,10 @@
 	(no_connect
 		(at 266.7 93.98)
 		(uuid "588a42bf-a94a-42cc-8cde-1fe185800cfc")
+	)
+	(no_connect
+		(at 229.87 82.55)
+		(uuid "5c9fc669-39b0-499d-a39b-2b283e9ce214")
 	)
 	(no_connect
 		(at 266.7 48.26)
@@ -2194,6 +2305,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 50.8) (xy 167.64 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503c45c0-8807-4518-a9b2-a1c7ae974c71")
+	)
+	(wire
+		(pts
 			(xy 119.38 130.81) (xy 119.38 127)
 		)
 		(stroke
@@ -2231,6 +2352,26 @@
 			(type default)
 		)
 		(uuid "546df13f-b1d2-4559-b126-2861e30d5158")
+	)
+	(wire
+		(pts
+			(xy 161.29 57.15) (xy 163.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a16fc7-5813-4eef-8538-4b92097c08e0")
+	)
+	(wire
+		(pts
+			(xy 163.83 49.53) (xy 163.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584972db-6e62-49c1-8909-6d5ab9a6563c")
 	)
 	(wire
 		(pts
@@ -2294,6 +2435,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 49.53) (xy 163.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776f0aa6-7648-4a00-8867-c2141c44abe7")
+	)
+	(wire
+		(pts
 			(xy 46.99 46.99) (xy 46.99 44.45)
 		)
 		(stroke
@@ -2324,6 +2475,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 57.15) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9670bb77-d237-4832-a606-8275a4eb580d")
+	)
+	(wire
+		(pts
 			(xy 82.55 95.25) (xy 80.01 95.25)
 		)
 		(stroke
@@ -2341,6 +2502,26 @@
 			(type default)
 		)
 		(uuid "a2b57bc2-5bed-4ead-92f8-63ac6c8f65df")
+	)
+	(wire
+		(pts
+			(xy 179.07 57.15) (xy 182.88 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4858463-350c-41d2-b602-e0eca695d37c")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 173.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb027e0-0795-4237-816d-59dbd37d1bff")
 	)
 	(wire
 		(pts
@@ -2371,6 +2552,16 @@
 			(type default)
 		)
 		(uuid "c2d993a1-5e02-4924-89c8-34cfc706ffb1")
+	)
+	(wire
+		(pts
+			(xy 167.64 55.88) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2ec760-6a03-4f7b-badf-419a1104c2a1")
 	)
 	(wire
 		(pts
@@ -2552,7 +2743,7 @@
 	)
 	(global_label "BRINE_FLOWMETER"
 		(shape input)
-		(at 161.29 40.64 0)
+		(at 161.29 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2562,7 +2753,7 @@
 		)
 		(uuid "0dc51285-956c-4b2a-bafa-429953a9d33e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7527 40.64 0)
+			(at 181.7527 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,28 +2781,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WATER_TEMPERATURE"
-		(shape input)
-		(at 161.29 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15d033f4-e66b-4250-86cd-c298452e1e5c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.2321 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2728,7 +2897,7 @@
 	)
 	(global_label "PRODUCT_FLOWMETER"
 		(shape input)
-		(at 161.29 33.02 0)
+		(at 161.29 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2738,7 +2907,7 @@
 		)
 		(uuid "3dd994f8-744d-4b11-be1d-6740c378ca5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.837 33.02 0)
+			(at 184.837 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,28 +3137,6 @@
 			)
 		)
 	)
-	(global_label "WATER_TEMPERATURE"
-		(shape input)
-		(at 229.87 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65bc5758-5146-4e75-a30e-134f16c6a75f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.9279 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SOLENOID4"
 		(shape input)
 		(at 163.83 109.22 0)
@@ -3166,7 +3313,7 @@
 			)
 		)
 	)
-	(global_label "MOTOR_TEMPERATURE"
+	(global_label "ONEWIRE"
 		(shape input)
 		(at 229.87 38.1 180)
 		(fields_autoplaced yes)
@@ -3178,7 +3325,7 @@
 		)
 		(uuid "94eeabf1-d777-4730-97f2-651847f3a3f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.5045 38.1 0)
+			(at 218.5996 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,9 +3533,9 @@
 			)
 		)
 	)
-	(global_label "MOTOR_TEMPERATURE"
+	(global_label "ONEWIRE"
 		(shape input)
-		(at 161.29 49.53 0)
+		(at 182.88 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3398,7 +3545,7 @@
 		)
 		(uuid "c747cd92-13b4-4215-a3af-b5567cde023d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.6555 49.53 0)
+			(at 194.1504 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,6 +3812,84 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 176.53 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29d35488-a24d-4b84-913a-4e5440279d23")
+		(property "Reference" "R9"
+			(at 177.546 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R"
+			(at 175.006 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 176.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 176.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 176.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb4cf39f-fee2-4ee6-9f68-c0931dc49944")
+		)
+		(pin "2"
+			(uuid "433db4ed-d01e-41cd-a771-ffdc3f397fe9")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4237,6 +4462,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 167.64 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cb806a5-7ac0-4305-ad11-6ed1f9a01a30")
+		(property "Reference" "TP4"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 59.1821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cf38579-b4d2-4582-86b3-806561362a4e")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 167.64 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85ad2fc2-6108-49a8-890c-6b50061b2d8a")
+		(property "Reference" "#PWR075"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 167.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b57b449-326e-400f-9ec5-f0b2c7b20cef")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 46.99 0)
 		(mirror y)
@@ -4305,8 +4664,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
+		(lib_id "Diode:SMAJ5.0A")
 		(at 66.04 134.62 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4314,7 +4674,7 @@
 		(dnp no)
 		(uuid "86e7e83a-4542-4570-bcd2-f8099bf02f93")
 		(property "Reference" "D2"
-			(at 68.58 133.35 90)
+			(at 68.58 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4683,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0A"
-			(at 68.58 135.89 90)
+			(at 68.58 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,8 +4700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 66.04 134.62 0)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 66.04 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
 			(at 66.04 134.62 0)
 			(effects
 				(font
@@ -4386,6 +4746,85 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 167.64 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e81cf6a-4c01-4993-99a7-730b63628a55")
+		(property "Reference" "R8"
+			(at 170.18 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 170.18 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C23162"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c593a76f-7872-4293-86d9-e27edfcb4ee0")
+		)
+		(pin "2"
+			(uuid "735cb223-9ea5-43ab-8ed7-fd58804a8b64")
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5304,8 +5743,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
+		(lib_id "Diode:SMAJ5.0A")
 		(at 36.83 133.35 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5313,7 +5753,7 @@
 		(dnp no)
 		(uuid "ef6f12b4-6ba0-4676-9524-d50fe5aa410a")
 		(property "Reference" "D1"
-			(at 39.37 132.08 90)
+			(at 39.37 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5762,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0A"
-			(at 39.37 134.62 90)
+			(at 39.37 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,8 +5779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 36.83 133.35 0)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 36.83 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
 			(at 36.83 133.35 0)
 			(effects
 				(font
@@ -5798,59 +6238,6 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 140.97 54.61)
-		(size 20.32 4.318)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4c28a3dc-9363-4fde-b010-be952dc8ce44")
-		(property "Sheetname" "Water Temperature"
-			(at 140.97 53.8984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DS18B20.kicad_sch"
-			(at 140.97 59.5126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "I{slash}O" bidirectional
-			(at 161.29 57.15 0)
-			(uuid "6c6d8e2c-55d9-402b-828a-8fa3a9ffe15f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
-					(page "18")
 				)
 			)
 		)
@@ -6647,7 +7034,7 @@
 		)
 	)
 	(sheet
-		(at 140.97 31.115)
+		(at 140.97 29.845)
 		(size 20.32 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6663,7 +7050,7 @@
 		)
 		(uuid "afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b")
 		(property "Sheetname" "Product Flowmeter"
-			(at 140.97 30.4034 0)
+			(at 140.97 29.1334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +7059,7 @@
 			)
 		)
 		(property "Sheetfile" "pulse_counter.kicad_sch"
-			(at 140.97 35.5096 0)
+			(at 140.97 34.2396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +7069,7 @@
 			)
 		)
 		(pin "OUTPUT" output
-			(at 161.29 33.02 0)
+			(at 161.29 31.75 0)
 			(uuid "8f604e42-4176-4a02-9ca5-b532ef2e749f")
 			(effects
 				(font
@@ -6763,7 +7150,7 @@
 		)
 	)
 	(sheet
-		(at 140.97 38.735)
+		(at 140.97 37.465)
 		(size 20.32 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6779,7 +7166,7 @@
 		)
 		(uuid "c28d9395-3f2f-46b5-bdab-c14b6c7c5c4b")
 		(property "Sheetname" "Brine Flowmeter"
-			(at 140.97 38.0234 0)
+			(at 140.97 36.7534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +7175,7 @@
 			)
 		)
 		(property "Sheetfile" "pulse_counter.kicad_sch"
-			(at 140.97 43.1296 0)
+			(at 140.97 41.8596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6798,7 +7185,7 @@
 			)
 		)
 		(pin "OUTPUT" output
-			(at 161.29 40.64 0)
+			(at 161.29 39.37 0)
 			(uuid "6e29f5f8-d7c4-4bef-a757-80886f631efb")
 			(effects
 				(font
@@ -7023,6 +7410,59 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
 					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 54.61)
+		(size 20.32 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc8d0980-4488-48a1-9910-0c610d7decbf")
+		(property "Sheetname" "Water Temperature"
+			(at 140.97 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DS18B20.kicad_sch"
+			(at 140.97 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "I{slash}O" bidirectional
+			(at 161.29 57.15 0)
+			(uuid "2eb14087-104a-497b-b43a-39aa496f4e53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "brineomatic"
+				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68"
+					(page "18")
 				)
 			)
 		)
