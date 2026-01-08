@@ -3,6 +3,7 @@
 ## Brineomatic Rev C1
 
 * Fixed SMAJ5.0A symbols and footprint
+* Swapped L2 and L3.  Now SIG/GND/PWR/SIG
 
 ## Brineomatic Rev C
 
