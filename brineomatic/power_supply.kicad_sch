@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "https://github.com/hoeken/brineomatic")
-		(date "2026-01-06")
-		(rev "D")
+		(date "2025-12-22")
+		(rev "C")
 	)
 	(lib_symbols
 		(symbol "Analog_Switch:MAX40200AUK"
@@ -4243,7 +4243,7 @@
 		(uuid "2223a9e2-97aa-4a33-9f0e-50c86f6ef7f7")
 	)
 	(junction
-		(at 96.52 144.78)
+		(at 101.6 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23e7c560-20fb-410f-85da-57b2cc737929")
@@ -4345,7 +4345,7 @@
 		(uuid "707b7b9a-0757-4e44-8b29-cbad3b80d888")
 	)
 	(junction
-		(at 96.52 135.89)
+		(at 101.6 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fc4f1c6-dc28-4118-a878-0fc9ec276a29")
@@ -4572,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 125.73) (xy 96.52 125.73)
+			(xy 107.95 125.73) (xy 101.6 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4632,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 135.89) (xy 96.52 135.89)
+			(xy 107.95 135.89) (xy 101.6 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4892,7 +4892,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 133.35) (xy 96.52 135.89)
+			(xy 101.6 133.35) (xy 101.6 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4949,16 +4949,6 @@
 			(type default)
 		)
 		(uuid "40af345d-0183-4bf9-b9eb-2aa2d33b85c0")
-	)
-	(wire
-		(pts
-			(xy 154.94 120.65) (xy 154.94 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "410260fb-e240-4b66-8465-48f8022fc2ff")
 	)
 	(wire
 		(pts
@@ -5082,7 +5072,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 144.78) (xy 96.52 144.78)
+			(xy 80.01 144.78) (xy 101.6 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5152,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 125.73) (xy 96.52 128.27)
+			(xy 101.6 125.73) (xy 101.6 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5282,7 +5272,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 135.89) (xy 96.52 144.78)
+			(xy 101.6 135.89) (xy 101.6 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5532,7 +5522,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 144.78) (xy 151.13 144.78)
+			(xy 101.6 144.78) (xy 151.13 144.78)
 		)
 		(stroke
 			(width 0)
@@ -9093,16 +9083,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 154.94 120.65 0)
+		(lib_id "Connector:TestPoint")
+		(at 154.94 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a95aeec2-27e4-4eb4-9f49-7415fd025727")
 		(property "Reference" "TP14"
-			(at 153.416 115.57 0)
+			(at 153.416 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9101,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 157.48 118.6179 0)
+			(at 157.48 121.1579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,7 +9111,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 160.02 120.65 0)
+			(at 160.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9130,7 +9120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 120.65 0)
+			(at 160.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,8 +9128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 154.94 120.65 0)
+		(property "Description" "test point"
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +9138,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 154.94 120.65 0)
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9157,7 +9147,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 154.94 120.65 0)
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +9156,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 154.94 120.65 0)
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9175,7 +9165,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 154.94 120.65 0)
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9174,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 154.94 120.65 0)
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +11001,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 96.52 130.81 0)
+		(at 101.6 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11020,7 +11010,7 @@
 		(fields_autoplaced yes)
 		(uuid "efe3ef1f-5467-4331-be46-9fb547ec4e63")
 		(property "Reference" "R23"
-			(at 99.06 129.5399 0)
+			(at 104.14 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +11019,7 @@
 			)
 		)
 		(property "Value" "82k 1%"
-			(at 99.06 132.0799 0)
+			(at 104.14 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11038,7 +11028,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.52 130.81 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,7 +11037,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 130.81 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11056,7 +11046,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 96.52 130.81 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11065,7 +11055,7 @@
 			)
 		)
 		(property "LCSC" "C137678"
-			(at 96.52 130.81 0)
+			(at 101.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)

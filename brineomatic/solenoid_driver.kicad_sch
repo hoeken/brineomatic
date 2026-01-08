@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "https://github.com/hoeken/brineomatic")
-		(date "2026-01-06")
-		(rev "D")
+		(date "2025-12-22")
+		(rev "C")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"

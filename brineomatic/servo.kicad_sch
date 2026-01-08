@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "https://github.com/hoeken/brineomatic")
-		(date "2026-01-06")
-		(rev "D")
+		(date "2025-12-22")
+		(rev "C")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -663,144 +663,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ5.0A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMAJ5.0A"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMAJ5.0A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMAJ5.0A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -904,7 +766,7 @@
 		)
 	)
 	(rectangle
-		(start 76.835 64.135)
+		(start 87.63 64.135)
 		(end 180.34 125.73)
 		(stroke
 			(width 0)
@@ -930,8 +792,8 @@
 	)
 	(text_box "Standard 3 pin servo motor connector\nMax 2A total output."
 		(exclude_from_sim no)
-		(at 76.835 125.73 0)
-		(size 103.505 12.7)
+		(at 87.63 125.73 0)
+		(size 92.71 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -998,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 83.82) (xy 129.54 83.82)
+			(xy 93.98 83.82) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1108,13 +970,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 101.6) (xy 124.46 101.6)
+			(xy 124.46 101.6) (xy 93.98 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f338039-6b6c-4707-9726-5fe680adf4b7")
+		(uuid "90c530b5-f63c-489e-91da-fed4368d07aa")
 	)
 	(wire
 		(pts
@@ -1188,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 83.82) (xy 85.09 90.17)
+			(xy 93.98 83.82) (xy 93.98 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1215,16 +1077,6 @@
 			(type default)
 		)
 		(uuid "f317c683-349b-46b6-8a56-3d26286798b7")
-	)
-	(wire
-		(pts
-			(xy 85.09 97.79) (xy 85.09 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff38845a-7078-4003-8a4a-9bbdb87afcbc")
 	)
 	(wire
 		(pts
@@ -1617,9 +1469,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ5.0A")
-		(at 85.09 93.98 90)
-		(mirror x)
+		(lib_id "Device:D_TVS")
+		(at 93.98 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1627,7 +1478,7 @@
 		(dnp no)
 		(uuid "6200f971-5353-4d9c-bd59-57636d2d4607")
 		(property "Reference" "D10"
-			(at 87.63 95.25 90)
+			(at 96.52 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +1487,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0A"
-			(at 87.63 92.71 90)
+			(at 96.52 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +1496,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 85.09 93.98 0)
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,8 +1504,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 85.09 92.71 0)
+		(property "Datasheet" "~"
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,8 +1513,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 85.09 93.98 0)
+		(property "Description" ""
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1523,7 @@
 			)
 		)
 		(property "LCSC" "C87074"
-			(at 85.09 93.98 90)
+			(at 93.98 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1532,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 85.09 93.98 0)
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
