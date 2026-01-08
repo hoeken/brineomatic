@@ -1,5 +1,9 @@
 # Changelog
 
+## Brineomatic Rev C1
+
+* Fixed SMAJ5.0A symbols and footprint
+
 ## Brineomatic Rev C
 
 ### Power System & Protection
