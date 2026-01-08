@@ -76923,7 +76923,7 @@
 		)
 	)
 	(gr_text "MOTOR\nTEMP"
-		(at 121.4 39.9 0)
+		(at 128.5 39.9 0)
 		(layer "F.SilkS" knockout)
 		(uuid "76d2a02a-7ea9-41fe-925c-ac76080e178c")
 		(effects
@@ -76934,7 +76934,7 @@
 		)
 	)
 	(gr_text "WATER\nTEMP"
-		(at 128.7 39.9 0)
+		(at 121.4 39.9 0)
 		(layer "F.SilkS" knockout)
 		(uuid "77489412-50ec-412b-83c9-4cd97590231d")
 		(effects

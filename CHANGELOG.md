@@ -4,6 +4,7 @@
 
 * Fixed SMAJ5.0A symbols and footprint
 * Swapped L2 and L3.  Now SIG/GND/PWR/SIG
+* Fixed Water/Motor Temperature silkscreen mixup
 
 ## Brineomatic Rev C
 

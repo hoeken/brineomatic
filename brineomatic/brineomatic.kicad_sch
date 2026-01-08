@@ -2956,7 +2956,7 @@
 			)
 		)
 	)
-	(global_label "WATER_TEMPERATURE"
+	(global_label "MOTOR_TEMPERATURE"
 		(shape input)
 		(at 229.87 82.55 180)
 		(fields_autoplaced yes)
@@ -2968,7 +2968,7 @@
 		)
 		(uuid "65bc5758-5146-4e75-a30e-134f16c6a75f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.9279 82.55 0)
+			(at 206.5045 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3154,7 @@
 			)
 		)
 	)
-	(global_label "MOTOR_TEMPERATURE"
+	(global_label "WATER_TEMPERATURE"
 		(shape input)
 		(at 229.87 38.1 180)
 		(fields_autoplaced yes)
@@ -3166,7 +3166,7 @@
 		)
 		(uuid "94eeabf1-d777-4730-97f2-651847f3a3f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.5045 38.1 0)
+			(at 206.9279 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
