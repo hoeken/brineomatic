@@ -72166,7 +72166,7 @@
 				)
 			)
 		)
-		(property "Value" "mSMD150"
+		(property "Value" "mSMD260"
 			(at 0 2.65 0)
 			(layer "F.Fab")
 			(uuid "3f53034e-79da-40d6-8183-e5f7368d4ed9")
@@ -72201,7 +72201,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70121"
+		(property "LCSC" "C70129"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

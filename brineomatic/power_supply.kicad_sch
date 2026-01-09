@@ -8024,7 +8024,7 @@
 				)
 			)
 		)
-		(property "Value" "mSMD150"
+		(property "Value" "mSMD260"
 			(at 182.88 119.38 90)
 			(effects
 				(font
@@ -8060,7 +8060,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C70121"
+		(property "LCSC" "C70129"
 			(at 182.88 123.19 90)
 			(effects
 				(font

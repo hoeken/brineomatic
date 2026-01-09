@@ -5,7 +5,8 @@
 * Fixed SMAJ5.0A symbols and footprint
 * Swapped L2 and L3.  Now SIG/GND/PWR/SIG
 * Fixed Water/Motor Temperature silkscreen mixup
-* Re-routed 5V to run through TVS first
+* Re-routed 5v to run through TVS first
+* Increased 5v fuse to 2.6A
 
 ## Brineomatic Rev C
 
