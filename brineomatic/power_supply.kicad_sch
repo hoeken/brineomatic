@@ -4183,6 +4183,16 @@
 		)
 		(uuid "86d59992-b716-4f63-937a-123addfcc4d0")
 	)
+	(text "3.15A\nLCSC\nC142708"
+		(exclude_from_sim no)
+		(at 60.96 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "972caab2-daf7-4145-93ec-3aa21a70f7af")
+	)
 	(text "Female"
 		(exclude_from_sim no)
 		(at 39.37 46.99 0)
@@ -7832,7 +7842,7 @@
 				)
 			)
 		)
-		(property "Value" "3A / 5x20mm"
+		(property "Value" "5x20mm"
 			(at 60.96 34.29 90)
 			(effects
 				(font
