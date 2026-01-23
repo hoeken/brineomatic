@@ -79,6 +79,12 @@ Brineomatic continuously monitors critical values and stops safely on failure:
 
 Brineomatic is built around the ESP32-S3 with USB-C, using modular Yarrboard channels for relays, servos, steppers, and IO expansion.
 
+### Rev C Pinout
+
+![Brineomatic Rev C Pinout](/diagrams/Brineomatic%20Rev%20C%20Pinout.png)
+
+### Rev B Pinout
+
 ![Brineomatic Rev B Pinout](/diagrams/Brineomatic%20Rev%20B%20Pinout.png)
 
 ### Core capabilities:
