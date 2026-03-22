@@ -7,6 +7,7 @@
 * Fixed Water/Motor Temperature silkscreen mixup
 * Re-routed 5v to run through TVS first
 * Increased 5v fuse to 2.6A
+* Marked R67 (RS485 termination resistor) as DNP
 
 ## Brineomatic Rev C
 

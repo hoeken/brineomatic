@@ -25527,7 +25527,7 @@
 		(path "/ecabf60a-7f79-4ba0-9fc6-a1e702c2d5f0/6d9cced3-e3c3-4e54-936e-2b853436ceeb")
 		(sheetname "/RS485/")
 		(sheetfile "rs485.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -54352,7 +54352,7 @@
 				)
 			)
 		)
-		(property "Value" "3A / 5x20mm"
+		(property "Value" "5x20mm"
 			(at 11.25 6 90)
 			(layer "F.Fab")
 			(uuid "126f2329-f5d8-4752-bcfa-dd48e6f25bfa")
