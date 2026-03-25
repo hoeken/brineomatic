@@ -1,0 +1,148 @@
+type: sections
+max_columns: 4
+title: Watermaker
+path: watermaker
+icon: mdi:cup-water
+show_icon_and_title: true
+sections:
+  - type: grid
+    cards:
+      - type: heading
+        icon: ""
+        heading: Controls
+        heading_style: title
+      - type: tile
+        entity: switch.brineomatic_brineomatic
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_status
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_runtime_elapsed
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_finish_countdown
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_next_flush_countdown
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: heading
+        icon: ""
+        heading: Outputs
+        heading_style: title
+      - type: tile
+        entity: binary_sensor.brineomatic_high_pressure_pump
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: binary_sensor.brineomatic_diverter_valve
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: binary_sensor.brineomatic_flush_valve
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: binary_sensor.brineomatic_cooling_fan
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+  - type: grid
+    cards:
+      - type: heading
+        heading: Sensors
+        heading_style: title
+      - type: tile
+        entity: sensor.brineomatic_filter_pressure
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_membrane_pressure
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_product_salinity
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_product_flowrate
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_brine_salinity
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_brine_flowrate
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_total_flowrate
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_water_temperature
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_motor_temperature
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_product_volume
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_flush_volume
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
+      - type: tile
+        entity: sensor.brineomatic_tank_level
+        name:
+          type: entity
+        vertical: false
+        features_position: bottom
