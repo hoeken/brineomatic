@@ -1,10 +1,20 @@
 # Rev D
 
-* Add 2nd ADS1115
+* Original ADS1115
+  * brine tds (same)
+  * product tds (same)
+  * bus voltage (new)
+  * spare 4-20ma sensor (new)
+
+* Add 2nd ADS1115 -> only 4-20ma sensors
   * pre-filter pressure - jst 2.0
   * mid-filter pressure - jst 2.0
-  * bus voltage sensor - voltage divider
-  * spare 420ma sensor - pin headers
-  * alert pin -> gpio3 could work (jtag select, default high)
-    * alternatively, gpio46 could work
-    * gpio0 / boot w/ 0 ohm jumper (already pulled high)
+  * post-filter pressure - jst 2.0
+  * high pressure - jst 2.0
+  * alert pin -> gpio3
+  
+* component placement
+* routing
+* drc checks
+* jlc bom check
+* place order

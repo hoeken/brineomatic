@@ -782,7 +782,7 @@
     ],
     [
       "e7fd98b0-0753-4e9e-b57d-135c0c1a0b39",
-      "High Pressure Sensor"
+      "Mid Filter Pressure Sensor"
     ],
     [
       "afb25a63-7dc0-4ba4-a0ca-4f0b83c59f3b",
@@ -806,7 +806,7 @@
     ],
     [
       "64f85b9c-b5dc-4ec9-9075-ce977ed1cba6",
-      "ADC"
+      "ADC1"
     ],
     [
       "d9651726-ebc8-4cdb-a521-a43a3039a77a",
@@ -834,7 +834,7 @@
     ],
     [
       "c8ab4709-9ad5-4833-bb93-07e00d6a0170",
-      "Low Pressure Sensor"
+      "Pre Filter Pressure Sensor"
     ],
     [
       "602af921-0504-453c-a784-e82800e98f4c",
@@ -859,6 +859,26 @@
     [
       "53b9b350-c996-44b6-8dbf-2a99841f1965",
       "Solenoid Driver 5"
+    ],
+    [
+      "d3856960-ca33-4976-bdab-4ee936d69168",
+      "High Pressure Sensor"
+    ],
+    [
+      "6b896fe3-d928-4b35-b766-950e1b62dd31",
+      "Post Filter Pressure Sensor"
+    ],
+    [
+      "46e14de3-090f-4774-af41-ce339db8caea",
+      "ADC2"
+    ],
+    [
+      "5dc4f409-e464-4d62-86ee-f9db60a08e1c",
+      "Spare 4-20mA Sensor"
+    ],
+    [
+      "7bf78c34-2cd5-4c8a-93cc-e0889dc1ff3c",
+      "Bus Voltage"
     ]
   ],
   "text_variables": {}
