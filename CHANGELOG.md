@@ -16,6 +16,7 @@
   * alert pin -> gpio3
   
 * tds sensor input -> pin header 2.54 3x03
+* removed fiducials + alignment holes
 
 ## Brineomatic Rev C1
 
