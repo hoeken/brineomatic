@@ -1344,142 +1344,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -4183,16 +4047,6 @@
 		)
 		(uuid "86d59992-b716-4f63-937a-123addfcc4d0")
 	)
-	(text "3.15A\nLCSC\nC142708"
-		(exclude_from_sim no)
-		(at 60.96 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "972caab2-daf7-4145-93ec-3aa21a70f7af")
-	)
 	(text "Female"
 		(exclude_from_sim no)
 		(at 39.37 46.99 0)
@@ -4451,6 +4305,12 @@
 		(uuid "b910cb8d-c57b-43d6-ae9b-79f1eb175e5c")
 	)
 	(junction
+		(at 48.26 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcbeefbd-d23f-4803-add9-a5917c4eb331")
+	)
+	(junction
 		(at 154.94 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4509,12 +4369,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e67736c4-52ab-4f03-a56c-4a58cbeded9b")
-	)
-	(junction
-		(at 48.26 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6bb2708-72c8-4b9c-b678-a50069d4915c")
 	)
 	(junction
 		(at 147.32 38.1)
@@ -5122,6 +4976,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 38.1) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58be29a4-9579-457f-8595-d43b7230cf94")
+	)
+	(wire
+		(pts
 			(xy 60.96 133.35) (xy 60.96 144.78)
 		)
 		(stroke
@@ -5139,16 +5003,6 @@
 			(type default)
 		)
 		(uuid "5a1f568c-19d1-47a6-ac59-13471cb6d8a6")
-	)
-	(wire
-		(pts
-			(xy 64.77 38.1) (xy 71.12 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c726b5d-9f85-4425-ba89-8a62cdbfe859")
 	)
 	(wire
 		(pts
@@ -5589,16 +5443,6 @@
 			(type default)
 		)
 		(uuid "ae8bd8b1-c9a1-4fdd-b6f0-616a4810e946")
-	)
-	(wire
-		(pts
-			(xy 48.26 38.1) (xy 57.15 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af999b40-dd2f-41db-be65-5ddd7f780c22")
 	)
 	(wire
 		(pts
@@ -7819,92 +7663,6 @@
 			(project "brineomatic"
 				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 60.96 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64eb7c9c-682b-4ee3-a3ef-d71376f94062")
-		(property "Reference" "F1"
-			(at 60.96 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5x20mm"
-			(at 60.96 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "yarrboard:Fuseholder_Cylinder-5x20mm_LittelFuse_646"
-			(at 60.96 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 60.96 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C206887"
-			(at 60.96 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 60.96 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92f4d340-26ba-4ed6-91fb-9ff252d8ec22")
-		)
-		(pin "2"
-			(uuid "faf4acad-e669-4056-af06-c4f2655f2099")
-		)
-		(instances
-			(project ""
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/7cbb3b3c-cf93-4880-b816-c6df902b993c"
-					(reference "F1")
 					(unit 1)
 				)
 			)
